@@ -1,0 +1,257 @@
+T1	Title 0 50	MANNETJE TINTELENTEE EN HET GOUDEN VISJE IN DE ZEE
+T2	Actor 72 78	visser
+T3	Actor 92 97	vrouw
+T4	Location 110 118	bloempot
+T5	Actor 145 148	hij
+T6	Actor 174 177	hij
+T7	Actor 186 195	goudvisje
+T8	Actor 199 203	zijn
+T9	Actor 215 220	visje
+R1	Co-reference Arg1:T9 Arg2:T7	
+R2	Co-reference Arg1:T8 Arg2:T6	
+R3	Co-reference Arg1:T6 Arg2:T5	
+T10	Actor 238 241	mij
+T11	Actor 262 264	ik
+T12	Actor 265 267	je
+R5	Co-reference Arg1:T11 Arg2:T10	
+R6	Co-reference Arg1:T10 Arg2:T9	
+R7	Co-reference Arg1:T12 Arg2:T8	
+T13	Actor 300 306	visser
+T14	Actor 308 311	hij
+T15	Actor 322 331	goudvisje
+T16	Location 340 343	zee
+R8	Co-reference Arg1:T14 Arg2:T13	
+R9	Co-reference Arg1:T13 Arg2:T12	
+R10	Co-reference Arg1:T15 Arg2:T11	
+T17	Actor 350 353	hij
+T18	Location 354 363	thuiskwam
+R11	Co-reference Arg1:T18 Arg2:T4	
+T19	Actor 374 377	hij
+T20	Actor 378 382	zijn
+T21	Actor 383 388	vrouw
+T22	Actor 417 426	goudvisje
+T23	Actor 458 463	vrouw
+T24	Actor 476 479	hij
+R12	Co-reference Arg1:T24 Arg2:T20	
+R13	Co-reference Arg1:T20 Arg2:T19	
+R14	Co-reference Arg1:T19 Arg2:T17	
+R15	Co-reference Arg1:T22 Arg2:T15	
+R16	Co-reference Arg1:T23 Arg2:T21	
+R17	Co-reference Arg1:T21 Arg2:T3	
+T25	Actor 525 528	man
+R18	Co-reference Arg1:T25 Arg2:T24	
+T26	Actor 540 542	Ze
+R19	Co-reference Arg1:T26 Arg2:T25	
+R20	Co-reference Arg1:T26 Arg2:T23	
+T27	Location 581 589	bloempot
+R21	Co-reference Arg1:T27 Arg2:T18	
+T28	Actor 645 648	hij
+R22	Co-reference Arg1:T28 Arg2:T25	
+T29	Actor 665 668	hij
+R23	Co-reference Arg1:T29 Arg2:T28	
+T30	Actor 681 684	hij
+R24	Co-reference Arg1:T30 Arg2:T29	
+T31	Actor 707 711	zijn
+R25	Co-reference Arg1:T31 Arg2:T30	
+T32	Actor 712 717	vrouw
+R26	Co-reference Arg1:T32 Arg2:T23	
+T33	Actor 731 734	Hij
+R27	Co-reference Arg1:T33 Arg2:T31	
+T34	Actor 770 782	Gouden visje
+T35	Location 789 792	zee
+R29	Co-reference Arg1:T34 Arg2:T22	
+T36	Actor 806 808	je
+T37	Actor 817 828	Tintelentee
+T38	Actor 810 816	meneer
+R31	Co-reference Arg1:T38 Arg2:T36	
+R30	Co-reference Arg1:T37 Arg2:T38	
+R32	Co-reference Arg1:T36 Arg2:T33	
+T40	Actor 867 869	ik
+T41	Actor 832 836	Mijn
+R34	Co-reference Arg1:T41 Arg2:T37	
+T39	Actor 837 842	vrouw
+T42	Actor 843 854	HillebilWil
+R33	Co-reference Arg1:T42 Arg2:T39	
+R35	Co-reference Arg1:T39 Arg2:T32	
+R36	Co-reference Arg1:T40 Arg2:T41	
+T43	Actor 885 887	ze
+R37	Co-reference Arg1:T43 Arg2:T42	
+T44	Actor 895 897	Ze
+R38	Co-reference Arg1:T44 Arg2:T43	
+T45	Actor 968 971	man
+T46	Location 982 986	huis
+R40	Co-reference Arg1:T45 Arg2:T40	
+T47	Actor 995 999	zijn
+T48	Actor 1000 1005	vrouw
+T49	Location 1024 1030	huisje
+R41	Co-reference Arg1:T49 Arg2:T46	
+R42	Co-reference Arg1:T48 Arg2:T44	
+R43	Co-reference Arg1:T47 Arg2:T45	
+T50	Actor 1072 1077	vrouw
+T51	Actor 1092 1094	ze
+T52	Actor 1137 1140	zij
+R44	Co-reference Arg1:T52 Arg2:T51	
+R45	Co-reference Arg1:T51 Arg2:T50	
+R46	Co-reference Arg1:T50 Arg2:T48	
+T53	Actor 1208 1210	ze
+T54	Actor 1218 1222	haar
+T55	Actor 1223 1226	man
+T56	Actor 1237 1239	ze
+T57	Actor 1240 1243	hem
+T58	Actor 1268 1271	hij
+T59	Location 1286 1292	strand
+T60	Location 1327 1330	zee
+R47	Co-reference Arg1:T60 Arg2:T59	
+R48	Co-reference Arg1:T59 Arg2:T35	
+T61	Location 753 759	strand
+R49	Co-reference Arg1:T35 Arg2:T61	
+R28	Co-reference Arg1:T61 Arg2:T16	
+T62	Actor 1308 1320	Gouden visje
+R50	Co-reference Arg1:T62 Arg2:T34	
+T63	Actor 1344 1346	je
+T64	Actor 1348 1354	meneer
+T65	Actor 1355 1366	Tintelentee
+R51	Co-reference Arg1:T65 Arg2:T64	
+R52	Co-reference Arg1:T64 Arg2:T63	
+R53	Co-reference Arg1:T63 Arg2:T58	
+R54	Co-reference Arg1:T58 Arg2:T57	
+R55	Co-reference Arg1:T57 Arg2:T55	
+R56	Co-reference Arg1:T55 Arg2:T47	
+R57	Co-reference Arg1:T56 Arg2:T54	
+R58	Co-reference Arg1:T54 Arg2:T53	
+R59	Co-reference Arg1:T53 Arg2:T52	
+T66	Actor 1370 1374	Mijn
+T67	Actor 1375 1380	vrouw
+T68	Actor 1381 1392	HillebilWil
+T69	Actor 1405 1407	ik
+R60	Co-reference Arg1:T69 Arg2:T66	
+R61	Co-reference Arg1:T66 Arg2:T65	
+R62	Co-reference Arg1:T68 Arg2:T67	
+R63	Co-reference Arg1:T67 Arg2:T56	
+T70	Actor 1423 1425	ze
+T71	Actor 1433 1435	Ze
+R64	Co-reference Arg1:T71 Arg2:T70	
+R65	Co-reference Arg1:T70 Arg2:T68	
+T72	Actor 1522 1527	vrouw
+T73	Location 1554 1558	huis
+R67	Co-reference Arg1:T72 Arg2:T71	
+T74	Actor 1588 1593	vrouw
+T75	Actor 1605 1607	ze
+T76	Actor 1654 1657	man
+T77	Actor 1682 1685	hij
+T78	Location 1714 1717	zee
+R68	Co-reference Arg1:T77 Arg2:T76	
+R69	Co-reference Arg1:T76 Arg2:T69	
+R70	Co-reference Arg1:T75 Arg2:T74	
+R71	Co-reference Arg1:T74 Arg2:T72	
+R72	Co-reference Arg1:T78 Arg2:T60	
+T79	Actor 1728 1740	Gouden visje
+T80	Actor 1768 1774	meneer
+T81	Actor 1775 1786	Tintelentee
+T82	Actor 1790 1794	Mijn
+T83	Actor 1795 1800	vrouw
+T84	Actor 1801 1812	HillebilWil
+T85	Actor 1825 1827	ik
+T86	Actor 1843 1845	ze
+T87	Actor 1853 1855	Ze
+R73	Co-reference Arg1:T87 Arg2:T86	
+R74	Co-reference Arg1:T86 Arg2:T84	
+R75	Co-reference Arg1:T84 Arg2:T83	
+R76	Co-reference Arg1:T83 Arg2:T75	
+R77	Co-reference Arg1:T82 Arg2:T81	
+R78	Co-reference Arg1:T81 Arg2:T80	
+T88	Actor 1766 1767	,
+R79	Co-reference Arg1:T80 Arg2:T88	
+R80	Co-reference Arg1:T88 Arg2:T77	
+R81	Co-reference Arg1:T79 Arg2:T62	
+T89	Location 1874 1878	huis
+T90	Actor 1980 1985	vrouw
+R83	Co-reference Arg1:T90 Arg2:T87	
+T91	Actor 2033 2035	ze
+T92	Actor 2040 2044	haar
+T93	Actor 2045 2048	man
+T94	Actor 2059 2061	Je
+T95	Actor 2085 2094	goudvisje
+T96	Actor 2111 2114	jij
+T97	Actor 2115 2121	koning
+T98	Actor 2125 2127	ik
+T99	Actor 2128 2136	koningin
+R84	Co-reference Arg1:T99 Arg2:T98	
+R85	Co-reference Arg1:T97 Arg2:T96	
+R86	Co-reference Arg1:T95 Arg2:T79	
+R87	Co-reference Arg1:T96 Arg2:T94	
+R88	Co-reference Arg1:T94 Arg2:T93	
+R89	Co-reference Arg1:T98 Arg2:T92	
+R90	Co-reference Arg1:T92 Arg2:T91	
+R91	Co-reference Arg1:T91 Arg2:T90	
+T100	Actor 2153 2156	man
+R92	Co-reference Arg1:T100 Arg2:T97	
+T101	Actor 2266 2271	vrouw
+T102	Actor 2286 2288	Ze
+T103	Actor 2311 2316	visje
+T104	Actor 2364 2368	haar
+T105	Actor 2399 2407	koningin
+R93	Co-reference Arg1:T105 Arg2:T104	
+R94	Co-reference Arg1:T104 Arg2:T102	
+R95	Co-reference Arg1:T102 Arg2:T101	
+R96	Co-reference Arg1:T101 Arg2:T99	
+R97	Co-reference Arg1:T103 Arg2:T95	
+T106	Actor 2448 2451	man
+R98	Co-reference Arg1:T106 Arg2:T100	
+T107	Location 2475 2481	strand
+T108	Location 2511 2514	zee
+R99	Co-reference Arg1:T108 Arg2:T107	
+T109	Location 1747 1750	zee
+R100	Co-reference Arg1:T109 Arg2:T78	
+R101	Co-reference Arg1:T107 Arg2:T109	
+T110	Actor 2492 2504	Gouden visje
+R102	Co-reference Arg1:T110 Arg2:T103	
+T111	Actor 2529 2531	je
+T112	Actor 2533 2539	meneer
+T113	Actor 2540 2551	Tintelentee
+T114	Actor 2555 2559	Mijn
+T115	Actor 2560 2565	vrouw
+T116	Actor 2566 2577	HillebilWil
+T117	Actor 2590 2592	ik
+R103	Co-reference Arg1:T117 Arg2:T114	
+R104	Co-reference Arg1:T114 Arg2:T113	
+R105	Co-reference Arg1:T113 Arg2:T112	
+R106	Co-reference Arg1:T112 Arg2:T111	
+R107	Co-reference Arg1:T116 Arg2:T115	
+R108	Co-reference Arg1:T115 Arg2:T105	
+T118	Actor 2618 2620	Ze
+T119	Actor 2608 2610	ze
+T120	Actor 2630 2632	ik
+T121	Actor 2633 2639	koning
+T122	Actor 2643 2650	zijzelf
+T123	Actor 2651 2659	koningin
+R109	Co-reference Arg1:T123 Arg2:T122	
+R110	Co-reference Arg1:T122 Arg2:T118	
+R111	Co-reference Arg1:T118 Arg2:T119	
+R112	Co-reference Arg1:T119 Arg2:T116	
+R113	Co-reference Arg1:T121 Arg2:T120	
+R114	Co-reference Arg1:T120 Arg2:T117	
+T124	Actor 2677 2679	je
+R115	Co-reference Arg1:T124 Arg2:T121	
+T125	Actor 2736 2738	je
+R116	Co-reference Arg1:T125 Arg2:T124	
+T126	Location 2828 2836	bloempot
+T127	Actor 2804 2809	vrouw
+T128	Actor 2777 2783	visser
+R117	Co-reference Arg1:T128 Arg2:T125	
+R118	Co-reference Arg1:T127 Arg2:T123	
+R119	Co-reference Arg1:T126 Arg2:T27	
+T129	Actor 2214 2217	hun
+R39	Co-reference Arg1:T129 Arg2:T100	
+R66	Co-reference Arg1:T129 Arg2:T99	
+T130	Actor 2457 2460	Hij
+T131	Actor 2799 2803	zijn
+T132	Actor 87 91	zijn
+R120	Co-reference Arg1:T85 Arg2:T82	
+R121	Co-reference Arg1:T93 Arg2:T85	
+R122	Co-reference Arg1:T131 Arg2:T128	
+R123	Co-reference Arg1:T130 Arg2:T106	
+R82	Co-reference Arg1:T111 Arg2:T130	
+R4	Co-reference Arg1:T132 Arg2:T2	
+R124	Co-reference Arg1:T5 Arg2:T132	
+R125	Co-reference Arg1:T17 Arg2:T14	

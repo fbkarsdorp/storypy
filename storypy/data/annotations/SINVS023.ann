@@ -1,0 +1,351 @@
+T1	Location 0 19	DE BOZE STIEFMOEDER
+T2	Actor 20 25	Vader
+T3	Actor 34 37	Jan
+T4	Actor 41 46	Betje
+T5	Actor 51 62	stiefmoeder
+T6	Actor 72 74	ze
+T7	Actor 99 101	ze
+T8	Actor 128 133	vrouw
+T9	Actor 139 141	Ze
+T10	Actor 152 157	Betje
+T11	Actor 172 175	Jan
+T12	Actor 201 203	ze
+T13	Actor 204 207	hem
+T14	Actor 228 231	hij
+T15	Actor 246 250	haar
+T16	Actor 279 281	ze
+T17	Actor 309 312	Jan
+T18	Actor 358 360	ze
+T19	Actor 364 369	Betje
+T20	Actor 397 403	meisje
+T21	Actor 442 445	Jan
+T22	Actor 490 495	vader
+T23	Actor 499 504	Betje
+T24	Actor 527 529	ze
+T25	Actor 536 539	Jan
+T26	Actor 546 548	je
+T27	Actor 592 598	moeder
+T28	Location 617 623	zolder
+T29	Location 211 217	zolder
+R1	Co-reference Arg1:T28 Arg2:T29	
+T31	Actor 678 681	Jan
+T32	Actor 715 721	Moeder
+T33	Actor 723 725	ik
+T34	Actor 777 788	stiefmoeder
+T35	Actor 791 793	ik
+T36	Actor 798 800	je
+T37	Actor 810 812	Ze
+T38	Location 826 832	zolder
+T39	Actor 1015 1018	Jan
+T40	Actor 996 1007	stiefmoeder
+T41	Actor 973 976	Jan
+T42	Actor 942 944	ze
+T43	Actor 889 892	Jan
+T44	Actor 893 897	zich
+T45	Actor 1066 1071	vader
+T46	Actor 1075 1080	Betje
+T47	Actor 1114 1125	stiefmoeder
+T48	Actor 1136 1138	Ik
+T49	Actor 1194 1196	ze
+T50	Actor 1219 1222	Jan
+T51	Actor 1241 1244	Jan
+T52	Actor 1253 1258	vader
+T53	Actor 1267 1270	hij
+T54	Actor 1285 1288	Hij
+T55	Actor 1296 1300	zijn
+T56	Actor 1310 1313	hij
+T57	Actor 1338 1349	stiefmoeder
+T58	Actor 1362 1364	Ik
+T59	Actor 1369 1372	hem
+T60	Actor 1412 1414	ze
+T61	Actor 1437 1442	Betje
+T62	Actor 1466 1468	Ze
+T64	Location 1488 1497	lindeboom
+T65	Actor 1505 1507	ze
+T66	Actor 1550 1552	ze
+T67	Actor 1564 1567	Jan
+T68	Location 1576 1582	zolder
+T69	Actor 1604 1606	ze
+T70	Actor 1611 1614	hem
+T71	Actor 1639 1642	Jan
+T72	Actor 1649 1654	Vader
+T73	Actor 1658 1663	Betje
+T74	Actor 3739 3747	vogeltje
+T75	Actor 3695 3699	haar
+T76	Actor 3668 3670	ze
+T77	Actor 3589 3595	Moeder
+T78	Actor 3570 3573	Jan
+T79	Actor 3565 3568	Jan
+T80	Actor 3540 3546	moeder
+T81	Actor 3532 3538	Moeder
+T82	Actor 3512 3515	Jan
+T83	Actor 3507 3510	Jan
+T84	Actor 3482 3488	moeder
+T85	Actor 3474 3480	Moeder
+T86	Actor 3526 3528	ik
+T87	Actor 3468 3470	ik
+T88	Actor 3454 3457	Jan
+T89	Actor 3449 3452	Jan
+T90	Actor 3424 3430	moeder
+T91	Actor 3416 3422	Moeder
+T92	Actor 3402 3405	hij
+T93	Actor 3389 3391	ik
+T94	Location 3345 3354	lindeboom
+T95	Actor 3312 3317	zusje
+T96	Actor 3282 3287	vader
+T97	Actor 3294 3297	mij
+T98	Actor 3265 3268	mij
+T99	Actor 3252 3258	moeder
+T100	Actor 3178 3181	hij
+T101	Actor 3154 3159	vogel
+T102	Actor 3106 3110	haar
+T103	Actor 3041 3046	Betje
+T104	Actor 3012 3015	Jan
+T105	Actor 3007 3010	Jan
+T106	Actor 3026 3028	ik
+T107	Actor 2983 2988	Betje
+T108	Actor 2976 2981	Betje
+T109	Actor 2951 2954	Jan
+T110	Actor 2956 2959	Jan
+T111	Actor 2970 2972	ik
+T112	Actor 2927 2932	Betje
+T113	Actor 2920 2925	Betje
+T114	Actor 2896 2899	Jan
+T115	Actor 2901 2904	Jan
+T116	Actor 2915 2917	ik
+T117	Actor 2872 2877	Betje
+T118	Actor 2865 2870	Betje
+T119	Actor 2854 2862	vogeltje
+T120	Actor 2833 2835	ik
+T121	Location 2790 2799	lindeboom
+T122	Actor 2757 2762	zusje
+T123	Actor 2752 2756	Mijn
+T124	Actor 3247 3251	Mijn
+T125	Actor 3277 3281	Mijn
+T126	Actor 3307 3311	Mijn
+T127	Actor 2692 2696	Mijn
+T128	Actor 2697 2703	moeder
+T129	Actor 2727 2732	vader
+T130	Actor 2722 2726	Mijn
+T131	Actor 2608 2611	Hij
+T132	Location 3047 3067	onder de schoorsteen
+T133	Location 3601 3621	onder de schoorsteen
+T134	Location 2664 2681	op de schoorsteen
+T135	Location 2629 2640	vensterbank
+T136	Location 2593 2597	boom
+T137	Actor 2524 2528	zijn
+T138	Actor 2572 2577	vogel
+T139	Actor 2463 2468	vader
+T140	Location 2469 2489	onder de schoorsteen
+T141	Actor 2448 2450	ik
+T142	Actor 2434 2437	Jan
+T143	Actor 2429 2432	Jan
+T144	Actor 2405 2410	vader
+T145	Actor 2398 2403	Vader
+T146	Actor 2377 2380	Jan
+T147	Actor 2372 2375	Jan
+T148	Actor 2391 2393	ik
+T149	Actor 2348 2353	vader
+T150	Actor 2341 2346	Vader
+T151	Actor 2316 2319	Jan
+T152	Actor 2321 2324	Jan
+T153	Actor 2335 2337	ik
+T154	Actor 2276 2284	vogeltje
+T155	Actor 2286 2291	Vader
+T156	Actor 2293 2298	vader
+T157	Actor 2255 2257	ik
+T158	Actor 2174 2178	Mijn
+T159	Actor 2144 2148	Mijn
+T160	Actor 2179 2184	zusje
+T161	Actor 2149 2154	vader
+T162	Location 2211 2220	lindeboom
+T163	Actor 2161 2164	mij
+T164	Actor 2114 2118	Mijn
+T165	Actor 2119 2125	moeder
+T166	Actor 2132 2135	mij
+T167	Actor 2710 2713	mij
+T168	Actor 2739 2742	mij
+T169	Actor 2039 2047	vogeltje
+T170	Location 2059 2076	op de schoorsteen
+T171	Actor 2001 2006	Betje
+T172	Actor 1992 1997	vader
+T173	Actor 1979 1982	Jan
+T174	Actor 1953 1955	ik
+T175	Actor 1928 1930	ik
+T176	Location 1832 1841	lindeboom
+T177	Actor 1846 1854	vogeltje
+T178	Location 1885 1896	vensterbank
+T179	Actor 1697 1708	stiefmoeder
+T181	Actor 1743 1746	hij
+R2	Co-reference Arg1:T38 Arg2:T28	
+R3	Co-reference Arg1:T68 Arg2:T38	
+R4	Co-reference Arg1:T176 Arg2:T64	
+R5	Co-reference Arg1:T162 Arg2:T176	
+R6	Co-reference Arg1:T121 Arg2:T136	
+R7	Co-reference Arg1:T136 Arg2:T162	
+T182	Location 3220 3231	schoorsteen
+R9	Co-reference Arg1:T94 Arg2:T121	
+R10	Co-reference Arg1:T75 Arg2:T76	
+R11	Co-reference Arg1:T76 Arg2:T77	
+R12	Co-reference Arg1:T78 Arg2:T79	
+R13	Co-reference Arg1:T80 Arg2:T81	
+R14	Co-reference Arg1:T74 Arg2:T78	
+R8	Co-reference Arg1:T133 Arg2:T132	
+R15	Co-reference Arg1:T132 Arg2:T140	
+R16	Co-reference Arg1:T182 Arg2:T134	
+R17	Co-reference Arg1:T135 Arg2:T178	
+R18	Co-reference Arg1:T134 Arg2:T170	
+R19	Co-reference Arg1:T7 Arg2:T4	
+R20	Co-reference Arg1:T7 Arg2:T3	
+R21	Co-reference Arg1:T2 Arg2:T22	
+R22	Co-reference Arg1:T45 Arg2:T22	
+R23	Co-reference Arg1:T49 Arg2:T48	
+R24	Co-reference Arg1:T49 Arg2:T46	
+R25	Co-reference Arg1:T49 Arg2:T45	
+R26	Co-reference Arg1:T52 Arg2:T45	
+R27	Co-reference Arg1:T60 Arg2:T49	
+R28	Co-reference Arg1:T72 Arg2:T52	
+R29	Co-reference Arg1:T172 Arg2:T72	
+R30	Co-reference Arg1:T161 Arg2:T172	
+R31	Co-reference Arg1:T156 Arg2:T155	
+R32	Co-reference Arg1:T155 Arg2:T161	
+R33	Co-reference Arg1:T153 Arg2:T156	
+R34	Co-reference Arg1:T149 Arg2:T150	
+R35	Co-reference Arg1:T150 Arg2:T153	
+R36	Co-reference Arg1:T148 Arg2:T149	
+R37	Co-reference Arg1:T144 Arg2:T145	
+R38	Co-reference Arg1:T145 Arg2:T148	
+R39	Co-reference Arg1:T141 Arg2:T144	
+R40	Co-reference Arg1:T139 Arg2:T141	
+R41	Co-reference Arg1:T137 Arg2:T139	
+R42	Co-reference Arg1:T129 Arg2:T137	
+R43	Co-reference Arg1:T96 Arg2:T129	
+R44	Co-reference Arg1:T77 Arg2:T80	
+R45	Co-reference Arg1:T81 Arg2:T86	
+R46	Co-reference Arg1:T86 Arg2:T84	
+R47	Co-reference Arg1:T84 Arg2:T85	
+R48	Co-reference Arg1:T85 Arg2:T87	
+R49	Co-reference Arg1:T87 Arg2:T90	
+R50	Co-reference Arg1:T90 Arg2:T91	
+R51	Co-reference Arg1:T91 Arg2:T99	
+R52	Co-reference Arg1:T99 Arg2:T128	
+R53	Co-reference Arg1:T128 Arg2:T165	
+R54	Co-reference Arg1:T165 Arg2:T179	
+R57	Co-reference Arg1:T47 Arg2:T40	
+R58	Co-reference Arg1:T40 Arg2:T42	
+R59	Co-reference Arg1:T42 Arg2:T37	
+R60	Co-reference Arg1:T37 Arg2:T35	
+R61	Co-reference Arg1:T35 Arg2:T34	
+R62	Co-reference Arg1:T34 Arg2:T32	
+R63	Co-reference Arg1:T32 Arg2:T27	
+R64	Co-reference Arg1:T27 Arg2:T24	
+R65	Co-reference Arg1:T24 Arg2:T18	
+R66	Co-reference Arg1:T18 Arg2:T16	
+R67	Co-reference Arg1:T16 Arg2:T15	
+R68	Co-reference Arg1:T15 Arg2:T12	
+R69	Co-reference Arg1:T12 Arg2:T9	
+R70	Co-reference Arg1:T9 Arg2:T8	
+R71	Co-reference Arg1:T8 Arg2:T6	
+R72	Co-reference Arg1:T6 Arg2:T5	
+R73	Co-reference Arg1:T10 Arg2:T4	
+R74	Co-reference Arg1:T11 Arg2:T3	
+R75	Co-reference Arg1:T13 Arg2:T11	
+R76	Co-reference Arg1:T14 Arg2:T13	
+R77	Co-reference Arg1:T17 Arg2:T14	
+R78	Co-reference Arg1:T19 Arg2:T10	
+R79	Co-reference Arg1:T20 Arg2:T19	
+R80	Co-reference Arg1:T23 Arg2:T20	
+R81	Co-reference Arg1:T21 Arg2:T17	
+R82	Co-reference Arg1:T26 Arg2:T25	
+R83	Co-reference Arg1:T25 Arg2:T21	
+R84	Co-reference Arg1:T33 Arg2:T31	
+R85	Co-reference Arg1:T31 Arg2:T26	
+R86	Co-reference Arg1:T36 Arg2:T33	
+R87	Co-reference Arg1:T44 Arg2:T43	
+R88	Co-reference Arg1:T43 Arg2:T36	
+R89	Co-reference Arg1:T41 Arg2:T44	
+R90	Co-reference Arg1:T39 Arg2:T41	
+R56	Co-reference Arg1:T48 Arg2:T47	
+R91	Co-reference Arg1:T57 Arg2:T48	
+R92	Co-reference Arg1:T46 Arg2:T23	
+R93	Co-reference Arg1:T50 Arg2:T39	
+R94	Co-reference Arg1:T51 Arg2:T50	
+R95	Co-reference Arg1:T53 Arg2:T51	
+R96	Co-reference Arg1:T56 Arg2:T55	
+R97	Co-reference Arg1:T55 Arg2:T54	
+R98	Co-reference Arg1:T54 Arg2:T53	
+R55	Co-reference Arg1:T58 Arg2:T57	
+R99	Co-reference Arg1:T59 Arg2:T56	
+R100	Co-reference Arg1:T179 Arg2:T58	
+R101	Co-reference Arg1:T61 Arg2:T46	
+R102	Co-reference Arg1:T65 Arg2:T62	
+R103	Co-reference Arg1:T62 Arg2:T61	
+R104	Co-reference Arg1:T66 Arg2:T65	
+R105	Co-reference Arg1:T67 Arg2:T59	
+R106	Co-reference Arg1:T69 Arg2:T66	
+R107	Co-reference Arg1:T70 Arg2:T67	
+R108	Co-reference Arg1:T71 Arg2:T70	
+R109	Co-reference Arg1:T73 Arg2:T69	
+R110	Co-reference Arg1:T177 Arg2:T181	
+R111	Co-reference Arg1:T181 Arg2:T71	
+R112	Co-reference Arg1:T175 Arg2:T177	
+R113	Co-reference Arg1:T174 Arg2:T175	
+R114	Co-reference Arg1:T173 Arg2:T174	
+R115	Co-reference Arg1:T171 Arg2:T73	
+R116	Co-reference Arg1:T169 Arg2:T173	
+R117	Co-reference Arg1:T164 Arg2:T169	
+R118	Co-reference Arg1:T166 Arg2:T164	
+R119	Co-reference Arg1:T163 Arg2:T159	
+R120	Co-reference Arg1:T159 Arg2:T166	
+R121	Co-reference Arg1:T158 Arg2:T163	
+R122	Co-reference Arg1:T160 Arg2:T171	
+R123	Co-reference Arg1:T157 Arg2:T158	
+R124	Co-reference Arg1:T154 Arg2:T157	
+R125	Co-reference Arg1:T152 Arg2:T151	
+R126	Co-reference Arg1:T151 Arg2:T154	
+R127	Co-reference Arg1:T146 Arg2:T147	
+R128	Co-reference Arg1:T147 Arg2:T152	
+R129	Co-reference Arg1:T142 Arg2:T143	
+R130	Co-reference Arg1:T143 Arg2:T146	
+R131	Co-reference Arg1:T138 Arg2:T142	
+R132	Co-reference Arg1:T131 Arg2:T138	
+R133	Co-reference Arg1:T167 Arg2:T127	
+R134	Co-reference Arg1:T168 Arg2:T130	
+R135	Co-reference Arg1:T130 Arg2:T167	
+R136	Co-reference Arg1:T127 Arg2:T131	
+R137	Co-reference Arg1:T123 Arg2:T168	
+R138	Co-reference Arg1:T120 Arg2:T123	
+R139	Co-reference Arg1:T122 Arg2:T160	
+R140	Co-reference Arg1:T119 Arg2:T120	
+R141	Co-reference Arg1:T117 Arg2:T118	
+R142	Co-reference Arg1:T118 Arg2:T122	
+R143	Co-reference Arg1:T116 Arg2:T117	
+R144	Co-reference Arg1:T115 Arg2:T114	
+R145	Co-reference Arg1:T114 Arg2:T119	
+R146	Co-reference Arg1:T112 Arg2:T113	
+R147	Co-reference Arg1:T113 Arg2:T116	
+R148	Co-reference Arg1:T111 Arg2:T112	
+R149	Co-reference Arg1:T110 Arg2:T109	
+R150	Co-reference Arg1:T109 Arg2:T115	
+R151	Co-reference Arg1:T107 Arg2:T108	
+R152	Co-reference Arg1:T108 Arg2:T111	
+R153	Co-reference Arg1:T104 Arg2:T105	
+R154	Co-reference Arg1:T105 Arg2:T110	
+R155	Co-reference Arg1:T106 Arg2:T107	
+R156	Co-reference Arg1:T103 Arg2:T106	
+R157	Co-reference Arg1:T102 Arg2:T103	
+R158	Co-reference Arg1:T101 Arg2:T104	
+R159	Co-reference Arg1:T100 Arg2:T101	
+R160	Co-reference Arg1:T98 Arg2:T124	
+R161	Co-reference Arg1:T124 Arg2:T100	
+R162	Co-reference Arg1:T97 Arg2:T125	
+R163	Co-reference Arg1:T125 Arg2:T98	
+R164	Co-reference Arg1:T95 Arg2:T102	
+R165	Co-reference Arg1:T126 Arg2:T97	
+R166	Co-reference Arg1:T93 Arg2:T126	
+R167	Co-reference Arg1:T92 Arg2:T93	
+R168	Co-reference Arg1:T88 Arg2:T89	
+R169	Co-reference Arg1:T89 Arg2:T92	
+R170	Co-reference Arg1:T82 Arg2:T83	
+R171	Co-reference Arg1:T83 Arg2:T88	
+R172	Co-reference Arg1:T79 Arg2:T82	

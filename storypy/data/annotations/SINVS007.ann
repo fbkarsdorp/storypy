@@ -1,0 +1,211 @@
+T1	Title 0 12	KANNETJE VOL
+T2	Actor 34 40	weduwe
+T3	Actor 53 55	ze
+T4	Actor 63 67	haar
+R1	Co-reference Arg1:T4 Arg2:T3	
+R2	Co-reference Arg1:T3 Arg2:T2	
+T5	Actor 100 102	Ze
+T6	Actor 157 159	ze
+T7	Actor 197 205	kannetje
+T8	Actor 233 236	het
+R3	Co-reference Arg1:T8 Arg2:T7	
+R4	Co-reference Arg1:T6 Arg2:T5	
+R5	Co-reference Arg1:T5 Arg2:T4	
+T9	Actor 287 289	ze
+R6	Co-reference Arg1:T9 Arg2:T6	
+T10	Actor 357 359	me
+R7	Co-reference Arg1:T10 Arg2:T9	
+T11	Actor 381 383	ze
+T12	Actor 406 410	haar
+R8	Co-reference Arg1:T12 Arg2:T11	
+R9	Co-reference Arg1:T11 Arg2:T10	
+T13	Actor 425 433	kannetje
+T14	Actor 460 463	het
+R10	Co-reference Arg1:T14 Arg2:T13	
+T15	Actor 488 491	het
+T16	Location 500 506	slager
+R11	Co-reference Arg1:T15 Arg2:T14	
+R12	Co-reference Arg1:T13 Arg2:T8	
+T17	Actor 534 539	vrouw
+T18	Actor 611 614	Zij
+R13	Co-reference Arg1:T18 Arg2:T17	
+T19	Actor 628 636	kannetje
+R14	Co-reference Arg1:T19 Arg2:T15	
+T20	Actor 727 735	kannetje
+T21	Actor 759 762	het
+R15	Co-reference Arg1:T21 Arg2:T20	
+T22	Actor 786 789	het
+R16	Co-reference Arg1:T22 Arg2:T21	
+R17	Co-reference Arg1:T20 Arg2:T19	
+T23	Actor 806 809	het
+T24	Actor 859 862	het
+T25	Location 874 878	huis
+T26	Actor 902 910	kannetje
+T27	Actor 929 934	vrouw
+T28	Actor 963 971	kannetje
+T29	Actor 1045 1050	vrouw
+T30	Actor 1088 1090	ze
+T31	Actor 1162 1170	vrouwtje
+T32	Actor 1171 1175	haar
+R18	Co-reference Arg1:T32 Arg2:T31	
+T33	Actor 1200 1208	kannetje
+T34	Actor 1231 1233	ze
+T35	Actor 3774 3776	ze
+T36	Actor 3746 3748	ze
+T37	Actor 3701 3703	ze
+T38	Actor 3680 3688	kannetje
+T39	Actor 3622 3630	kannetje
+T40	Actor 3598 3600	ze
+T41	Actor 3569 3571	ze
+T42	Actor 3549 3557	kannetje
+T43	Actor 3532 3536	haar
+T44	Actor 3516 3518	ze
+T45	Actor 3471 3479	vrouwtje
+T46	Actor 3397 3405	vrouwtje
+T47	Actor 3354 3357	het
+T48	Actor 3315 3318	het
+T49	Location 3330 3334	huis
+T50	Actor 3296 3299	het
+T51	Actor 3283 3291	kannetje
+T52	Actor 3243 3251	kannetje
+T53	Actor 3189 3192	koe
+T54	Location 3141 3149	veemarkt
+T55	Actor 3129 3132	het
+T56	Actor 3078 3086	kannetje
+T57	Actor 3029 3037	kannetje
+T58	Actor 2950 2958	kannetje
+T59	Actor 2921 2923	ik
+T60	Actor 2887 2890	Zij
+T61	Actor 2868 2873	vrouw
+T62	Actor 2813 2821	kannetje
+T63	Actor 2789 2797	vrouwtje
+T64	Actor 2659 2662	het
+T65	Location 2636 2640	huis
+T66	Actor 2594 2597	het
+T67	Actor 2563 2571	kannetje
+T68	Actor 2497 2500	hij
+T69	Actor 2471 2473	ik
+T70	Actor 2438 2441	hij
+T71	Actor 2416 2424	kannetje
+T72	Actor 2408 2411	hij
+T73	Actor 2369 2372	hij
+T74	Actor 2351 2354	hij
+T75	Actor 2324 2327	hij
+T76	Actor 2308 2311	koe
+T77	Actor 2298 2302	boer
+T78	Location 2269 2277	veemarkt
+T79	Actor 2224 2232	kannetje
+T80	Actor 2170 2178	kannetje
+T81	Actor 2163 2165	ze
+T82	Actor 2105 2113	vrouwtje
+T83	Actor 2047 2055	kannetje
+T84	Actor 2042 2046	haar
+T85	Actor 2032 2037	vrouw
+T86	Actor 1929 1937	vrouwtje
+T87	Actor 1886 1889	het
+T88	Location 1864 1868	huis
+T89	Actor 1851 1854	het
+T90	Actor 1747 1755	kannetje
+T91	Location 1764 1776	groentemarkt
+T92	Actor 1804 1807	het
+T93	Actor 1698 1706	vrouwtje
+T94	Actor 1580 1583	het
+T95	Actor 1516 1524	kannetje
+T96	Actor 1483 1491	kannetje
+T97	Actor 1443 1447	haar
+T98	Actor 1427 1437	kruidenier
+T99	Actor 1353 1363	kruidenier
+T100	Actor 1276 1284	kannetje
+T101	Actor 1379 1385	iemand
+R19	Co-reference Arg1:T97 Arg2:T101	
+R20	Co-reference Arg1:T98 Arg2:T99	
+T102	Actor 1548 1551	het
+R21	Co-reference Arg1:T102 Arg2:T95	
+R22	Co-reference Arg1:T95 Arg2:T96	
+R23	Co-reference Arg1:T23 Arg2:T22	
+T103	Location 813 819	winkel
+R24	Co-reference Arg1:T103 Arg2:T16	
+R25	Co-reference Arg1:T24 Arg2:T23	
+R26	Co-reference Arg1:T26 Arg2:T24	
+R27	Co-reference Arg1:T28 Arg2:T26	
+R28	Co-reference Arg1:T27 Arg2:T12	
+T104	Actor 1017 1021	mijn
+T105	Actor 1647 1651	mijn
+T106	Actor 1972 1976	mijn
+T107	Actor 2749 2753	mijn
+T108	Actor 3440 3444	mijn
+R29	Co-reference Arg1:T35 Arg2:T36	
+R30	Co-reference Arg1:T36 Arg2:T37	
+T109	Actor 3615 3617	ze
+R31	Co-reference Arg1:T38 Arg2:T39	
+R32	Co-reference Arg1:T37 Arg2:T109	
+R33	Co-reference Arg1:T109 Arg2:T40	
+R34	Co-reference Arg1:T40 Arg2:T41	
+R35	Co-reference Arg1:T39 Arg2:T42	
+R36	Co-reference Arg1:T41 Arg2:T43	
+R37	Co-reference Arg1:T43 Arg2:T44	
+R38	Co-reference Arg1:T44 Arg2:T45	
+R39	Co-reference Arg1:T42 Arg2:T108	
+R40	Co-reference Arg1:T45 Arg2:T46	
+R41	Co-reference Arg1:T108 Arg2:T47	
+R42	Co-reference Arg1:T47 Arg2:T48	
+R43	Co-reference Arg1:T48 Arg2:T50	
+R44	Co-reference Arg1:T50 Arg2:T51	
+R45	Co-reference Arg1:T51 Arg2:T52	
+T110	Actor 3016 3018	Ze
+T111	Actor 2988 2991	het
+R46	Co-reference Arg1:T111 Arg2:T58	
+R47	Co-reference Arg1:T59 Arg2:T60	
+R48	Co-reference Arg1:T60 Arg2:T61	
+R49	Co-reference Arg1:T61 Arg2:T63	
+R50	Co-reference Arg1:T62 Arg2:T107	
+R51	Co-reference Arg1:T107 Arg2:T64	
+R52	Co-reference Arg1:T49 Arg2:T65	
+R53	Co-reference Arg1:T66 Arg2:T67	
+R54	Co-reference Arg1:T77 Arg2:T75	
+R55	Co-reference Arg1:T75 Arg2:T74	
+R56	Co-reference Arg1:T74 Arg2:T73	
+R57	Co-reference Arg1:T73 Arg2:T72	
+R58	Co-reference Arg1:T72 Arg2:T70	
+R59	Co-reference Arg1:T70 Arg2:T69	
+R60	Co-reference Arg1:T69 Arg2:T68	
+R61	Co-reference Arg1:T64 Arg2:T66	
+R62	Co-reference Arg1:T67 Arg2:T71	
+R63	Co-reference Arg1:T71 Arg2:T79	
+R64	Co-reference Arg1:T54 Arg2:T78	
+R65	Co-reference Arg1:T79 Arg2:T80	
+R66	Co-reference Arg1:T81 Arg2:T82	
+R67	Co-reference Arg1:T84 Arg2:T85	
+R68	Co-reference Arg1:T80 Arg2:T83	
+R69	Co-reference Arg1:T82 Arg2:T84	
+R70	Co-reference Arg1:T63 Arg2:T81	
+R71	Co-reference Arg1:T85 Arg2:T86	
+R72	Co-reference Arg1:T83 Arg2:T106	
+R73	Co-reference Arg1:T106 Arg2:T87	
+R74	Co-reference Arg1:T87 Arg2:T89	
+R75	Co-reference Arg1:T86 Arg2:T93	
+R76	Co-reference Arg1:T89 Arg2:T92	
+R77	Co-reference Arg1:T92 Arg2:T90	
+R78	Co-reference Arg1:T90 Arg2:T105	
+R79	Co-reference Arg1:T105 Arg2:T94	
+R80	Co-reference Arg1:T94 Arg2:T102	
+R81	Co-reference Arg1:T93 Arg2:T34	
+R82	Co-reference Arg1:T34 Arg2:T32	
+R83	Co-reference Arg1:T96 Arg2:T100	
+R84	Co-reference Arg1:T100 Arg2:T33	
+R85	Co-reference Arg1:T31 Arg2:T30	
+R86	Co-reference Arg1:T30 Arg2:T29	
+R87	Co-reference Arg1:T29 Arg2:T27	
+R88	Co-reference Arg1:T104 Arg2:T28	
+R89	Co-reference Arg1:T33 Arg2:T104	
+T112	Location 1557 1566	thuiskwam
+R90	Co-reference Arg1:T88 Arg2:T112	
+R91	Co-reference Arg1:T112 Arg2:T25	
+R92	Co-reference Arg1:T46 Arg2:T110	
+R93	Co-reference Arg1:T52 Arg2:T55	
+R94	Co-reference Arg1:T55 Arg2:T56	
+R95	Co-reference Arg1:T56 Arg2:T57	
+R96	Co-reference Arg1:T57 Arg2:T111	
+R97	Co-reference Arg1:T110 Arg2:T59	
+R98	Co-reference Arg1:T58 Arg2:T62	
+R99	Co-reference Arg1:T65 Arg2:T88	

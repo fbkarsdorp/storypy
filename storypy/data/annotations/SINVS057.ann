@@ -1,0 +1,170 @@
+T1	Title 0 47	DE RAAP DIE SPEK WAS EN DE KAT DIE EEN HAAS WAS
+T2	Actor 70 76	jongen
+T3	Actor 92 100	knechtje
+T4	Actor 109 113	boer
+R1	Co-reference Arg1:T3 Arg2:T86	
+T5	Actor 181 185	boer
+T6	Actor 186 189	hem
+T7	Actor 250 253	hij
+T8	Actor 254 257	hem
+R2	Co-reference Arg1:T5 Arg2:T4	
+R3	Co-reference Arg1:T6 Arg2:T3	
+R4	Co-reference Arg1:T7 Arg2:T5	
+R5	Co-reference Arg1:T8 Arg2:T6	
+T9	Actor 284 290	ouders
+T10	Actor 298 304	jongen
+R6	Co-reference Arg1:T10 Arg2:T8	
+T11	Actor 337 341	boer
+R7	Co-reference Arg1:T11 Arg2:T7	
+T12	Actor 377 380	hij
+R8	Co-reference Arg1:T12 Arg2:T87	
+T13	Actor 425 429	boer
+R9	Co-reference Arg1:T13 Arg2:T11	
+T14	Actor 461 464	hij
+R10	Co-reference Arg1:T14 Arg2:T13	
+T15	Actor 502 508	jongen
+R11	Co-reference Arg1:T15 Arg2:T12	
+T16	Location 575 584	boerderij
+T17	Actor 689 693	meid
+T18	Actor 779 785	jongen
+R12	Co-reference Arg1:T18 Arg2:T15	
+T19	Actor 884 887	hij
+R13	Co-reference Arg1:T19 Arg2:T18	
+T20	Actor 946 950	boer
+R14	Co-reference Arg1:T20 Arg2:T14	
+T21	Actor 1004 1008	boer
+T22	Actor 1018 1024	jongen
+R15	Co-reference Arg1:T21 Arg2:T88	
+R16	Co-reference Arg1:T22 Arg2:T19	
+T23	Actor 1027 1028	u
+R17	Co-reference Arg1:T23 Arg2:T21	
+T24	Actor 1047 1049	ik
+R18	Co-reference Arg1:T24 Arg2:T22	
+T25	Actor 1101 1109	jongetje
+T26	Actor 1126 1130	boer
+R19	Co-reference Arg1:T25 Arg2:T24	
+R20	Co-reference Arg1:T26 Arg2:T23	
+T27	Actor 1165 1167	ik
+T28	Actor 1199 1201	je
+T29	Actor 1222 1224	je
+T30	Actor 1234 1236	je
+T31	Actor 1237 1243	ouders
+R21	Co-reference Arg1:T30 Arg2:T29	
+R22	Co-reference Arg1:T29 Arg2:T28	
+T32	Actor 1168 1170	je
+R23	Co-reference Arg1:T28 Arg2:T32	
+R24	Co-reference Arg1:T32 Arg2:T25	
+R25	Co-reference Arg1:T27 Arg2:T26	
+T33	Actor 1262 1264	Ik
+T34	Actor 1269 1271	je
+R26	Co-reference Arg1:T31 Arg2:T9	
+R27	Co-reference Arg1:T33 Arg2:T27	
+R28	Co-reference Arg1:T34 Arg2:T30	
+T35	Actor 1290 1296	jongen
+T36	Actor 1307 1311	zijn
+R29	Co-reference Arg1:T35 Arg2:T34	
+R30	Co-reference Arg1:T36 Arg2:T35	
+T37	Actor 1356 1357	U
+R31	Co-reference Arg1:T37 Arg2:T33	
+T38	Actor 1372 1374	Ik
+R32	Co-reference Arg1:T38 Arg2:T36	
+T39	Actor 1450 1453	mij
+T40	Actor 1455 1457	ik
+T41	Actor 1500 1504	boer
+T42	Actor 1546 1548	je
+R33	Co-reference Arg1:T41 Arg2:T37	
+R34	Co-reference Arg1:T39 Arg2:T38	
+R35	Co-reference Arg1:T40 Arg2:T39	
+T43	Location 1661 1670	boerderij
+T44	Actor 1698 1704	jongen
+T45	Actor 1735 1739	boer
+T46	Actor 1749 1752	hij
+R36	Co-reference Arg1:T45 Arg2:T41	
+R37	Co-reference Arg1:T43 Arg2:T16	
+R38	Co-reference Arg1:T44 Arg2:T42	
+R39	Co-reference Arg1:T46 Arg2:T44	
+T47	Actor 1774 1776	ze
+R40	Co-reference Arg1:T47 Arg2:T46	
+R41	Co-reference Arg1:T47 Arg2:T45	
+T48	Actor 1806 1812	jongen
+T49	Location 1790 1801	wagenschuur
+R42	Co-reference Arg1:T48 Arg2:T46	
+T50	Actor 1867 1871	boer
+R43	Co-reference Arg1:T50 Arg2:T45	
+T51	Actor 1902 1908	jongen
+T52	Actor 1920 1923	kat
+T53	Actor 1933 1936	hij
+T54	Actor 1950 1954	boer
+T55	Actor 1971 1975	haas
+R44	Co-reference Arg1:T51 Arg2:T48	
+R45	Co-reference Arg1:T53 Arg2:T51	
+R46	Co-reference Arg1:T54 Arg2:T50	
+R47	Co-reference Arg1:T55 Arg2:T52	
+T56	Actor 1984 1986	je
+T57	Actor 1992 1998	jongen
+R49	Co-reference Arg1:T56 Arg2:T53	
+R48	Co-reference Arg1:T57 Arg2:T56	
+T58	Actor 2020 2023	dat
+T59	Actor 2038 2041	kat
+R50	Co-reference Arg1:T58 Arg2:T55	
+R51	Co-reference Arg1:T59 Arg2:T58	
+T60	Actor 2049 2051	ik
+T61	Actor 2056 2058	je
+T62	Actor 2064 2067	het
+T63	Actor 2072 2076	haas
+R52	Co-reference Arg1:T63 Arg2:T62	
+R53	Co-reference Arg1:T62 Arg2:T59	
+R54	Co-reference Arg1:T61 Arg2:T54	
+R55	Co-reference Arg1:T60 Arg2:T57	
+T64	Actor 2130 2132	Ik
+R56	Co-reference Arg1:T64 Arg2:T60	
+T65	Actor 2153 2154	u
+R57	Co-reference Arg1:T65 Arg2:T61	
+T66	Actor 2194 2198	dier
+T67	Actor 2203 2206	kat
+T68	Actor 2218 2220	ik
+T69	Actor 2239 2246	buurman
+T70	Actor 2234 2238	onze
+R59	Co-reference Arg1:T70 Arg2:T47	
+R60	Co-reference Arg1:T68 Arg2:T64	
+R61	Co-reference Arg1:T67 Arg2:T66	
+R62	Co-reference Arg1:T66 Arg2:T63	
+T71	Actor 2248 2250	Ik
+R63	Co-reference Arg1:T71 Arg2:T68	
+T72	Actor 2261 2264	hij
+R64	Co-reference Arg1:T72 Arg2:T69	
+T73	Actor 2265 2268	mij
+R65	Co-reference Arg1:T73 Arg2:T71	
+T74	Actor 2328 2332	boer
+R66	Co-reference Arg1:T74 Arg2:T65	
+T75	Actor 2364 2366	Ik
+R67	Co-reference Arg1:T75 Arg2:T74	
+T76	Actor 2383 2385	je
+R68	Co-reference Arg1:T76 Arg2:T73	
+T77	Actor 2437 2443	jongen
+R69	Co-reference Arg1:T77 Arg2:T76	
+T78	Actor 2471 2472	u
+R70	Co-reference Arg1:T78 Arg2:T75	
+T79	Actor 2473 2476	mij
+R71	Co-reference Arg1:T79 Arg2:T77	
+T80	Actor 2522 2524	ik
+R72	Co-reference Arg1:T80 Arg2:T79	
+T81	Actor 2549 2552	kat
+T82	Actor 2556 2560	haas
+R73	Co-reference Arg1:T82 Arg2:T81	
+T83	Actor 2410 2414	haas
+R74	Co-reference Arg1:T81 Arg2:T83	
+R75	Co-reference Arg1:T83 Arg2:T67	
+T84	Actor 2571 2573	ik
+T85	Actor 2577 2581	baas
+R76	Co-reference Arg1:T85 Arg2:T84	
+R77	Co-reference Arg1:T84 Arg2:T89	
+T86	Actor 77 80	die
+R78	Co-reference Arg1:T86 Arg2:T2	
+T87	Actor 342 345	hem
+R79	Co-reference Arg1:T87 Arg2:T10	
+T88	Actor 989 991	je
+R80	Co-reference Arg1:T88 Arg2:T20	
+R81	Co-reference Arg1:T42 Arg2:T40	
+T89	Actor 2532 2536	mijn
+R82	Co-reference Arg1:T89 Arg2:T80	

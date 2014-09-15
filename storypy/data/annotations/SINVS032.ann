@@ -1,0 +1,306 @@
+T1	Title 0 13	DE ZEEMEERMIN
+T2	Actor 30 36	knecht
+T3	Actor 38 41	die
+T4	Actor 54 62	kinderen
+T5	Actor 72 76	heer
+T6	Actor 67 71	zijn
+T7	Location 86 91	oever
+T8	Location 99 102	zee
+T9	Location 126 132	strand
+T10	Actor 138 141	hij
+T11	Actor 142 148	iemand
+T12	Actor 155 158	die
+T13	Actor 159 162	hij
+T14	Actor 183 186	hij
+T15	Actor 224 232	kinderen
+T16	Actor 277 280	hij
+T17	Actor 285 289	zijn
+T18	Actor 301 304	zij
+T19	Actor 325 328	hij
+T20	Actor 337 340	hij
+T21	Actor 349 352	hij
+T22	Actor 362 365	hij
+T23	Actor 391 394	hij
+T24	Actor 436 444	kinderen
+T25	Actor 480 483	hij
+T26	Actor 489 492	hij
+T27	Location 520 527	kasteel
+T28	Actor 557 560	hij
+T29	Actor 622 627	allen
+T30	Actor 637 642	vader
+T31	Actor 646 652	moeder
+T32	Actor 654 660	meiden
+T33	Actor 664 671	knechts
+T34	Actor 726 732	moeder
+T35	Location 749 755	strand
+T36	Actor 773 781	kinderen
+T37	Actor 830 837	meermin
+T38	Actor 849 852	die
+T39	Actor 883 885	je
+T40	Actor 900 907	meermin
+T41	Actor 914 920	moeder
+T42	Actor 930 934	haar
+T43	Actor 968 975	meermin
+T44	Actor 986 994	kinderen
+T45	Actor 983 985	je
+T46	Actor 1002 1004	je
+T47	Actor 1005 1007	je
+T48	Actor 1032 1034	ze
+T49	Actor 1069 1073	mijn
+T50	Location 1074 1081	kasteel
+T51	Location 1101 1104	zee
+T52	Actor 1115 1121	moeder
+T53	Actor 1151 1153	ze
+T54	Actor 1168 1170	ze
+T55	Actor 1171 1175	haar
+T56	Actor 1176 1184	kinderen
+T57	Actor 1215 1217	ze
+T58	Actor 1218 1221	hen
+T59	Actor 1283 1290	meermin
+T60	Actor 1302 1308	moeder
+T61	Location 1336 1340	huis
+T62	Actor 1369 1371	ze
+T63	Location 1386 1392	strand
+T64	Actor 1411 1413	ze
+T65	Actor 1426 1433	meermin
+T66	Actor 1447 1451	haar
+T67	Actor 1462 1464	ze
+T68	Actor 1508 1515	meermin
+T69	Actor 1516 1520	haar
+T70	Location 1530 1535	water
+T71	Actor 1549 1551	ze
+T72	Actor 1552 1556	haar
+T73	Actor 1557 1565	kinderen
+T74	Actor 1587 1589	ze
+T75	Location 1615 1618	zee
+T76	Actor 1629 1631	ze
+T77	Actor 1701 1711	zeemeermin
+T78	Actor 1716 1720	haar
+T80	Actor 1758 1761	hen
+T81	Actor 1781 1783	ze
+T82	Actor 1837 1839	ze
+T83	Location 1849 1855	paleis
+T84	Actor 1863 1873	zeemeermin
+T85	Location 1875 1878	dat
+T86	Actor 1936 1946	zeemeermin
+T87	Actor 1956 1960	haar
+T88	Location 1976 1982	paleis
+T89	Actor 2002 2006	haar
+T90	Location 2016 2023	vertrek
+T91	Actor 2030 2032	ze
+T92	Actor 2111 2117	moeder
+T93	Actor 2128 2136	kinderen
+T94	Actor 2178 2186	kinderen
+T95	Actor 2188 2191	die
+T96	Actor 2200 2207	meermin
+T97	Location 2216 2222	strand
+T98	Actor 2239 2241	Ze
+T99	Actor 2257 2260	hen
+T100	Location 2303 2310	vertrek
+T101	Actor 2328 2330	ze
+T102	Actor 2343 2345	ze
+T103	Actor 2372 2374	ze
+T104	Actor 2375 2379	haar
+T105	Actor 2380 2387	jongste
+T106	Actor 2398 2406	kinderen
+T107	Actor 2416 2422	oudste
+T108	Actor 2427 2429	ze
+T109	Actor 2479 2485	moeder
+T110	Location 2509 2515	paleis
+T111	Actor 2536 2538	ze
+T112	Location 2554 2558	deur
+T113	Actor 2591 2593	ze
+T114	Actor 2603 2609	oudste
+T115	Actor 2610 2616	jongen
+T116	Actor 2618 2620	Ze
+T117	Actor 2640 2642	ze
+T118	Actor 2643 2647	haar
+T119	Actor 2648 2656	kinderen
+T120	Location 2666 2670	huis
+T121	Actor 2692 2699	meermin
+T122	Actor 2757 2759	ze
+T123	Actor 2771 2773	Ik
+T124	Actor 2778 2780	je
+T125	Actor 2784 2792	kinderen
+T126	Actor 2819 2821	je
+T127	Actor 2822 2825	mij
+T128	Actor 2896 2902	moeder
+T129	Actor 2905 2907	Je
+T130	Actor 2918 2921	mij
+T131	Actor 2943 2945	je
+T132	Actor 2968 2978	zeemeermin
+T133	Actor 2983 2992	edelvrouw
+T134	Location 3008 3012	slot
+T135	Actor 3041 3043	ze
+T136	Actor 3083 3085	ze
+T137	Actor 3121 3123	ze
+T138	Location 3138 3144	strand
+T139	Actor 3159 3166	meermin
+T140	Actor 3172 3176	heur
+T141	Actor 3215 3219	haar
+T142	Actor 3224 3226	ze
+T143	Actor 3276 3283	meermin
+T144	Actor 3311 3313	Ze
+T145	Actor 3355 3357	je
+T146	Actor 3387 3389	ze
+T147	Actor 3394 3403	edelvrouw
+T148	Location 3426 3430	huis
+T149	Actor 3453 3455	ze
+T150	Actor 3477 3481	heur
+T151	Actor 3573 3577	heur
+T152	Actor 3619 3621	ze
+T153	Actor 3668 3670	Ze
+T154	Actor 3690 3697	meermin
+T155	Actor 3701 3704	die
+T156	Location 3757 3760	zee
+T157	Actor 3816 3826	meerminnen
+T158	Actor 3853 3855	ze
+T159	Actor 3874 3882	kinderen
+T160	Location 3903 3907	huis
+R1	Co-reference Arg1:T3 Arg2:T2	
+R2	Co-reference Arg1:T6 Arg2:T3	
+R3	Co-reference Arg1:T9 Arg2:T7	
+R4	Co-reference Arg1:T10 Arg2:T6	
+R5	Co-reference Arg1:T12 Arg2:T11	
+R6	Co-reference Arg1:T13 Arg2:T10	
+R7	Co-reference Arg1:T14 Arg2:T13	
+R8	Co-reference Arg1:T15 Arg2:T4	
+R9	Co-reference Arg1:T16 Arg2:T14	
+R10	Co-reference Arg1:T17 Arg2:T16	
+R11	Co-reference Arg1:T18 Arg2:T15	
+R12	Co-reference Arg1:T19 Arg2:T17	
+R13	Co-reference Arg1:T20 Arg2:T19	
+R14	Co-reference Arg1:T21 Arg2:T20	
+R15	Co-reference Arg1:T22 Arg2:T21	
+R16	Co-reference Arg1:T23 Arg2:T22	
+R17	Co-reference Arg1:T24 Arg2:T18	
+R18	Co-reference Arg1:T25 Arg2:T23	
+R19	Co-reference Arg1:T26 Arg2:T25	
+R20	Co-reference Arg1:T28 Arg2:T26	
+R21	Co-reference Arg1:T29 Arg2:T30	
+R22	Co-reference Arg1:T29 Arg2:T31	
+R23	Co-reference Arg1:T29 Arg2:T32	
+R24	Co-reference Arg1:T29 Arg2:T33	
+R25	Co-reference Arg1:T34 Arg2:T31	
+R26	Co-reference Arg1:T35 Arg2:T9	
+R27	Co-reference Arg1:T36 Arg2:T24	
+R28	Co-reference Arg1:T38 Arg2:T37	
+R29	Co-reference Arg1:T39 Arg2:T34	
+R30	Co-reference Arg1:T40 Arg2:T38	
+R31	Co-reference Arg1:T41 Arg2:T39	
+R32	Co-reference Arg1:T42 Arg2:T40	
+R33	Co-reference Arg1:T43 Arg2:T42	
+R34	Co-reference Arg1:T45 Arg2:T41	
+R35	Co-reference Arg1:T44 Arg2:T36	
+R36	Co-reference Arg1:T46 Arg2:T45	
+R37	Co-reference Arg1:T47 Arg2:T46	
+R38	Co-reference Arg1:T48 Arg2:T44	
+R39	Co-reference Arg1:T49 Arg2:T43	
+R40	Co-reference Arg1:T52 Arg2:T47	
+R41	Co-reference Arg1:T53 Arg2:T52	
+R42	Co-reference Arg1:T54 Arg2:T53	
+R43	Co-reference Arg1:T55 Arg2:T54	
+R44	Co-reference Arg1:T56 Arg2:T48	
+R45	Co-reference Arg1:T57 Arg2:T55	
+R46	Co-reference Arg1:T58 Arg2:T56	
+R47	Co-reference Arg1:T59 Arg2:T49	
+R48	Co-reference Arg1:T60 Arg2:T57	
+R49	Co-reference Arg1:T61 Arg2:T27	
+R50	Co-reference Arg1:T62 Arg2:T60	
+R51	Co-reference Arg1:T63 Arg2:T35	
+R52	Co-reference Arg1:T64 Arg2:T62	
+R53	Co-reference Arg1:T65 Arg2:T59	
+R54	Co-reference Arg1:T66 Arg2:T65	
+R55	Co-reference Arg1:T67 Arg2:T64	
+R56	Co-reference Arg1:T68 Arg2:T66	
+R57	Co-reference Arg1:T69 Arg2:T67	
+R58	Co-reference Arg1:T70 Arg2:T8	
+R59	Co-reference Arg1:T71 Arg2:T69	
+R60	Co-reference Arg1:T72 Arg2:T71	
+R61	Co-reference Arg1:T73 Arg2:T58	
+R62	Co-reference Arg1:T74 Arg2:T72	
+R63	Co-reference Arg1:T74 Arg2:T68	
+R64	Co-reference Arg1:T75 Arg2:T70	
+R65	Co-reference Arg1:T76 Arg2:T74	
+R66	Co-reference Arg1:T77 Arg2:T68	
+R67	Co-reference Arg1:T78 Arg2:T72	
+R68	Co-reference Arg1:T80 Arg2:T76	
+R69	Co-reference Arg1:T81 Arg2:T80	
+R70	Co-reference Arg1:T82 Arg2:T81	
+R71	Co-reference Arg1:T83 Arg2:T50	
+R72	Co-reference Arg1:T84 Arg2:T77	
+R73	Co-reference Arg1:T85 Arg2:T83	
+R74	Co-reference Arg1:T86 Arg2:T84	
+R75	Co-reference Arg1:T87 Arg2:T78	
+R76	Co-reference Arg1:T88 Arg2:T85	
+R77	Co-reference Arg1:T89 Arg2:T87	
+R78	Co-reference Arg1:T91 Arg2:T86	
+R79	Co-reference Arg1:T92 Arg2:T89	
+R80	Co-reference Arg1:T94 Arg2:T93	
+R81	Co-reference Arg1:T95 Arg2:T94	
+R82	Co-reference Arg1:T96 Arg2:T91	
+R83	Co-reference Arg1:T97 Arg2:T63	
+R84	Co-reference Arg1:T98 Arg2:T92	
+R85	Co-reference Arg1:T99 Arg2:T95	
+R86	Co-reference Arg1:T101 Arg2:T98	
+R87	Co-reference Arg1:T102 Arg2:T101	
+R88	Co-reference Arg1:T103 Arg2:T102	
+R89	Co-reference Arg1:T104 Arg2:T103	
+R90	Co-reference Arg1:T106 Arg2:T99	
+R91	Co-reference Arg1:T4 Arg2:T105	
+R92	Co-reference Arg1:T4 Arg2:T107	
+R93	Co-reference Arg1:T108 Arg2:T104	
+R94	Co-reference Arg1:T109 Arg2:T108	
+R95	Co-reference Arg1:T110 Arg2:T88	
+R96	Co-reference Arg1:T111 Arg2:T109	
+R97	Co-reference Arg1:T112 Arg2:T90	
+R98	Co-reference Arg1:T113 Arg2:T111	
+R99	Co-reference Arg1:T114 Arg2:T107	
+R100	Co-reference Arg1:T115 Arg2:T114	
+R101	Co-reference Arg1:T116 Arg2:T113	
+R102	Co-reference Arg1:T117 Arg2:T116	
+R103	Co-reference Arg1:T118 Arg2:T117	
+R104	Co-reference Arg1:T119 Arg2:T73	
+R105	Co-reference Arg1:T120 Arg2:T61	
+R106	Co-reference Arg1:T121 Arg2:T96	
+R107	Co-reference Arg1:T122 Arg2:T121	
+R108	Co-reference Arg1:T123 Arg2:T122	
+R109	Co-reference Arg1:T124 Arg2:T118	
+R110	Co-reference Arg1:T125 Arg2:T119	
+R111	Co-reference Arg1:T126 Arg2:T124	
+R112	Co-reference Arg1:T127 Arg2:T123	
+R113	Co-reference Arg1:T128 Arg2:T126	
+R114	Co-reference Arg1:T129 Arg2:T128	
+R115	Co-reference Arg1:T130 Arg2:T127	
+R116	Co-reference Arg1:T131 Arg2:T129	
+R117	Co-reference Arg1:T132 Arg2:T130	
+R118	Co-reference Arg1:T133 Arg2:T131	
+R119	Co-reference Arg1:T134 Arg2:T120	
+R120	Co-reference Arg1:T135 Arg2:T133	
+R121	Co-reference Arg1:T136 Arg2:T135	
+R122	Co-reference Arg1:T137 Arg2:T136	
+R123	Co-reference Arg1:T138 Arg2:T97	
+R124	Co-reference Arg1:T139 Arg2:T132	
+R125	Co-reference Arg1:T140 Arg2:T137	
+R126	Co-reference Arg1:T141 Arg2:T139	
+R127	Co-reference Arg1:T142 Arg2:T141	
+R128	Co-reference Arg1:T143 Arg2:T142	
+R129	Co-reference Arg1:T144 Arg2:T143	
+T79	Actor 3318 3322	haar
+R130	Co-reference Arg1:T79 Arg2:T140	
+R131	Co-reference Arg1:T145 Arg2:T79	
+R132	Co-reference Arg1:T146 Arg2:T144	
+R133	Co-reference Arg1:T147 Arg2:T145	
+R134	Co-reference Arg1:T148 Arg2:T134	
+R135	Co-reference Arg1:T149 Arg2:T147	
+R136	Co-reference Arg1:T150 Arg2:T149	
+R137	Co-reference Arg1:T151 Arg2:T150	
+R138	Co-reference Arg1:T152 Arg2:T151	
+R139	Co-reference Arg1:T153 Arg2:T152	
+R140	Co-reference Arg1:T154 Arg2:T146	
+R141	Co-reference Arg1:T155 Arg2:T154	
+R142	Co-reference Arg1:T156 Arg2:T75	
+R143	Co-reference Arg1:T158 Arg2:T157	
+R144	Co-reference Arg1:T160 Arg2:T148	
+R145	Co-reference Arg1:T159 Arg2:T125	
+R146	Co-reference Arg1:T30 Arg2:T5	

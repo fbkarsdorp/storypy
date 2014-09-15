@@ -1,0 +1,56 @@
+T1	Title 0 33	BOONTJE, STROOTJE EN KOOLTJE VUUR
+T2	Actor 34 41	Boontje
+T3	Actor 43 51	strootje
+T4	Actor 55 62	kooltje
+T5	Actor 152 154	ze
+T6	Actor 190 192	ze
+T7	Location 170 175	water
+T8	Actor 232 234	ze
+T9	Actor 256 263	Boontje
+T10	Actor 279 287	strootje
+T11	Actor 293 296	jij
+T12	Location 309 314	water
+T13	Actor 336 343	kooltje
+T14	Actor 374 376	ik
+T15	Actor 384 386	ik
+T16	Location 394 402	overkant
+T17	Actor 413 415	ik
+T18	Actor 416 418	je
+T19	Actor 436 439	jou
+T20	Actor 449 457	Strootje
+T21	Actor 480 487	kooltje
+T22	Actor 521 524	hij
+T23	Actor 552 560	strootje
+T24	Actor 569 576	kooltje
+T25	Actor 596 603	boontje
+T26	Actor 620 623	hij
+T27	Actor 643 646	hij
+T28	Actor 671 681	kleermaker
+T29	Actor 702 705	hem
+T30	Actor 719 723	zijn
+T31	Actor 767 775	boontjes
+R1	Co-reference Arg1:T30 Arg2:T29	
+R2	Co-reference Arg1:T29 Arg2:T27	
+R3	Co-reference Arg1:T27 Arg2:T26	
+R4	Co-reference Arg1:T26 Arg2:T25	
+R5	Co-reference Arg1:T25 Arg2:T17	
+R6	Co-reference Arg1:T17 Arg2:T15	
+R7	Co-reference Arg1:T15 Arg2:T14	
+R8	Co-reference Arg1:T14 Arg2:T9	
+R9	Co-reference Arg1:T9 Arg2:T2	
+R10	Co-reference Arg1:T8 Arg2:T6	
+R11	Co-reference Arg1:T6 Arg2:T5	
+R12	Co-reference Arg1:T5 Arg2:T4	
+R13	Co-reference Arg1:T5 Arg2:T3	
+R14	Co-reference Arg1:T5 Arg2:T2	
+R15	Co-reference Arg1:T10 Arg2:T3	
+R16	Co-reference Arg1:T11 Arg2:T10	
+R17	Co-reference Arg1:T18 Arg2:T11	
+R18	Co-reference Arg1:T19 Arg2:T18	
+R19	Co-reference Arg1:T20 Arg2:T19	
+R20	Co-reference Arg1:T23 Arg2:T20	
+R21	Co-reference Arg1:T24 Arg2:T22	
+R22	Co-reference Arg1:T22 Arg2:T21	
+R23	Co-reference Arg1:T21 Arg2:T13	
+R24	Co-reference Arg1:T13 Arg2:T4	
+R25	Co-reference Arg1:T12 Arg2:T7	

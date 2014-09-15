@@ -1,0 +1,234 @@
+T1	Title 0 48	DE OORLOG TUSSEN HET LOPEND EN VLIEGEND GEDIERTE
+T2	Actor 74 79	leeuw
+T3	Actor 85 91	koning
+T4	Actor 107 122	lopend gedierte
+T5	Actor 146 152	jongen
+T6	Actor 194 208	winterkoninkje
+T7	Actor 214 220	koning
+T8	Actor 236 253	vliegend gedierte
+T9	Actor 258 261	hun
+T10	Actor 306 309	hij
+T11	Actor 328 343	scharminkeltjes
+T12	Actor 349 351	ik
+T13	Actor 345 348	die
+T14	Actor 396 399	die
+T15	Actor 413 427	schreeuwertjes
+T16	Actor 428 443	koningskinderen
+T17	Actor 450 452	me
+T18	Actor 466 480	winterkoninkje
+T19	Actor 495 500	leeuw
+T20	Actor 513 517	zijn
+T21	Actor 518 524	jongen
+T22	Actor 541 544	hij
+T23	Actor 575 580	leeuw
+T24	Actor 589 593	volk
+T25	Actor 619 624	leeuw
+T26	Actor 685 699	winterkoninkje
+T27	Actor 705 707	al
+T28	Actor 636 638	al
+T29	Location 668 677	heideland
+T30	Location 753 758	lucht
+T31	Actor 768 773	leeuw
+T32	Actor 779 792	tegenstanders
+T33	Actor 774 778	zijn
+T34	Actor 841 844	uil
+T35	Actor 879 884	troep
+T36	Actor 899 902	hij
+T37	Actor 903 907	zich
+T38	Actor 912 915	hij
+T39	Actor 927 932	leger
+T40	Actor 955 958	hij
+T41	Actor 1000 1014	winterkoninkje
+T42	Actor 1018 1022	zijn
+T43	Actor 1023 1027	volk
+T44	Actor 1053 1067	winterkoninkje
+T45	Actor 1087 1092	leeuw
+T46	Actor 1149 1152	hij
+T47	Actor 1172 1175	mug
+T48	Actor 1181 1184	die
+T49	Location 1242 1246	kamp
+T50	Actor 1251 1254	mug
+T51	Actor 1280 1283	hij
+T52	Actor 1297 1302	leger
+T53	Actor 1307 1313	koning
+T54	Actor 1314 1319	leeuw
+T55	Actor 1330 1333	hij
+T56	Actor 1337 1340	vos
+T57	Actor 1344 1348	zijn
+T58	Actor 1371 1376	leeuw
+T59	Actor 1380 1383	hij
+T60	Actor 1391 1394	hem
+T61	Actor 1404 1408	Heer
+T62	Actor 1409 1414	Leeuw
+T63	Actor 1416 1418	ik
+T64	Actor 1423 1425	uw
+T65	Actor 1426 1439	vaandeldrager
+T66	Actor 1451 1453	ik
+T67	Actor 1476 1478	uw
+T68	Actor 1479 1484	leger
+T69	Actor 1495 1499	mijn
+T70	Actor 1550 1551	u
+T71	Actor 1594 1597	ons
+T72	Actor 1608 1610	ik
+T73	Actor 1646 1647	u
+T74	Actor 1685 1690	leger
+T75	Actor 1728 1731	wij
+T76	Actor 1755 1758	mug
+T77	Actor 1789 1803	winterkoninkje
+T78	Actor 1824 1827	hij
+T79	Actor 1857 1863	ganzen
+T80	Actor 1867 1870	hun
+T81	Actor 1889 1895	legers
+T82	Actor 1910 1916	elkaar
+T83	Actor 1934 1937	vos
+T84	Actor 1965 1980	lopend gedierte
+T85	Actor 1985 1989	zijn
+T86	Actor 2020 2034	winterkoninkje
+T87	Actor 2044 2048	wesp
+T88	Actor 2080 2084	wesp
+T89	Actor 2088 2091	hij
+T90	Actor 2098 2102	haar
+T91	Actor 2109 2112	vos
+T92	Actor 2136 2140	zijn
+T93	Actor 2171 2175	wesp
+T94	Actor 2182 2185	vos
+T95	Actor 2225 2229	zijn
+T97	Actor 2288 2302	winterkoninkje
+T98	Actor 2319 2325	wespen
+T99	Actor 2340 2344	vijf
+T100	Actor 2368 2371	vos
+T101	Actor 2382 2385	hem
+T102	Actor 2428 2431	vos
+T103	Actor 2437 2441	zijn
+T104	Actor 2491 2494	hij
+T105	Actor 2506 2510	zijn
+T106	Actor 2557 2560	hij
+T107	Actor 2573 2588	lopend gedierte
+T108	Actor 2599 2605	koning
+T109	Actor 2606 2611	leeuw
+T110	Actor 2620 2623	hem
+T111	Actor 2627 2631	zijn
+T112	Actor 2702 2716	winterkoninkje
+T113	Actor 2744 2750	koning
+T114	Actor 2751 2756	leeuw
+R1	Co-reference Arg1:T3 Arg2:T2	
+R2	Co-reference Arg1:T7 Arg2:T6	
+R3	Co-reference Arg1:T9 Arg2:T5	
+R4	Co-reference Arg1:T10 Arg2:T3	
+R5	Co-reference Arg1:T11 Arg2:T9	
+R6	Co-reference Arg1:T13 Arg2:T11	
+R7	Co-reference Arg1:T12 Arg2:T10	
+R8	Co-reference Arg1:T14 Arg2:T13	
+R9	Co-reference Arg1:T15 Arg2:T14	
+R10	Co-reference Arg1:T16 Arg2:T15	
+R11	Co-reference Arg1:T17 Arg2:T12	
+R12	Co-reference Arg1:T18 Arg2:T7	
+R13	Co-reference Arg1:T19 Arg2:T17	
+R14	Co-reference Arg1:T20 Arg2:T18	
+R15	Co-reference Arg1:T21 Arg2:T16	
+R16	Co-reference Arg1:T22 Arg2:T20	
+R17	Co-reference Arg1:T23 Arg2:T19	
+R18	Co-reference Arg1:T24 Arg2:T4	
+R19	Co-reference Arg1:T25 Arg2:T23	
+R20	Co-reference Arg1:T28 Arg2:T24	
+T115	Actor 568 571	hij
+R21	Co-reference Arg1:T115 Arg2:T22	
+R22	Co-reference Arg1:T26 Arg2:T115	
+R23	Co-reference Arg1:T27 Arg2:T8	
+T116	Actor 720 726	vogels
+T117	Actor 730 738	insecten
+R26	Co-reference Arg1:T31 Arg2:T25	
+R27	Co-reference Arg1:T33 Arg2:T31	
+R28	Co-reference Arg1:T32 Arg2:T8	
+R29	Co-reference Arg1:T27 Arg2:T34	
+R30	Co-reference Arg1:T35 Arg2:T32	
+R31	Co-reference Arg1:T36 Arg2:T33	
+R32	Co-reference Arg1:T37 Arg2:T36	
+R33	Co-reference Arg1:T38 Arg2:T37	
+R34	Co-reference Arg1:T39 Arg2:T8	
+R35	Co-reference Arg1:T40 Arg2:T38	
+R36	Co-reference Arg1:T41 Arg2:T26	
+R37	Co-reference Arg1:T42 Arg2:T41	
+R38	Co-reference Arg1:T43 Arg2:T35	
+R39	Co-reference Arg1:T44 Arg2:T42	
+R40	Co-reference Arg1:T45 Arg2:T40	
+R41	Co-reference Arg1:T46 Arg2:T44	
+R42	Co-reference Arg1:T48 Arg2:T47	
+R43	Co-reference Arg1:T49 Arg2:T29	
+R44	Co-reference Arg1:T50 Arg2:T48	
+R45	Co-reference Arg1:T51 Arg2:T50	
+R46	Co-reference Arg1:T52 Arg2:T28	
+R47	Co-reference Arg1:T53 Arg2:T45	
+R48	Co-reference Arg1:T54 Arg2:T53	
+R49	Co-reference Arg1:T55 Arg2:T51	
+R50	Co-reference Arg1:T57 Arg2:T56	
+R51	Co-reference Arg1:T58 Arg2:T54	
+R52	Co-reference Arg1:T59 Arg2:T55	
+R53	Co-reference Arg1:T60 Arg2:T57	
+R54	Co-reference Arg1:T61 Arg2:T58	
+R55	Co-reference Arg1:T62 Arg2:T61	
+R56	Co-reference Arg1:T63 Arg2:T60	
+R57	Co-reference Arg1:T64 Arg2:T62	
+R58	Co-reference Arg1:T65 Arg2:T63	
+R59	Co-reference Arg1:T66 Arg2:T65	
+R60	Co-reference Arg1:T67 Arg2:T64	
+R61	Co-reference Arg1:T68 Arg2:T52	
+R62	Co-reference Arg1:T69 Arg2:T66	
+R63	Co-reference Arg1:T70 Arg2:T67	
+R64	Co-reference Arg1:T71 Arg2:T68	
+R65	Co-reference Arg1:T72 Arg2:T69	
+R66	Co-reference Arg1:T73 Arg2:T70	
+R67	Co-reference Arg1:T74 Arg2:T71	
+R68	Co-reference Arg1:T75 Arg2:T74	
+R69	Co-reference Arg1:T76 Arg2:T59	
+R70	Co-reference Arg1:T77 Arg2:T46	
+R71	Co-reference Arg1:T78 Arg2:T76	
+R72	Co-reference Arg1:T27 Arg2:T79	
+R73	Co-reference Arg1:T52 Arg2:T56	
+R74	Co-reference Arg1:T27 Arg2:T47	
+R75	Co-reference Arg1:T80 Arg2:T79	
+R76	Co-reference Arg1:T81 Arg2:T75	
+R77	Co-reference Arg1:T81 Arg2:T43	
+R78	Co-reference Arg1:T82 Arg2:T81	
+R79	Co-reference Arg1:T83 Arg2:T72	
+R80	Co-reference Arg1:T84 Arg2:T75	
+R81	Co-reference Arg1:T85 Arg2:T83	
+R82	Co-reference Arg1:T86 Arg2:T77	
+R83	Co-reference Arg1:T27 Arg2:T87	
+R84	Co-reference Arg1:T88 Arg2:T87	
+R85	Co-reference Arg1:T89 Arg2:T86	
+R86	Co-reference Arg1:T90 Arg2:T88	
+R87	Co-reference Arg1:T91 Arg2:T85	
+R88	Co-reference Arg1:T92 Arg2:T91	
+R89	Co-reference Arg1:T93 Arg2:T90	
+R90	Co-reference Arg1:T94 Arg2:T92	
+R91	Co-reference Arg1:T95 Arg2:T94	
+R92	Co-reference Arg1:T97 Arg2:T89	
+R93	Co-reference Arg1:T27 Arg2:T98	
+R94	Co-reference Arg1:T99 Arg2:T98	
+R95	Co-reference Arg1:T100 Arg2:T95	
+R96	Co-reference Arg1:T101 Arg2:T100	
+R97	Co-reference Arg1:T102 Arg2:T101	
+R98	Co-reference Arg1:T103 Arg2:T102	
+R99	Co-reference Arg1:T104 Arg2:T103	
+R100	Co-reference Arg1:T105 Arg2:T104	
+R101	Co-reference Arg1:T106 Arg2:T105	
+R102	Co-reference Arg1:T107 Arg2:T84	
+R103	Co-reference Arg1:T108 Arg2:T73	
+R104	Co-reference Arg1:T109 Arg2:T108	
+R105	Co-reference Arg1:T110 Arg2:T106	
+R106	Co-reference Arg1:T111 Arg2:T110	
+R107	Co-reference Arg1:T112 Arg2:T97	
+R108	Co-reference Arg1:T113 Arg2:T109	
+R109	Co-reference Arg1:T114 Arg2:T113	
+R110	Co-reference Arg1:T4 Arg2:T2	
+R111	Co-reference Arg1:T4 Arg2:T56	
+R112	Co-reference Arg1:T8 Arg2:T6	
+R113	Co-reference Arg1:T8 Arg2:T5	
+R114	Co-reference Arg1:T8 Arg2:T34	
+R115	Co-reference Arg1:T8 Arg2:T47	
+R116	Co-reference Arg1:T8 Arg2:T79	
+R117	Co-reference Arg1:T8 Arg2:T87	
+R118	Co-reference Arg1:T8 Arg2:T98	
+R24	Co-reference Arg1:T8 Arg2:T116	
+R25	Co-reference Arg1:T8 Arg2:T117	

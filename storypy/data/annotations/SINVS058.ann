@@ -1,0 +1,107 @@
+T1	Actor 29 41	wolf Izegrim
+T2	Actor 88 91	hij
+T3	Actor 112 122	slimme vos
+T4	Actor 145 148	hij
+T5	Actor 164 167	hem
+T6	Actor 181 193	Neef Reintje
+T7	Actor 195 197	ik
+T8	Actor 202 204	je
+T9	Actor 215 217	je
+T10	Actor 218 220	me
+R1	Co-reference Arg1:T2 Arg2:T1	
+T11	Title 0 25	DE WOLF DIE VISSEN LEERDE
+R2	Co-reference Arg1:T4 Arg2:T2	
+R3	Co-reference Arg1:T5 Arg2:T3	
+R4	Co-reference Arg1:T6 Arg2:T5	
+R5	Co-reference Arg1:T7 Arg2:T4	
+R6	Co-reference Arg1:T8 Arg2:T6	
+R7	Co-reference Arg1:T9 Arg2:T8	
+R8	Co-reference Arg1:T10 Arg2:T7	
+T12	Actor 242 244	Je
+T13	Actor 284 287	vos
+R9	Co-reference Arg1:T13 Arg2:T9	
+R10	Co-reference Arg1:T12 Arg2:T10	
+T14	Actor 317 319	ze
+T15	Actor 339 341	ze
+T16	Location 356 362	vijver
+R11	Co-reference Arg1:T14 Arg2:T13	
+R12	Co-reference Arg1:T14 Arg2:T12	
+R13	Co-reference Arg1:T15 Arg2:T14	
+T17	Actor 386 389	vos
+R14	Co-reference Arg1:T17 Arg2:T13	
+T18	Actor 410 412	ik
+T19	Actor 440 444	wolf
+T20	Actor 450 452	ik
+T21	Actor 493 497	mijn
+R15	Co-reference Arg1:T21 Arg2:T20	
+R16	Co-reference Arg1:T20 Arg2:T18	
+R17	Co-reference Arg1:T18 Arg2:T17	
+R18	Co-reference Arg1:T19 Arg2:T12	
+T22	Actor 527 529	je
+R19	Co-reference Arg1:T22 Arg2:T19	
+T23	Actor 600 602	je
+T24	Actor 615 622	Reintje
+T25	Actor 624 626	ik
+R20	Co-reference Arg1:T24 Arg2:T23	
+R21	Co-reference Arg1:T23 Arg2:T21	
+R22	Co-reference Arg1:T25 Arg2:T22	
+T26	Actor 690 693	vos
+T27	Actor 731 733	je
+T28	Actor 757 759	je
+T29	Actor 781 783	je
+R23	Co-reference Arg1:T29 Arg2:T28	
+R24	Co-reference Arg1:T28 Arg2:T27	
+R25	Co-reference Arg1:T27 Arg2:T25	
+R26	Co-reference Arg1:T26 Arg2:T24	
+T30	Actor 894 896	je
+T31	Actor 897 899	je
+R27	Co-reference Arg1:T31 Arg2:T30	
+R28	Co-reference Arg1:T30 Arg2:T29	
+T32	Actor 994 1001	Izegrim
+R29	Co-reference Arg1:T32 Arg2:T31	
+T33	Actor 1032 1036	wolf
+R30	Co-reference Arg1:T33 Arg2:T32	
+T34	Actor 1056 1060	zijn
+R31	Co-reference Arg1:T34 Arg2:T33	
+T35	Actor 1074 1076	ik
+T36	Actor 1088 1090	ik
+R32	Co-reference Arg1:T36 Arg2:T35	
+R33	Co-reference Arg1:T35 Arg2:T34	
+T37	Actor 1118 1121	vos
+R34	Co-reference Arg1:T37 Arg2:T26	
+T38	Actor 1177 1180	hij
+R35	Co-reference Arg1:T38 Arg2:T37	
+T39	Actor 1248 1251	hij
+T40	Actor 1255 1259	wolf
+R37	Co-reference Arg1:T40 Arg2:T36	
+T41	Actor 1300 1307	Izegrim
+T42	Actor 1293 1299	vriend
+R38	Co-reference Arg1:T41 Arg2:T42	
+T43	Actor 1280 1283	hij
+R39	Co-reference Arg1:T43 Arg2:T39	
+R40	Co-reference Arg1:T42 Arg2:T40	
+T44	Actor 1358 1362	wolf
+R41	Co-reference Arg1:T44 Arg2:T41	
+T45	Actor 1402 1406	mijn
+R42	Co-reference Arg1:T45 Arg2:T44	
+T46	Actor 1418 1420	ik
+R43	Co-reference Arg1:T46 Arg2:T45	
+T47	Actor 1464 1466	ik
+R44	Co-reference Arg1:T47 Arg2:T46	
+T48	Actor 1504 1508	Zijn
+R45	Co-reference Arg1:T48 Arg2:T47	
+T49	Actor 1561 1563	ik
+R46	Co-reference Arg1:T49 Arg2:T43	
+T50	Actor 1568 1570	je
+R47	Co-reference Arg1:T50 Arg2:T48	
+T51	Actor 1594 1597	vos
+R48	Co-reference Arg1:T51 Arg2:T49	
+T52	Actor 1600 1602	je
+R49	Co-reference Arg1:T52 Arg2:T50	
+T53	Actor 1639 1641	je
+R50	Co-reference Arg1:T53 Arg2:T52	
+T54	Location 399 405	vijver
+R51	Co-reference Arg1:T54 Arg2:T16	
+T55	Actor 1185 1189	zich
+R36	Co-reference Arg1:T55 Arg2:T38	
+R52	Co-reference Arg1:T39 Arg2:T55	

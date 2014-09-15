@@ -1,0 +1,51 @@
+T1	Title 0 26	HOE DE NAAM JACOB ONTSTOND
+T2	Actor 338 346	mannetje
+T3	Actor 379 382	hij
+T4	Actor 393 396	hij
+T5	Actor 440 443	hij
+T6	Actor 459 462	hij
+T7	Actor 479 482	Hij
+T8	Actor 514 518	zijn
+T9	Actor 567 569	ik
+T10	Actor 585 597	burgemeester
+T11	Actor 603 615	burgemeester
+T12	Actor 652 655	hij
+T13	Actor 706 714	mannetje
+T14	Actor 719 722	hij
+T15	Actor 723 728	Jacob
+R1	Co-reference Arg1:T15 Arg2:T14	
+R2	Co-reference Arg1:T14 Arg2:T13	
+R3	Co-reference Arg1:T12 Arg2:T11	
+R4	Co-reference Arg1:T11 Arg2:T10	
+R5	Co-reference Arg1:T13 Arg2:T9	
+R6	Co-reference Arg1:T9 Arg2:T8	
+R7	Co-reference Arg1:T8 Arg2:T7	
+R8	Co-reference Arg1:T7 Arg2:T6	
+R9	Co-reference Arg1:T6 Arg2:T5	
+R10	Co-reference Arg1:T5 Arg2:T4	
+R11	Co-reference Arg1:T4 Arg2:T3	
+R12	Co-reference Arg1:T3 Arg2:T2	
+T16	Actor 91 94	hen
+T17	Actor 30 36	mensen
+R13	Co-reference Arg1:T16 Arg2:T17	
+T18	Actor 156 161	ieder
+R14	Co-reference Arg1:T18 Arg2:T16	
+T19	Actor 171 175	zich
+R15	Co-reference Arg1:T19 Arg2:T18	
+T20	Actor 207 212	ieder
+R16	Co-reference Arg1:T20 Arg2:T19	
+T21	Actor 249 252	een
+T22	Actor 258 262	Piet
+R17	Co-reference Arg1:T22 Arg2:T21	
+T23	Actor 267 272	ander
+T24	Actor 273 276	Jan
+T25	Actor 281 286	derde
+T26	Actor 287 292	Klaas
+R18	Co-reference Arg1:T26 Arg2:T25	
+R19	Co-reference Arg1:T24 Arg2:T23	
+T27	Location 184 196	gemeentehuis
+R20	Co-reference Arg1:T17 Arg2:T21	
+R21	Co-reference Arg1:T17 Arg2:T23	
+R22	Co-reference Arg1:T17 Arg2:T25	
+R23	Co-reference Arg1:T17 Arg2:T2	
+R24	Co-reference Arg1:T17 Arg2:T10	

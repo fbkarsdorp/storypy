@@ -1,0 +1,121 @@
+T1	Title 0 28	KINKANKONEKE EN KINKONKANEKE
+T2	Actor 30 42	Kinkankoneke
+T3	Actor 62 74	Kinkonkaneke
+T4	Actor 109 121	Kinkonkaneke
+T5	Actor 137 149	Kinkankoneke
+T6	Actor 173 185	Kinkonkaneke
+T7	Actor 233 236	hij
+T8	Actor 211 218	venster
+T9	Actor 256 268	Kinkankoneke
+T10	Actor 299 311	Kinkonkaneke
+T11	Actor 319 323	deur
+T12	Actor 338 345	venster
+T13	Actor 353 356	het
+T14	Actor 378 390	Kinkonkaneke
+T15	Actor 404 416	Kinkankoneke
+T16	Actor 450 458	mesthoop
+T17	Actor 472 476	deur
+T18	Actor 485 488	hij
+T19	Actor 514 521	venster
+T20	Actor 536 548	Kinkonkaneke
+T21	Actor 562 574	Kinkankoneke
+T22	Actor 606 614	pereboom
+T23	Actor 632 640	mesthoop
+T24	Actor 664 668	deur
+T25	Actor 685 692	venster
+T26	Actor 704 716	Kinkonkaneke
+T27	Actor 730 742	Kinkankoneke
+T28	Actor 776 784	noteboom
+T29	Actor 798 806	pereboom
+T30	Actor 815 818	hij
+T31	Actor 822 826	zijn
+T32	Actor 858 866	mesthoop
+T33	Actor 881 885	deur
+T34	Actor 902 909	venster
+T35	Actor 921 933	Konkonkaneke
+T36	Actor 947 959	Kinkankoneke
+T37	Actor 1008 1016	vrouwtje
+T38	Actor 1020 1023	die
+T39	Actor 1040 1048	noteboom
+T40	Actor 1052 1056	zijn
+T41	Actor 1087 1095	pereboom
+T42	Actor 1099 1103	zijn
+T43	Actor 1130 1138	mesthoop
+T44	Actor 1153 1157	deur
+T45	Actor 1174 1181	venster
+T46	Actor 1193 1205	Kinkonkaneke
+T47	Actor 1219 1231	Kinkankoneke
+T48	Actor 1281 1289	mannetje
+T49	Actor 1330 1334	zijn
+T50	Actor 1343 1346	hij
+T51	Actor 1369 1377	vrouwtje
+T52	Actor 1381 1385	haar
+T53	Actor 1416 1424	noteboom
+T54	Actor 1428 1432	zijn
+T55	Actor 1457 1465	pereboom
+T56	Actor 1469 1473	zijn
+T57	Actor 1500 1508	mesthoop
+T58	Actor 1523 1527	deur
+T59	Actor 1544 1551	venster
+T60	Actor 1563 1575	Kinkonkaneke
+T61	Actor 1589 1601	Kinkankoneke
+T62	Actor 1659 1667	mannetje
+T63	Actor 1674 1676	ik
+T64	Actor 1681 1685	mijn
+T65	Actor 1699 1703	mijn
+T66	Actor 1765 1771	varken
+R1	Co-reference Arg1:T4 Arg2:T2	
+R2	Co-reference Arg1:T5 Arg2:T3	
+R3	Co-reference Arg1:T6 Arg2:T4	
+R4	Co-reference Arg1:T7 Arg2:T6	
+R5	Co-reference Arg1:T9 Arg2:T5	
+R6	Co-reference Arg1:T10 Arg2:T7	
+R7	Co-reference Arg1:T12 Arg2:T8	
+R8	Co-reference Arg1:T13 Arg2:T12	
+R9	Co-reference Arg1:T14 Arg2:T10	
+R10	Co-reference Arg1:T15 Arg2:T9	
+R11	Co-reference Arg1:T17 Arg2:T11	
+R12	Co-reference Arg1:T18 Arg2:T17	
+R13	Co-reference Arg1:T19 Arg2:T13	
+R14	Co-reference Arg1:T20 Arg2:T14	
+R15	Co-reference Arg1:T21 Arg2:T15	
+R16	Co-reference Arg1:T23 Arg2:T16	
+R17	Co-reference Arg1:T24 Arg2:T18	
+R18	Co-reference Arg1:T25 Arg2:T19	
+R19	Co-reference Arg1:T26 Arg2:T20	
+R20	Co-reference Arg1:T27 Arg2:T21	
+R21	Co-reference Arg1:T29 Arg2:T22	
+R22	Co-reference Arg1:T30 Arg2:T29	
+R23	Co-reference Arg1:T31 Arg2:T30	
+R24	Co-reference Arg1:T32 Arg2:T23	
+R25	Co-reference Arg1:T33 Arg2:T24	
+R26	Co-reference Arg1:T34 Arg2:T25	
+R27	Co-reference Arg1:T35 Arg2:T26	
+R28	Co-reference Arg1:T36 Arg2:T27	
+R29	Co-reference Arg1:T38 Arg2:T37	
+R30	Co-reference Arg1:T39 Arg2:T28	
+R31	Co-reference Arg1:T40 Arg2:T39	
+R32	Co-reference Arg1:T41 Arg2:T31	
+R33	Co-reference Arg1:T42 Arg2:T41	
+R34	Co-reference Arg1:T43 Arg2:T32	
+R35	Co-reference Arg1:T44 Arg2:T33	
+R36	Co-reference Arg1:T45 Arg2:T34	
+R37	Co-reference Arg1:T46 Arg2:T35	
+R38	Co-reference Arg1:T47 Arg2:T36	
+R39	Co-reference Arg1:T49 Arg2:T48	
+R40	Co-reference Arg1:T50 Arg2:T49	
+R41	Co-reference Arg1:T51 Arg2:T38	
+R42	Co-reference Arg1:T52 Arg2:T51	
+R43	Co-reference Arg1:T53 Arg2:T40	
+R44	Co-reference Arg1:T54 Arg2:T53	
+R45	Co-reference Arg1:T55 Arg2:T42	
+R46	Co-reference Arg1:T56 Arg2:T55	
+R47	Co-reference Arg1:T57 Arg2:T43	
+R48	Co-reference Arg1:T58 Arg2:T44	
+R49	Co-reference Arg1:T59 Arg2:T45	
+R50	Co-reference Arg1:T60 Arg2:T46	
+R51	Co-reference Arg1:T61 Arg2:T47	
+R52	Co-reference Arg1:T62 Arg2:T50	
+R53	Co-reference Arg1:T63 Arg2:T62	
+R54	Co-reference Arg1:T64 Arg2:T63	
+R55	Co-reference Arg1:T65 Arg2:T64	

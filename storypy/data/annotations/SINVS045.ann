@@ -1,0 +1,544 @@
+T1	Title 0 32	VAN DE BOER DIE ZIJN KOE AAN ST.
+T2	Title 33 50	ANTONIUS VERKOCHT
+T3	Actor 78 82	boer
+T4	Actor 102 107	vrouw
+T5	Actor 83 86	die
+T6	Location 130 134	huis
+T7	Actor 113 115	Ze
+T8	Location 186 195	boerderij
+R1	Co-reference Arg1:T8 Arg2:T6	
+R2	Co-reference Arg1:T7 Arg2:T4	
+R3	Co-reference Arg1:T5 Arg2:T3	
+T9	Actor 263 266	zij
+T10	Actor 284 286	ze
+T11	Location 309 314	thuis
+R4	Co-reference Arg1:T11 Arg2:T8	
+R5	Co-reference Arg1:T10 Arg2:T9	
+R6	Co-reference Arg1:T9 Arg2:T7	
+T12	Actor 340 342	ze
+T13	Actor 347 350	koe
+T14	Actor 352 355	die
+T15	Actor 415 419	boer
+T16	Location 428 433	markt
+R7	Co-reference Arg1:T15 Arg2:T5	
+R8	Co-reference Arg1:T14 Arg2:T13	
+T17	Actor 446 448	Ze
+T18	Location 481 486	markt
+T19	Actor 493 499	Hannes
+R10	Co-reference Arg1:T19 Arg2:T15	
+R12	Co-reference Arg1:T17 Arg2:T12	
+R11	Co-reference Arg1:T12 Arg2:T5	
+T20	Actor 562 566	zijn
+T21	Actor 567 572	vrouw
+T22	Actor 573 576	hem
+T23	Actor 608 611	hij
+T24	Actor 635 642	kooplui
+T25	Actor 651 654	koe
+R13	Co-reference Arg1:T25 Arg2:T14	
+R14	Co-reference Arg1:T23 Arg2:T22	
+R15	Co-reference Arg1:T22 Arg2:T20	
+R16	Co-reference Arg1:T20 Arg2:T19	
+R17	Co-reference Arg1:T18 Arg2:T16	
+R18	Co-reference Arg1:T21 Arg2:T10	
+R9	Co-reference Arg1:T12 Arg2:T10	
+T26	Actor 676 678	Je
+T27	Actor 713 715	ze
+T28	Actor 733 735	ze
+T29	Actor 744 746	je
+R19	Co-reference Arg1:T28 Arg2:T24	
+R20	Co-reference Arg1:T29 Arg2:T26	
+R21	Co-reference Arg1:T26 Arg2:T23	
+R22	Co-reference Arg1:T27 Arg2:T21	
+T30	Actor 762 764	je
+T31	Actor 798 805	kooplui
+T32	Actor 873 875	je
+T33	Actor 879 882	koe
+R23	Co-reference Arg1:T32 Arg2:T30	
+R24	Co-reference Arg1:T30 Arg2:T29	
+R25	Co-reference Arg1:T31 Arg2:T28	
+R26	Co-reference Arg1:T33 Arg2:T25	
+T34	Actor 944 946	ze
+T35	Actor 982 984	je
+T36	Actor 989 994	beest
+T37	Actor 1016 1018	je
+T38	Actor 1046 1048	we
+R27	Co-reference Arg1:T37 Arg2:T35	
+R28	Co-reference Arg1:T34 Arg2:T31	
+R29	Co-reference Arg1:T36 Arg2:T33	
+R30	Co-reference Arg1:T38 Arg2:T17	
+T39	Actor 1097 1099	ze
+T40	Actor 1106 1112	ikzelf
+R31	Co-reference Arg1:T40 Arg2:T39	
+R32	Co-reference Arg1:T39 Arg2:T27	
+T41	Actor 1153 1155	je
+T42	Actor 1167 1170	man
+R33	Co-reference Arg1:T41 Arg2:T40	
+R34	Co-reference Arg1:T42 Arg2:T37	
+T43	Actor 1205 1211	Hannes
+T44	Actor 1212 1216	zich
+T45	Actor 1228 1231	hij
+T46	Actor 1274 1278	zijn
+T47	Actor 1279 1284	vrouw
+T48	Actor 1299 1302	hem
+R35	Co-reference Arg1:T48 Arg2:T46	
+R36	Co-reference Arg1:T46 Arg2:T45	
+R37	Co-reference Arg1:T45 Arg2:T44	
+R38	Co-reference Arg1:T44 Arg2:T43	
+R39	Co-reference Arg1:T43 Arg2:T42	
+R40	Co-reference Arg1:T47 Arg2:T41	
+T49	Actor 1313 1316	Hij
+T50	Location 1343 1348	markt
+R41	Co-reference Arg1:T49 Arg2:T48	
+R42	Co-reference Arg1:T50 Arg2:T18	
+T51	Actor 1417 1420	koe
+T52	Actor 1412 1416	zijn
+R43	Co-reference Arg1:T52 Arg2:T49	
+R44	Co-reference Arg1:T51 Arg2:T36	
+T53	Actor 1426 1431	beest
+T54	Actor 1464 1474	kooplieden
+R45	Co-reference Arg1:T54 Arg2:T34	
+R46	Co-reference Arg1:T53 Arg2:T51	
+T55	Actor 1509 1515	Hannes
+T56	Actor 1531 1534	hij
+T57	Actor 1560 1564	zijn
+T58	Actor 1565 1570	vrouw
+R47	Co-reference Arg1:T57 Arg2:T56	
+R48	Co-reference Arg1:T56 Arg2:T55	
+R49	Co-reference Arg1:T55 Arg2:T52	
+R50	Co-reference Arg1:T58 Arg2:T47	
+T59	Actor 1598 1604	Hannes
+T60	Actor 1605 1609	zelf
+T61	Actor 1640 1643	men
+T62	Actor 1644 1647	hem
+T63	Actor 1658 1661	hij
+T64	Actor 1693 1696	hij
+T65	Actor 1728 1730	Je
+T66	Actor 1739 1742	koe
+R51	Co-reference Arg1:T66 Arg2:T53	
+R52	Co-reference Arg1:T65 Arg2:T61	
+R53	Co-reference Arg1:T61 Arg2:T54	
+R54	Co-reference Arg1:T64 Arg2:T63	
+R55	Co-reference Arg1:T63 Arg2:T62	
+R56	Co-reference Arg1:T60 Arg2:T59	
+R57	Co-reference Arg1:T59 Arg2:T57	
+T67	Actor 1761 1768	kooplui
+R58	Co-reference Arg1:T67 Arg2:T65	
+T68	Actor 1787 1793	Hannes
+T69	Location 1829 1834	markt
+R59	Co-reference Arg1:T69 Arg2:T50	
+R60	Co-reference Arg1:T68 Arg2:T64	
+T70	Actor 1853 1856	hij
+T71	Actor 1866 1868	ik
+T72	Location 1882 1886	huis
+R61	Co-reference Arg1:T72 Arg2:T11	
+R62	Co-reference Arg1:T71 Arg2:T70	
+R63	Co-reference Arg1:T70 Arg2:T68	
+T73	Actor 1892 1899	Kooplui
+T74	Actor 1901 1904	die
+T75	Actor 1958 1962	mijn
+T76	Actor 1963 1968	vrouw
+T77	Actor 1980 1982	ik
+T78	Actor 1986 1989	koe
+T79	Location 1995 2000	thuis
+R64	Co-reference Arg1:T79 Arg2:T72	
+R65	Co-reference Arg1:T78 Arg2:T66	
+R66	Co-reference Arg1:T77 Arg2:T75	
+R67	Co-reference Arg1:T75 Arg2:T71	
+R68	Co-reference Arg1:T74 Arg2:T73	
+R69	Co-reference Arg1:T73 Arg2:T67	
+R70	Co-reference Arg1:T76 Arg2:T58	
+T80	Actor 2008 2010	Ze
+T81	Actor 2015 2017	me
+T82	Actor 2032 2038	domkop
+T83	Actor 2060 2062	ik
+T84	Actor 2081 2083	ze
+R71	Co-reference Arg1:T84 Arg2:T80	
+R72	Co-reference Arg1:T80 Arg2:T76	
+R73	Co-reference Arg1:T83 Arg2:T82	
+R74	Co-reference Arg1:T82 Arg2:T81	
+R75	Co-reference Arg1:T81 Arg2:T77	
+T85	Actor 2110 2116	Hannes
+T86	Actor 2134 2138	zijn
+T87	Actor 2139 2142	koe
+T88	Location 2148 2152	huis
+R76	Co-reference Arg1:T88 Arg2:T79	
+R77	Co-reference Arg1:T87 Arg2:T78	
+R78	Co-reference Arg1:T86 Arg2:T85	
+R79	Co-reference Arg1:T85 Arg2:T83	
+T89	Actor 2168 2171	hij
+T90	Location 2181 2185	dorp
+T91	Location 2211 2215	dorp
+T92	Location 2224 2230	kerkje
+R80	Co-reference Arg1:T91 Arg2:T90	
+R81	Co-reference Arg1:T89 Arg2:T86	
+T93	Actor 2274 2276	ik
+T94	Actor 2306 2309	hij
+T95	Actor 2326 2328	ik
+T96	Actor 2340 2347	koopman
+R82	Co-reference Arg1:T96 Arg2:T74	
+R83	Co-reference Arg1:T95 Arg2:T94	
+R84	Co-reference Arg1:T94 Arg2:T93	
+R85	Co-reference Arg1:T93 Arg2:T89	
+T97	Actor 2349 2355	Hannes
+T98	Actor 2369 2373	zijn
+T99	Actor 2374 2377	koe
+T100	Actor 2402 2407	beest
+T101	Location 2416 2424	kerkbank
+R86	Co-reference Arg1:T101 Arg2:T92	
+R87	Co-reference Arg1:T100 Arg2:T99	
+R88	Co-reference Arg1:T99 Arg2:T87	
+R89	Co-reference Arg1:T98 Arg2:T97	
+R90	Co-reference Arg1:T97 Arg2:T95	
+T102	Actor 2431 2434	Hij
+T103	Actor 2440 2444	zelf
+T104	Actor 2456 2459	hij
+T105	Actor 2464 2470	iemand
+T106	Actor 2478 2481	die
+T107	Actor 2541 2543	St
+R91	Co-reference Arg1:T107 Arg2:T106	
+R92	Co-reference Arg1:T106 Arg2:T105	
+R93	Co-reference Arg1:T104 Arg2:T103	
+R94	Co-reference Arg1:T103 Arg2:T102	
+R95	Co-reference Arg1:T102 Arg2:T98	
+T108	Actor 2555 2558	Het
+T109	Actor 2599 2603	Sint
+R96	Co-reference Arg1:T109 Arg2:T108	
+R97	Co-reference Arg1:T108 Arg2:T275	
+T110	Actor 2663 2667	zich
+R98	Co-reference Arg1:T110 Arg2:T276	
+T111	Actor 2676 2682	Hannes
+T112	Location 2700 2704	kerk
+R99	Co-reference Arg1:T112 Arg2:T101	
+T113	Actor 2716 2719	hij
+R100	Co-reference Arg1:T113 Arg2:T111	
+R101	Co-reference Arg1:T111 Arg2:T104	
+T114	Actor 2747 2750	Hij
+T115	Actor 2755 2759	Sint
+T116	Actor 2790 2804	varkenskoopman
+R102	Co-reference Arg1:T116 Arg2:T277	
+T117	Actor 2823 2826	hij
+T118	Actor 2849 2852	hij
+T119	Actor 2853 2857	mijn
+T120	Actor 2858 2861	koe
+T121	Actor 2831 2837	varken
+T122	Actor 2650 2656	varken
+R103	Co-reference Arg1:T121 Arg2:T122	
+R104	Co-reference Arg1:T114 Arg2:T113	
+R105	Co-reference Arg1:T115 Arg2:T110	
+R106	Co-reference Arg1:T117 Arg2:T116	
+R107	Co-reference Arg1:T118 Arg2:T117	
+R108	Co-reference Arg1:T119 Arg2:T114	
+R109	Co-reference Arg1:T120 Arg2:T100	
+T123	Actor 2885 2888	Hij
+T124	Actor 2961 2967	vriend
+T125	Actor 2977 2979	ik
+T126	Actor 2980 2982	je
+T127	Actor 2983 2987	mijn
+T128	Actor 2988 2991	koe
+R110	Co-reference Arg1:T127 Arg2:T125	
+R111	Co-reference Arg1:T125 Arg2:T123	
+R112	Co-reference Arg1:T123 Arg2:T119	
+R113	Co-reference Arg1:T126 Arg2:T124	
+T129	Actor 2912 2917	beeld
+R114	Co-reference Arg1:T129 Arg2:T118	
+R115	Co-reference Arg1:T124 Arg2:T129	
+T130	Actor 3018 3020	ze
+T131	Actor 3038 3043	beest
+R116	Co-reference Arg1:T131 Arg2:T130	
+R117	Co-reference Arg1:T130 Arg2:T128	
+R118	Co-reference Arg1:T128 Arg2:T120	
+T132	Actor 3085 3087	je
+T133	Actor 3099 3105	Hannes
+T134	Actor 3123 3125	je
+T135	Actor 3133 3135	je
+T136	Actor 3195 3197	je
+T137	Actor 3207 3212	beest
+T138	Actor 3296 3300	mijn
+T139	Actor 3301 3306	vrouw
+T140	Actor 3333 3335	ik
+T141	Actor 3403 3407	Sint
+T142	Actor 3436 3439	hij
+T143	Actor 3467 3473	Hannes
+T144	Actor 3481 3484	Hij
+T145	Actor 3508 3512	Sint
+T146	Actor 3526 3529	hij
+T147	Actor 3533 3537	zijn
+T148	Actor 3597 3601	zijn
+R119	Co-reference Arg1:T138 Arg2:T133	
+R120	Co-reference Arg1:T132 Arg2:T126	
+R121	Co-reference Arg1:T134 Arg2:T132	
+R122	Co-reference Arg1:T135 Arg2:T134	
+R123	Co-reference Arg1:T136 Arg2:T135	
+R124	Co-reference Arg1:T137 Arg2:T131	
+R125	Co-reference Arg1:T139 Arg2:T84	
+R126	Co-reference Arg1:T140 Arg2:T138	
+T149	Actor 3355 3357	je
+T150	Actor 3358 3362	haar
+R127	Co-reference Arg1:T150 Arg2:T137	
+R128	Co-reference Arg1:T149 Arg2:T136	
+R129	Co-reference Arg1:T141 Arg2:T149	
+R130	Co-reference Arg1:T142 Arg2:T278	
+R131	Co-reference Arg1:T143 Arg2:T140	
+R132	Co-reference Arg1:T144 Arg2:T143	
+R133	Co-reference Arg1:T145 Arg2:T142	
+R134	Co-reference Arg1:T146 Arg2:T279	
+R135	Co-reference Arg1:T147 Arg2:T146	
+T151	Actor 3489 3493	zijn
+R136	Co-reference Arg1:T151 Arg2:T144	
+R137	Co-reference Arg1:T148 Arg2:T147	
+T152	Actor 3635 3638	hij
+T153	Actor 3641 3643	ik
+T154	Actor 3657 3659	je
+T155	Actor 3660 3664	mijn
+T156	Actor 3665 3668	koe
+T157	Actor 3708 3710	ik
+T158	Actor 3711 3713	je
+R138	Co-reference Arg1:T158 Arg2:T154	
+R139	Co-reference Arg1:T154 Arg2:T148	
+R140	Co-reference Arg1:T157 Arg2:T155	
+R141	Co-reference Arg1:T155 Arg2:T153	
+R142	Co-reference Arg1:T153 Arg2:T152	
+R143	Co-reference Arg1:T152 Arg2:T151	
+R144	Co-reference Arg1:T156 Arg2:T150	
+T159	Actor 3743 3746	hij
+T160	Actor 3747 3751	zijn
+T161	Location 3779 3783	huis
+R145	Co-reference Arg1:T161 Arg2:T88	
+R146	Co-reference Arg1:T160 Arg2:T159	
+R147	Co-reference Arg1:T159 Arg2:T157	
+T162	Actor 3785 3788	Hij
+T163	Actor 3801 3804	hij
+T164	Actor 3816 3820	zijn
+T165	Actor 3821 3826	vrouw
+T166	Actor 3876 3878	je
+T167	Actor 3901 3907	Hannes
+R148	Co-reference Arg1:T162 Arg2:T160	
+R149	Co-reference Arg1:T163 Arg2:T162	
+R150	Co-reference Arg1:T164 Arg2:T163	
+R151	Co-reference Arg1:T165 Arg2:T139	
+R152	Co-reference Arg1:T166 Arg2:T165	
+R153	Co-reference Arg1:T167 Arg2:T164	
+T168	Actor 3920 3925	vrouw
+R154	Co-reference Arg1:T168 Arg2:T166	
+T169	Actor 3954 3956	ze
+R155	Co-reference Arg1:T169 Arg2:T168	
+T170	Actor 3986 3988	Ze
+R156	Co-reference Arg1:T170 Arg2:T169	
+T171	Actor 4027 4033	Hannes
+T172	Actor 4079 4082	koe
+T173	Actor 4104 4111	koopman
+T174	Actor 4132 4134	ze
+T175	Actor 4190 4196	Hannes
+R157	Co-reference Arg1:T175 Arg2:T171	
+R158	Co-reference Arg1:T171 Arg2:T167	
+R159	Co-reference Arg1:T174 Arg2:T170	
+R160	Co-reference Arg1:T172 Arg2:T156	
+R161	Co-reference Arg1:T173 Arg2:T158	
+T176	Actor 4219 4225	Hannes
+R162	Co-reference Arg1:T176 Arg2:T175	
+T177	Location 4297 4301	kerk
+T178	Actor 4327 4330	hij
+T179	Actor 4339 4343	haar
+T180	Actor 4336 4338	ik
+T181	Actor 4355 4357	ik
+T182	Actor 4361 4368	koopman
+T183	Actor 4391 4393	ze
+T184	Actor 4394 4396	me
+T185	Actor 4416 4419	Hij
+T186	Actor 4447 4461	varkenskoopman
+T187	Actor 4439 4442	het
+T188	Actor 4473 4476	die
+T189	Actor 4477 4480	hem
+R163	Co-reference Arg1:T188 Arg2:T186	
+R164	Co-reference Arg1:T177 Arg2:T112	
+R165	Co-reference Arg1:T178 Arg2:T176	
+R166	Co-reference Arg1:T180 Arg2:T178	
+R167	Co-reference Arg1:T179 Arg2:T174	
+R168	Co-reference Arg1:T181 Arg2:T180	
+R169	Co-reference Arg1:T182 Arg2:T173	
+R170	Co-reference Arg1:T183 Arg2:T179	
+R171	Co-reference Arg1:T184 Arg2:T181	
+R172	Co-reference Arg1:T185 Arg2:T184	
+R173	Co-reference Arg1:T187 Arg2:T182	
+R174	Co-reference Arg1:T186 Arg2:T187	
+R175	Co-reference Arg1:T189 Arg2:T185	
+T190	Actor 4590 4596	Hannes
+T191	Location 4600 4604	kerk
+T192	Actor 4628 4634	koster
+R176	Co-reference Arg1:T191 Arg2:T177	
+R177	Co-reference Arg1:T190 Arg2:T189	
+T193	Actor 4658 4661	Hij
+T194	Actor 4676 4680	zijn
+T195	Actor 4695 4698	koe
+T196	Actor 4731 4734	hij
+T197	Location 4667 4671	daar
+R178	Co-reference Arg1:T197 Arg2:T191	
+R179	Co-reference Arg1:T193 Arg2:T192	
+R180	Co-reference Arg1:T194 Arg2:T193	
+R181	Co-reference Arg1:T195 Arg2:T172	
+R182	Co-reference Arg1:T196 Arg2:T194	
+T198	Actor 4785 4789	Sint
+T199	Actor 4813 4816	hem
+T200	Actor 4856 4861	beeld
+R183	Co-reference Arg1:T200 Arg2:T280	
+T201	Actor 4871 4874	hij
+T202	Actor 4875 4879	zijn
+R184	Co-reference Arg1:T202 Arg2:T201	
+R185	Co-reference Arg1:T201 Arg2:T199	
+R186	Co-reference Arg1:T199 Arg2:T196	
+R187	Co-reference Arg1:T198 Arg2:T188	
+T203	Actor 4939 4942	Hij
+R188	Co-reference Arg1:T203 Arg2:T202	
+T204	Actor 5072 5075	hij
+T205	Actor 5083 5090	pastoor
+T206	Actor 5111 5114	hem
+T207	Actor 5144 5147	koe
+T208	Location 5154 5158	kerk
+R189	Co-reference Arg1:T208 Arg2:T197	
+R190	Co-reference Arg1:T207 Arg2:T195	
+R191	Co-reference Arg1:T206 Arg2:T205	
+R192	Co-reference Arg1:T204 Arg2:T203	
+T209	Actor 5169 5176	pastoor
+R193	Co-reference Arg1:T209 Arg2:T206	
+T210	Actor 5310 5313	hij
+R194	Co-reference Arg1:T210 Arg2:T209	
+T211	Actor 5343 5346	koe
+T212	Location 5386 5390	kerk
+R195	Co-reference Arg1:T212 Arg2:T208	
+R196	Co-reference Arg1:T211 Arg2:T207	
+T213	Actor 5478 5484	koster
+T214	Actor 5510 5517	pastoor
+R197	Co-reference Arg1:T214 Arg2:T210	
+R198	Co-reference Arg1:T213 Arg2:T204	
+T215	Actor 5549 5560	veldwachter
+T216	Actor 5567 5570	hij
+R199	Co-reference Arg1:T216 Arg2:T214	
+T217	Actor 5633 5639	koster
+R200	Co-reference Arg1:T217 Arg2:T213	
+T218	Actor 5587 5590	die
+R201	Co-reference Arg1:T218 Arg2:T215	
+T219	Actor 5207 5213	Dieven
+T220	Actor 5215 5218	die
+R202	Co-reference Arg1:T220 Arg2:T219	
+T221	Actor 5415 5419	dief
+R203	Co-reference Arg1:T221 Arg2:T220	
+T222	Actor 5594 5598	dief
+T223	Actor 5450 5453	hij
+R204	Co-reference Arg1:T223 Arg2:T221	
+R205	Co-reference Arg1:T222 Arg2:T223	
+T224	Actor 5679 5682	hij
+T225	Actor 5694 5699	vrouw
+T226	Actor 5714 5716	ze
+T227	Actor 5717 5719	me
+T228	Actor 5752 5754	ik
+T229	Actor 5788 5792	mijn
+T230	Actor 5793 5798	vrouw
+R206	Co-reference Arg1:T230 Arg2:T226	
+R207	Co-reference Arg1:T226 Arg2:T225	
+R208	Co-reference Arg1:T229 Arg2:T228	
+R209	Co-reference Arg1:T228 Arg2:T227	
+R210	Co-reference Arg1:T227 Arg2:T224	
+R211	Co-reference Arg1:T224 Arg2:T217	
+T231	Actor 5841 5848	pastoor
+T232	Actor 5863 5866	koe
+T233	Actor 5892 5894	je
+T234	Actor 5926 5929	mij
+T235	Actor 5942 5944	je
+T236	Actor 5959 5961	je
+R212	Co-reference Arg1:T236 Arg2:T235	
+R213	Co-reference Arg1:T235 Arg2:T233	
+T237	Actor 5895 5900	vrouw
+R214	Co-reference Arg1:T237 Arg2:T230	
+R215	Co-reference Arg1:T234 Arg2:T231	
+R216	Co-reference Arg1:T231 Arg2:T216	
+R217	Co-reference Arg1:T232 Arg2:T211	
+T238	Actor 6003 6009	koster
+T239	Actor 6022 6025	koe
+T240	Location 6026 6031	thuis
+T241	Actor 6035 6039	zijn
+T242	Actor 6040 6045	vrouw
+T243	Actor 6121 6128	pastoor
+T244	Actor 6174 6178	haar
+T245	Actor 6179 6182	man
+T246	Actor 6224 6226	ze
+T247	Actor 6240 6244	zelf
+T248	Actor 6252 6259	pastoor
+R218	Co-reference Arg1:T248 Arg2:T243	
+R219	Co-reference Arg1:T243 Arg2:T234	
+R220	Co-reference Arg1:T242 Arg2:T237	
+R221	Co-reference Arg1:T241 Arg2:T238	
+R222	Co-reference Arg1:T238 Arg2:T236	
+R223	Co-reference Arg1:T239 Arg2:T232	
+R224	Co-reference Arg1:T244 Arg2:T242	
+R225	Co-reference Arg1:T245 Arg2:T241	
+R226	Co-reference Arg1:T246 Arg2:T244	
+R227	Co-reference Arg1:T247 Arg2:T246	
+T249	Actor 6277 6280	koe
+T250	Actor 6306 6311	vrouw
+T251	Actor 6329 6334	beest
+R228	Co-reference Arg1:T251 Arg2:T249	
+T252	Actor 6084 6092	geschenk
+R229	Co-reference Arg1:T252 Arg2:T239	
+R230	Co-reference Arg1:T249 Arg2:T252	
+T253	Actor 6359 6361	Ze
+T254	Actor 6457 6459	ze
+T255	Actor 6475 6478	koe
+R231	Co-reference Arg1:T255 Arg2:T251	
+R232	Co-reference Arg1:T250 Arg2:T247	
+R233	Co-reference Arg1:T254 Arg2:T253	
+R234	Co-reference Arg1:T253 Arg2:T250	
+T256	Actor 6490 6494	dier
+T257	Actor 6532 6537	beest
+T258	Actor 6544 6549	vrouw
+T259	Actor 6551 6554	die
+T260	Actor 6611 6613	ze
+R235	Co-reference Arg1:T260 Arg2:T259	
+R236	Co-reference Arg1:T259 Arg2:T258	
+R237	Co-reference Arg1:T258 Arg2:T254	
+R238	Co-reference Arg1:T257 Arg2:T256	
+R239	Co-reference Arg1:T256 Arg2:T255	
+T261	Actor 6672 6674	ze
+R240	Co-reference Arg1:T261 Arg2:T260	
+R241	Co-reference Arg1:T261 Arg2:T245	
+T262	Actor 6721 6724	koe
+T263	Actor 6750 6752	ze
+R242	Co-reference Arg1:T263 Arg2:T261	
+T264	Actor 6794 6800	koster
+T265	Actor 6816 6819	man
+R243	Co-reference Arg1:T265 Arg2:T264	
+R244	Co-reference Arg1:T264 Arg2:T245	
+T266	Location 6859 6868	boerderij
+T267	Actor 6873 6879	Hannes
+T268	Actor 6907 6912	vrouw
+T269	Actor 6962 6965	zij
+T270	Actor 6966 6969	hem
+T271	Actor 6997 7000	hij
+T272	Actor 7017 7020	hij
+T273	Actor 7133 7136	koe
+T274	Actor 7141 7145	Sint
+R245	Co-reference Arg1:T273 Arg2:T257	
+R246	Co-reference Arg1:T274 Arg2:T200	
+R247	Co-reference Arg1:T272 Arg2:T271	
+R248	Co-reference Arg1:T271 Arg2:T270	
+R249	Co-reference Arg1:T270 Arg2:T267	
+R250	Co-reference Arg1:T267 Arg2:T190	
+R251	Co-reference Arg1:T268 Arg2:T183	
+R252	Co-reference Arg1:T266 Arg2:T161	
+R253	Co-reference Arg1:T35 Arg2:T32	
+R254	Co-reference Arg1:T62 Arg2:T60	
+T275	Actor 2545 2553	Antonius
+R255	Co-reference Arg1:T275 Arg2:T107	
+T276	Actor 2604 2612	Antonius
+R256	Co-reference Arg1:T276 Arg2:T109	
+T277	Actor 2760 2768	Antonius
+R257	Co-reference Arg1:T277 Arg2:T115	
+R258	Co-reference Arg1:T133 Arg2:T127	
+T278	Actor 3408 3416	Antonius
+R259	Co-reference Arg1:T278 Arg2:T141	
+T279	Actor 3513 3521	Antonius
+R260	Co-reference Arg1:T279 Arg2:T145	
+T280	Actor 4790 4798	Antonius
+R261	Co-reference Arg1:T280 Arg2:T198	
+R262	Co-reference Arg1:T269 Arg2:T268	
+T281	Actor 7146 7154	Antonius
+R263	Co-reference Arg1:T281 Arg2:T274	

@@ -1,0 +1,215 @@
+T1	Title 0 29	HET KRUISJE VAN FIDELDIDELDOM
+T2	Actor 48 54	koning
+T3	Actor 62 70	koningin
+T4	Actor 81 92	dochtertjes
+T5	Actor 106 116	prinsesjes
+T6	Actor 72 75	die
+R1	Co-reference Arg1:T6 Arg2:T3	
+R2	Co-reference Arg1:T6 Arg2:T2	
+R3	Co-reference Arg1:T5 Arg2:T4	
+T7	Actor 134 137	hun
+R4	Co-reference Arg1:T7 Arg2:T5	
+T8	Actor 138 143	vader
+T9	Actor 148 154	koning
+T10	Actor 162 165	hen
+T11	Actor 168 176	Kinderen
+T12	Actor 178 180	ik
+T13	Actor 210 213	hij
+T14	Actor 221 227	oudste
+T15	Actor 239 241	ik
+T16	Actor 247 249	je
+R5	Co-reference Arg1:T16 Arg2:T14	
+R6	Co-reference Arg1:T15 Arg2:T13	
+R7	Co-reference Arg1:T13 Arg2:T12	
+R8	Co-reference Arg1:T12 Arg2:T9	
+R9	Co-reference Arg1:T9 Arg2:T8	
+R10	Co-reference Arg1:T11 Arg2:T10	
+R11	Co-reference Arg1:T10 Arg2:T7	
+T17	Actor 271 276	vader
+T18	Actor 282 284	je
+T19	Actor 318 320	ik
+T20	Actor 339 341	je
+T21	Actor 366 368	me
+T22	Actor 407 409	ik
+T23	Actor 415 418	jou
+T24	Actor 438 441	mij
+T25	Actor 469 478	middelste
+R12	Co-reference Arg1:T17 Arg2:T15	
+R13	Co-reference Arg1:T18 Arg2:T17	
+R14	Co-reference Arg1:T19 Arg2:T18	
+R15	Co-reference Arg1:T20 Arg2:T16	
+R16	Co-reference Arg1:T21 Arg2:T20	
+R17	Co-reference Arg1:T22 Arg2:T19	
+R18	Co-reference Arg1:T24 Arg2:T23	
+R19	Co-reference Arg1:T25 Arg2:T24	
+T26	Actor 504 510	koning
+T27	Actor 530 540	dochtertje
+T28	Actor 552 554	ik
+T29	Actor 560 563	jou
+R20	Co-reference Arg1:T26 Arg2:T22	
+R21	Co-reference Arg1:T28 Arg2:T26	
+R22	Co-reference Arg1:T29 Arg2:T27	
+T30	Actor 584 589	vader
+R23	Co-reference Arg1:T30 Arg2:T28	
+T31	Actor 634 636	je
+R24	Co-reference Arg1:T31 Arg2:T29	
+T32	Actor 718 723	vader
+T33	Actor 745 748	hij
+T34	Actor 764 767	hij
+T35	Actor 787 798	dochtertjes
+T36	Actor 803 805	ze
+T37	Actor 806 809	hem
+R25	Co-reference Arg1:T32 Arg2:T30	
+R26	Co-reference Arg1:T33 Arg2:T32	
+R27	Co-reference Arg1:T34 Arg2:T33	
+R28	Co-reference Arg1:T35 Arg2:T11	
+R29	Co-reference Arg1:T36 Arg2:T35	
+R30	Co-reference Arg1:T37 Arg2:T108	
+T38	Actor 839 841	ze
+T39	Actor 869 884	de twee oudsten
+T40	Actor 919 921	ze
+T41	Actor 949 957	koningin
+T42	Actor 982 986	zijn
+T43	Actor 971 976	Ieder
+R31	Co-reference Arg1:T42 Arg2:T43	
+R32	Co-reference Arg1:T43 Arg2:T38	
+R33	Co-reference Arg1:T40 Arg2:T39	
+R35	Co-reference Arg1:T38 Arg2:T36	
+R36	Co-reference Arg1:T41 Arg2:T3	
+T44	Actor 1051 1066	de twee oudsten
+R37	Co-reference Arg1:T44 Arg2:T40	
+T45	Actor 1090 1097	jongste
+T46	Actor 1103 1105	je
+R38	Co-reference Arg1:T45 Arg2:T31	
+R39	Co-reference Arg1:T46 Arg2:T45	
+T47	Actor 1121 1123	Ze
+T48	Actor 1159 1161	ze
+T49	Actor 1162 1166	haar
+R40	Co-reference Arg1:T48 Arg2:T47	
+R41	Co-reference Arg1:T47 Arg2:T44	
+R42	Co-reference Arg1:T49 Arg2:T46	
+T50	Actor 1203 1205	ze
+R43	Co-reference Arg1:T50 Arg2:T48	
+T51	Location 1230 1233	bos
+T52	Actor 1247 1249	ze
+R44	Co-reference Arg1:T52 Arg2:T50	
+T53	Actor 1266 1270	haar
+R45	Co-reference Arg1:T53 Arg2:T49	
+T54	Actor 1292 1295	hun
+R46	Co-reference Arg1:T54 Arg2:T52	
+T55	Actor 1319 1323	haar
+R47	Co-reference Arg1:T55 Arg2:T53	
+T56	Actor 1358 1360	ze
+T57	Actor 1383 1387	haar
+T58	Location 1408 1412	huis
+R48	Co-reference Arg1:T57 Arg2:T55	
+R49	Co-reference Arg1:T56 Arg2:T54	
+T59	Actor 1417 1425	koningin
+R50	Co-reference Arg1:T59 Arg2:T41	
+T60	Actor 1453 1463	dochtertje
+T61	Actor 1485 1492	oudsten
+T62	Actor 1503 1505	je
+T63	Actor 1506 1511	zusje
+T64	Actor 1514 1516	Ik
+T65	Actor 1540 1542	ze
+T66	Actor 1545 1547	we
+T67	Actor 1555 1559	haar
+T68	Actor 1574 1576	Ze
+T69	Actor 1585 1589	haar
+T70	Actor 1635 1637	ze
+T71	Actor 1638 1642	haar
+T72	Actor 1668 1675	knechts
+T73	Actor 1679 1685	meiden
+T74	Actor 1692 1698	koning
+T75	Actor 1699 1703	zelf
+T76	Actor 1720 1724	haar
+T77	Actor 1738 1740	ze
+T78	Actor 1749 1753	haar
+T79	Actor 1779 1783	haar
+T80	Actor 1809 1811	ze
+T81	Location 1838 1841	bos
+T82	Actor 1866 1868	ze
+T83	Actor 1938 1942	mijn
+T84	Actor 1943 1950	zusters
+T85	Actor 1951 1954	mij
+T86	Actor 1969 1975	koning
+T87	Actor 2007 2010	hij
+T88	Actor 2029 2033	zijn
+T89	Actor 2042 2052	dochtertje
+T90	Actor 2073 2076	hij
+T91	Actor 2077 2081	haar
+T92	Actor 2094 2098	haar
+T93	Actor 2129 2133	haar
+T94	Location 2143 2150	kasteel
+T95	Actor 2166 2174	koningin
+T96	Actor 2180 2182	ze
+T97	Actor 2209 2211	ze
+T98	Actor 2229 2235	koning
+T99	Actor 2242 2250	koningin
+T100	Actor 2275 2277	ze
+T101	Actor 2320 2323	hun
+T102	Actor 2332 2336	kind
+T103	Actor 2361 2371	prinsesjes
+R51	Co-reference Arg1:T60 Arg2:T57	
+R52	Co-reference Arg1:T61 Arg2:T56	
+R53	Co-reference Arg1:T62 Arg2:T61	
+R54	Co-reference Arg1:T63 Arg2:T60	
+R55	Co-reference Arg1:T64 Arg2:T62	
+R56	Co-reference Arg1:T65 Arg2:T64	
+R57	Co-reference Arg1:T66 Arg2:T65	
+R58	Co-reference Arg1:T67 Arg2:T63	
+R59	Co-reference Arg1:T68 Arg2:T59	
+R60	Co-reference Arg1:T69 Arg2:T67	
+R61	Co-reference Arg1:T70 Arg2:T68	
+R62	Co-reference Arg1:T71 Arg2:T69	
+R63	Co-reference Arg1:T74 Arg2:T37	
+R64	Co-reference Arg1:T75 Arg2:T74	
+R65	Co-reference Arg1:T76 Arg2:T71	
+R66	Co-reference Arg1:T77 Arg2:T75	
+R67	Co-reference Arg1:T77 Arg2:T73	
+R68	Co-reference Arg1:T77 Arg2:T72	
+R69	Co-reference Arg1:T78 Arg2:T76	
+R70	Co-reference Arg1:T79 Arg2:T78	
+R71	Co-reference Arg1:T80 Arg2:T77	
+T104	Location 1713 1716	bos
+R73	Co-reference Arg1:T81 Arg2:T104	
+T105	Location 1604 1610	paleis
+T106	Location 1620 1626	tuinen
+R72	Co-reference Arg1:T105 Arg2:T58	
+R74	Co-reference Arg1:T104 Arg2:T51	
+R75	Co-reference Arg1:T82 Arg2:T80	
+R76	Co-reference Arg1:T83 Arg2:T79	
+R77	Co-reference Arg1:T84 Arg2:T66	
+R78	Co-reference Arg1:T85 Arg2:T83	
+R79	Co-reference Arg1:T86 Arg2:T75	
+R80	Co-reference Arg1:T87 Arg2:T86	
+R81	Co-reference Arg1:T88 Arg2:T87	
+R82	Co-reference Arg1:T89 Arg2:T85	
+T107	Actor 2061 2065	Zelf
+R83	Co-reference Arg1:T107 Arg2:T88	
+R84	Co-reference Arg1:T90 Arg2:T107	
+R85	Co-reference Arg1:T91 Arg2:T89	
+R86	Co-reference Arg1:T92 Arg2:T91	
+R87	Co-reference Arg1:T93 Arg2:T92	
+R88	Co-reference Arg1:T94 Arg2:T105	
+R89	Co-reference Arg1:T95 Arg2:T109	
+R90	Co-reference Arg1:T96 Arg2:T93	
+R91	Co-reference Arg1:T97 Arg2:T96	
+R92	Co-reference Arg1:T98 Arg2:T90	
+R93	Co-reference Arg1:T99 Arg2:T95	
+R94	Co-reference Arg1:T100 Arg2:T99	
+R95	Co-reference Arg1:T100 Arg2:T98	
+R96	Co-reference Arg1:T101 Arg2:T100	
+R97	Co-reference Arg1:T102 Arg2:T97	
+R98	Co-reference Arg1:T103 Arg2:T84	
+R99	Co-reference Arg1:T8 Arg2:T2	
+R100	Co-reference Arg1:T4 Arg2:T14	
+R101	Co-reference Arg1:T4 Arg2:T23	
+R102	Co-reference Arg1:T4 Arg2:T27	
+T108	Actor 782 786	zijn
+R103	Co-reference Arg1:T108 Arg2:T34	
+T109	Actor 1440 1444	haar
+R34	Co-reference Arg1:T109 Arg2:T59	
+R104	Co-reference Arg1:T68 Arg2:T66	
+R105	Co-reference Arg1:T39 Arg2:T25	
+R106	Co-reference Arg1:T39 Arg2:T16	

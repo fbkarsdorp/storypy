@@ -1,0 +1,234 @@
+T1	Title 0 48	DE MAN DIE OP ZOEK GING NAAR DE RECHTVAARDIGHEID
+T2	Actor 65 68	man
+T3	Actor 69 72	die
+T4	Actor 192 195	hij
+T5	Actor 253 256	hij
+R1	Co-reference Arg1:T5 Arg2:T4	
+R2	Co-reference Arg1:T4 Arg2:T3	
+R3	Co-reference Arg1:T3 Arg2:T2	
+T6	Actor 295 298	hij
+T7	Actor 330 333	hij
+T8	Actor 386 389	hij
+R4	Co-reference Arg1:T8 Arg2:T7	
+R5	Co-reference Arg1:T7 Arg2:T6	
+R6	Co-reference Arg1:T6 Arg2:T5	
+T9	Actor 457 460	hij
+T10	Actor 492 504	dienstknecht
+R7	Co-reference Arg1:T10 Arg2:T9	
+T11	Actor 538 541	hij
+R8	Co-reference Arg1:T11 Arg2:T117	
+R9	Co-reference Arg1:T9 Arg2:T8	
+T12	Actor 595 598	Hij
+T13	Actor 620 623	hij
+T14	Actor 654 657	hij
+T15	Actor 662 666	heer
+R10	Co-reference Arg1:T14 Arg2:T13	
+R11	Co-reference Arg1:T13 Arg2:T12	
+R12	Co-reference Arg1:T12 Arg2:T11	
+T16	Actor 725 729	heer
+R13	Co-reference Arg1:T16 Arg2:T15	
+T17	Actor 734 737	hem
+T18	Actor 757 760	hem
+T19	Actor 766 769	hij
+R14	Co-reference Arg1:T17 Arg2:T14	
+R15	Co-reference Arg1:T18 Arg2:T17	
+R16	Co-reference Arg1:T19 Arg2:T18	
+T20	Actor 796 799	hij
+T21	Actor 802 804	ik
+T22	Actor 871 877	knecht
+T23	Actor 911 914	mij
+T24	Actor 936 940	heer
+T25	Actor 948 950	ik
+R17	Co-reference Arg1:T25 Arg2:T24	
+R18	Co-reference Arg1:T24 Arg2:T23	
+R19	Co-reference Arg1:T23 Arg2:T16	
+R20	Co-reference Arg1:T22 Arg2:T21	
+R21	Co-reference Arg1:T21 Arg2:T20	
+R22	Co-reference Arg1:T20 Arg2:T19	
+T26	Actor 1004 1007	man
+T27	Actor 1019 1020	u
+T28	Actor 1028 1030	Ik
+T29	Actor 1047 1051	heer
+T30	Actor 1058 1060	je
+T31	Actor 1061 1064	mij
+T32	Actor 1079 1081	Ik
+T33	Actor 1089 1095	duivel
+R23	Co-reference Arg1:T28 Arg2:T27	
+R24	Co-reference Arg1:T26 Arg2:T22	
+R25	Co-reference Arg1:T27 Arg2:T25	
+R26	Co-reference Arg1:T29 Arg2:T28	
+R27	Co-reference Arg1:T30 Arg2:T26	
+R28	Co-reference Arg1:T31 Arg2:T29	
+R29	Co-reference Arg1:T32 Arg2:T31	
+R30	Co-reference Arg1:T33 Arg2:T32	
+T34	Actor 1107 1109	ik
+T35	Actor 1110 1112	uw
+T36	Actor 1113 1119	knecht
+T37	Actor 1141 1144	man
+R31	Co-reference Arg1:T37 Arg2:T36	
+R32	Co-reference Arg1:T36 Arg2:T34	
+R33	Co-reference Arg1:T34 Arg2:T30	
+R34	Co-reference Arg1:T35 Arg2:T33	
+T38	Actor 1186 1187	U
+T39	Actor 1250 1256	duivel
+T40	Actor 1243 1246	hij
+R35	Co-reference Arg1:T39 Arg2:T38	
+R36	Co-reference Arg1:T38 Arg2:T35	
+R37	Co-reference Arg1:T40 Arg2:T37	
+T41	Actor 1363 1367	heer
+T42	Actor 1378 1381	hem
+T43	Actor 1342 1345	hij
+T44	Actor 1302 1305	hij
+T45	Actor 1393 1396	hij
+R38	Co-reference Arg1:T45 Arg2:T42	
+R39	Co-reference Arg1:T42 Arg2:T43	
+R40	Co-reference Arg1:T43 Arg2:T44	
+R41	Co-reference Arg1:T44 Arg2:T40	
+T46	Actor 1374 1377	die
+R42	Co-reference Arg1:T46 Arg2:T41	
+T47	Actor 1413 1415	Ik
+T48	Actor 1462 1465	hij
+T49	Actor 1475 1479	heer
+R43	Co-reference Arg1:T49 Arg2:T46	
+R44	Co-reference Arg1:T48 Arg2:T47	
+R45	Co-reference Arg1:T47 Arg2:T45	
+T50	Actor 1490 1492	ik
+T51	Actor 1500 1503	man
+T52	Actor 1514 1518	heer
+T53	Actor 1538 1541	mij
+R46	Co-reference Arg1:T53 Arg2:T52	
+R47	Co-reference Arg1:T52 Arg2:T50	
+R48	Co-reference Arg1:T50 Arg2:T49	
+R49	Co-reference Arg1:T51 Arg2:T48	
+T54	Actor 1583 1586	man
+T55	Actor 1589 1591	ik
+T56	Actor 1613 1614	u
+R50	Co-reference Arg1:T56 Arg2:T53	
+R51	Co-reference Arg1:T55 Arg2:T54	
+R52	Co-reference Arg1:T54 Arg2:T51	
+T57	Actor 1623 1625	Ik
+T58	Actor 1630 1645	Onze Lieve Heer
+R53	Co-reference Arg1:T58 Arg2:T57	
+R54	Co-reference Arg1:T57 Arg2:T56	
+T59	Actor 1679 1682	man
+R55	Co-reference Arg1:T59 Arg2:T55	
+T60	Actor 1692 1707	Onze Lieve Heer
+T61	Actor 1690 1691	u
+R56	Co-reference Arg1:T60 Arg2:T61	
+R57	Co-reference Arg1:T61 Arg2:T58	
+T62	Actor 1717 1719	ik
+T63	Actor 1729 1730	u
+R58	Co-reference Arg1:T63 Arg2:T60	
+R59	Co-reference Arg1:T62 Arg2:T59	
+T64	Actor 1740 1741	U
+R60	Co-reference Arg1:T64 Arg2:T63	
+T65	Actor 1883 1886	hij
+R61	Co-reference Arg1:T65 Arg2:T62	
+T66	Actor 1919 1934	Onze Lieve Heer
+R62	Co-reference Arg1:T66 Arg2:T64	
+T67	Actor 1947 1950	hij
+T68	Actor 1993 1996	hij
+T69	Actor 2009 2013	heer
+T70	Actor 2024 2027	hem
+T71	Actor 2039 2042	hij
+R63	Co-reference Arg1:T71 Arg2:T70	
+R64	Co-reference Arg1:T70 Arg2:T68	
+R65	Co-reference Arg1:T68 Arg2:T67	
+R66	Co-reference Arg1:T67 Arg2:T65	
+T72	Actor 2020 2023	die
+R67	Co-reference Arg1:T72 Arg2:T69	
+T73	Actor 2056 2058	Ik
+T74	Actor 2108 2110	ik
+T75	Actor 2118 2124	duivel
+T76	Actor 2143 2158	Onze Lieve Heer
+T77	Actor 2173 2176	die
+R68	Co-reference Arg1:T77 Arg2:T76	
+R69	Co-reference Arg1:T77 Arg2:T75	
+R70	Co-reference Arg1:T74 Arg2:T73	
+R71	Co-reference Arg1:T73 Arg2:T71	
+R72	Co-reference Arg1:T75 Arg2:T39	
+R73	Co-reference Arg1:T76 Arg2:T66	
+T78	Actor 2205 2207	Ik
+T79	Actor 2223 2225	je
+T80	Actor 2241 2245	heer
+R74	Co-reference Arg1:T80 Arg2:T78	
+R75	Co-reference Arg1:T78 Arg2:T72	
+R76	Co-reference Arg1:T79 Arg2:T74	
+T81	Actor 2248 2249	U
+R77	Co-reference Arg1:T81 Arg2:T80	
+T82	Actor 2268 2269	u
+R78	Co-reference Arg1:T82 Arg2:T81	
+T83	Actor 2277 2279	Ik
+R79	Co-reference Arg1:T83 Arg2:T82	
+T84	Actor 2284 2296	Piet de dood
+R80	Co-reference Arg1:T84 Arg2:T83	
+T85	Actor 2307 2309	ik
+T86	Actor 2314 2315	u
+T87	Actor 2328 2331	man
+R81	Co-reference Arg1:T87 Arg2:T85	
+R82	Co-reference Arg1:T85 Arg2:T79	
+R83	Co-reference Arg1:T86 Arg2:T84	
+T88	Actor 2424 2427	hij
+T89	Actor 2440 2454	Pietje de dood
+R84	Co-reference Arg1:T89 Arg2:T86	
+T90	Actor 2459 2465	knecht
+R85	Co-reference Arg1:T90 Arg2:T88	
+R86	Co-reference Arg1:T88 Arg2:T87	
+T91	Actor 2477 2481	Piet
+R87	Co-reference Arg1:T91 Arg2:T89	
+T92	Actor 2495 2498	hij
+R88	Co-reference Arg1:T92 Arg2:T90	
+T93	Actor 2506 2509	hem
+R89	Co-reference Arg1:T93 Arg2:T91	
+T94	Actor 2516 2518	ze
+R90	Co-reference Arg1:T94 Arg2:T93	
+R91	Co-reference Arg1:T94 Arg2:T92	
+T95	Actor 2555 2557	ze
+T96	Location 2577 2583	kelder
+R92	Co-reference Arg1:T95 Arg2:T94	
+T97	Location 2594 2600	kelder
+R93	Co-reference Arg1:T97 Arg2:T96	
+T98	Actor 2765 2768	man
+R94	Co-reference Arg1:T98 Arg2:T92	
+T99	Actor 2784 2788	dood
+R95	Co-reference Arg1:T99 Arg2:T93	
+T100	Actor 2898 2901	man
+R96	Co-reference Arg1:T100 Arg2:T98	
+T101	Actor 2913 2914	u
+R97	Co-reference Arg1:T101 Arg2:T99	
+T102	Actor 3013 3017	dood
+R98	Co-reference Arg1:T102 Arg2:T120	
+T103	Actor 3071 3073	Ze
+R99	Co-reference Arg1:T103 Arg2:T95	
+T104	Location 3102 3108	kelder
+T105	Actor 3289 3291	ik
+R100	Co-reference Arg1:T105 Arg2:T100	
+T106	Actor 3326 3329	man
+R101	Co-reference Arg1:T106 Arg2:T105	
+T107	Actor 3336 3338	ik
+R102	Co-reference Arg1:T107 Arg2:T106	
+T108	Actor 3385 3390	jouwe
+R103	Co-reference Arg1:T108 Arg2:T107	
+T109	Actor 3400 3404	dood
+R104	Co-reference Arg1:T109 Arg2:T102	
+T110	Actor 3442 3445	man
+R105	Co-reference Arg1:T110 Arg2:T108	
+T111	Actor 3496 3510	Pietje de dood
+R106	Co-reference Arg1:T111 Arg2:T109	
+T112	Actor 3548 3553	kerel
+R107	Co-reference Arg1:T112 Arg2:T118	
+T113	Location 3572 3578	kelder
+R108	Co-reference Arg1:T113 Arg2:T104	
+T114	Actor 3603 3607	dood
+R109	Co-reference Arg1:T114 Arg2:T111	
+T115	Actor 3619 3623	zijn
+R110	Co-reference Arg1:T115 Arg2:T119	
+T117	Actor 505 509	zijn
+R111	Co-reference Arg1:T117 Arg2:T10	
+T118	Actor 3513 3515	je
+T119	Actor 3608 3611	hem
+R112	Co-reference Arg1:T119 Arg2:T112	
+R113	Co-reference Arg1:T118 Arg2:T110	
+T120	Actor 2986 2988	ik
+R114	Co-reference Arg1:T120 Arg2:T101	
+T116	Actor 3690 3694	hond

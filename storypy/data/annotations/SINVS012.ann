@@ -1,0 +1,232 @@
+T1	Title 0 22	SEPPE, DE DOMME KNECHT
+T2	Actor 23 34	Meester Jan
+T3	Actor 43 49	knecht
+T4	Actor 74 79	Seppe
+T5	Actor 88 93	Seppe
+T6	Actor 139 142	hij
+T7	Actor 174 177	hij
+T8	Actor 199 203	zijn
+T9	Actor 204 211	meester
+T10	Actor 212 215	hem
+T11	Actor 241 246	Seppe
+T12	Actor 275 278	hij
+T13	Actor 305 308	hij
+T14	Actor 343 348	Seppe
+T15	Actor 358 362	zich
+T16	Actor 385 396	meester Jan
+T17	Actor 412 417	Seppe
+T18	Actor 424 427	hij
+T19	Actor 455 461	jongen
+T20	Actor 466 469	jij
+T21	Actor 474 476	ik
+T22	Actor 477 481	mijn
+T23	Actor 511 513	Ik
+T24	Actor 524 531	meester
+T25	Actor 538 543	Seppe
+T26	Actor 545 550	Seppe
+T27	Actor 598 600	ik
+T28	Actor 611 616	Seppe
+T29	Actor 619 621	Ik
+T30	Actor 626 628	je
+T31	Actor 663 668	Seppe
+T32	Actor 697 699	je
+T33	Actor 754 759	Seppe
+T34	Actor 771 773	ik
+T35	Actor 780 791	meester Jan
+T36	Actor 810 815	Seppe
+T37	Actor 832 834	ik
+T38	Actor 846 848	Ik
+T39	Actor 853 855	je
+T40	Actor 899 901	je
+T41	Actor 938 940	je
+T42	Actor 956 958	Ik
+T43	Actor 984 989	Seppe
+T44	Actor 991 996	Seppe
+T45	Actor 1006 1008	je
+T46	Actor 1013 1015	je
+T47	Actor 1044 1051	meester
+T48	Actor 1060 1065	Seppe
+T49	Actor 1117 1122	Seppe
+T50	Actor 1144 1151	meester
+T51	Actor 1160 1165	Seppe
+T52	Actor 1198 1200	we
+T53	Actor 1228 1230	je
+T54	Actor 1232 1239	meester
+T55	Actor 1278 1283	Seppe
+T56	Actor 1292 1299	meester
+T57	Actor 1336 1341	Seppe
+T58	Actor 1364 1371	meester
+T59	Actor 1400 1405	Seppe
+T60	Actor 1460 1467	meester
+T61	Actor 1498 1503	Seppe
+T62	Actor 1882 1887	Seppe
+T63	Actor 1908 1915	meester
+T64	Actor 1840 1847	meester
+T65	Actor 1804 1809	Seppe
+T66	Actor 1789 1794	Seppe
+T67	Actor 1775 1782	meester
+T68	Actor 1670 1673	kat
+T69	Actor 1680 1685	Seppe
+T70	Actor 1690 1693	kat
+T71	Actor 1722 1727	Seppe
+T72	Actor 1703 1705	ik
+T73	Actor 1718 1720	je
+T74	Actor 1605 1617	taterebakkes
+T75	Actor 1578 1590	taterebakkes
+T76	Actor 1566 1570	dier
+T77	Actor 1555 1560	Seppe
+T78	Actor 1547 1549	je
+T79	Actor 1507 1514	Meester
+T80	Actor 1531 1535	hond
+T81	Actor 1487 1491	dier
+T82	Actor 1642 1646	dier
+T83	Actor 1740 1753	snaterebakkes
+T84	Actor 1760 1773	snaterebakkes
+T85	Actor 1922 1927	Seppe
+T86	Actor 1939 1941	Ik
+T87	Actor 1967 1974	meester
+T88	Actor 2042 2049	meester
+T89	Actor 2056 2061	Seppe
+T90	Actor 2071 2076	Seppe
+T91	Actor 2080 2082	Je
+T92	Actor 2125 2132	meester
+T93	Actor 2146 2151	Seppe
+T94	Actor 2184 2189	Seppe
+T95	Actor 2212 2216	zijn
+T96	Actor 2241 2244	hij
+T97	Actor 2330 2337	Seppe's
+T98	Actor 2376 2379	Hij
+T99	Actor 2457 2460	kat
+T100	Actor 2464 2468	hond
+T101	Actor 2533 2536	kat
+T102	Actor 2540 2544	hond
+T103	Actor 2580 2585	Seppe
+T104	Actor 2591 2594	hen
+T105	Actor 2606 2608	Ze
+T106	Actor 2646 2649	kat
+T107	Actor 2675 2679	hond
+T108	Actor 2706 2708	ze
+T109	Actor 2795 2798	hun
+T110	Actor 2827 2832	Seppe
+T111	Actor 2877 2880	hij
+T112	Actor 2915 2918	hij
+T113	Actor 2936 2943	Meester
+T114	Actor 2945 2952	meester
+T115	Actor 3112 3124	taterebakkes
+T116	Actor 3136 3149	snaterebakkes
+R1	Co-reference Arg1:T4 Arg2:T3	
+R2	Co-reference Arg1:T5 Arg2:T4	
+R3	Co-reference Arg1:T6 Arg2:T5	
+R4	Co-reference Arg1:T7 Arg2:T6	
+R5	Co-reference Arg1:T8 Arg2:T7	
+R6	Co-reference Arg1:T10 Arg2:T8	
+R7	Co-reference Arg1:T11 Arg2:T10	
+R8	Co-reference Arg1:T12 Arg2:T11	
+R9	Co-reference Arg1:T13 Arg2:T12	
+R10	Co-reference Arg1:T15 Arg2:T14	
+R11	Co-reference Arg1:T14 Arg2:T13	
+R12	Co-reference Arg1:T16 Arg2:T9	
+R13	Co-reference Arg1:T9 Arg2:T2	
+R14	Co-reference Arg1:T17 Arg2:T15	
+R15	Co-reference Arg1:T18 Arg2:T16	
+R16	Co-reference Arg1:T19 Arg2:T17	
+R17	Co-reference Arg1:T20 Arg2:T19	
+R18	Co-reference Arg1:T22 Arg2:T21	
+R19	Co-reference Arg1:T21 Arg2:T18	
+R20	Co-reference Arg1:T23 Arg2:T20	
+R21	Co-reference Arg1:T24 Arg2:T22	
+R22	Co-reference Arg1:T26 Arg2:T25	
+R23	Co-reference Arg1:T25 Arg2:T23	
+R24	Co-reference Arg1:T28 Arg2:T27	
+R25	Co-reference Arg1:T27 Arg2:T26	
+R26	Co-reference Arg1:T30 Arg2:T28	
+R27	Co-reference Arg1:T31 Arg2:T30	
+R28	Co-reference Arg1:T29 Arg2:T24	
+R29	Co-reference Arg1:T32 Arg2:T31	
+R30	Co-reference Arg1:T34 Arg2:T33	
+R31	Co-reference Arg1:T33 Arg2:T32	
+R32	Co-reference Arg1:T35 Arg2:T29	
+R33	Co-reference Arg1:T36 Arg2:T34	
+R34	Co-reference Arg1:T37 Arg2:T35	
+R35	Co-reference Arg1:T38 Arg2:T37	
+R36	Co-reference Arg1:T39 Arg2:T36	
+R37	Co-reference Arg1:T40 Arg2:T39	
+R38	Co-reference Arg1:T41 Arg2:T40	
+R39	Co-reference Arg1:T44 Arg2:T43	
+R40	Co-reference Arg1:T46 Arg2:T45	
+R41	Co-reference Arg1:T45 Arg2:T44	
+R42	Co-reference Arg1:T43 Arg2:T42	
+R43	Co-reference Arg1:T42 Arg2:T41	
+R44	Co-reference Arg1:T47 Arg2:T38	
+R45	Co-reference Arg1:T48 Arg2:T46	
+R46	Co-reference Arg1:T49 Arg2:T48	
+R47	Co-reference Arg1:T50 Arg2:T47	
+R48	Co-reference Arg1:T51 Arg2:T49	
+R49	Co-reference Arg1:T54 Arg2:T53	
+R50	Co-reference Arg1:T53 Arg2:T52	
+R51	Co-reference Arg1:T52 Arg2:T50	
+R52	Co-reference Arg1:T55 Arg2:T51	
+R53	Co-reference Arg1:T56 Arg2:T54	
+R54	Co-reference Arg1:T57 Arg2:T55	
+R55	Co-reference Arg1:T58 Arg2:T56	
+R56	Co-reference Arg1:T59 Arg2:T57	
+R57	Co-reference Arg1:T60 Arg2:T58	
+R58	Co-reference Arg1:T61 Arg2:T59	
+R59	Co-reference Arg1:T80 Arg2:T81	
+R60	Co-reference Arg1:T77 Arg2:T78	
+R61	Co-reference Arg1:T75 Arg2:T76	
+R62	Co-reference Arg1:T76 Arg2:T80	
+R63	Co-reference Arg1:T79 Arg2:T60	
+R64	Co-reference Arg1:T74 Arg2:T75	
+R65	Co-reference Arg1:T78 Arg2:T61	
+R66	Co-reference Arg1:T68 Arg2:T82	
+R67	Co-reference Arg1:T70 Arg2:T68	
+T117	Actor 1624 1631	meester
+R68	Co-reference Arg1:T117 Arg2:T79	
+R69	Co-reference Arg1:T71 Arg2:T73	
+R71	Co-reference Arg1:T72 Arg2:T117	
+R72	Co-reference Arg1:T84 Arg2:T83	
+R73	Co-reference Arg1:T83 Arg2:T70	
+R74	Co-reference Arg1:T65 Arg2:T66	
+R75	Co-reference Arg1:T66 Arg2:T71	
+R76	Co-reference Arg1:T67 Arg2:T72	
+R77	Co-reference Arg1:T64 Arg2:T67	
+R79	Co-reference Arg1:T63 Arg2:T64	
+R80	Co-reference Arg1:T85 Arg2:T62	
+R81	Co-reference Arg1:T86 Arg2:T85	
+R82	Co-reference Arg1:T87 Arg2:T63	
+R83	Co-reference Arg1:T88 Arg2:T87	
+R84	Co-reference Arg1:T89 Arg2:T86	
+R85	Co-reference Arg1:T90 Arg2:T89	
+R86	Co-reference Arg1:T91 Arg2:T90	
+R87	Co-reference Arg1:T92 Arg2:T88	
+R88	Co-reference Arg1:T93 Arg2:T91	
+R89	Co-reference Arg1:T94 Arg2:T93	
+R90	Co-reference Arg1:T95 Arg2:T94	
+R91	Co-reference Arg1:T96 Arg2:T95	
+R92	Co-reference Arg1:T97 Arg2:T96	
+R93	Co-reference Arg1:T98 Arg2:T97	
+R94	Co-reference Arg1:T99 Arg2:T84	
+R95	Co-reference Arg1:T100 Arg2:T74	
+R96	Co-reference Arg1:T101 Arg2:T99	
+R97	Co-reference Arg1:T102 Arg2:T100	
+R98	Co-reference Arg1:T104 Arg2:T102	
+R99	Co-reference Arg1:T104 Arg2:T101	
+R100	Co-reference Arg1:T103 Arg2:T98	
+R101	Co-reference Arg1:T105 Arg2:T104	
+R102	Co-reference Arg1:T106 Arg2:T101	
+R103	Co-reference Arg1:T107 Arg2:T102	
+R104	Co-reference Arg1:T108 Arg2:T105	
+R105	Co-reference Arg1:T109 Arg2:T108	
+R106	Co-reference Arg1:T110 Arg2:T103	
+R107	Co-reference Arg1:T111 Arg2:T110	
+R108	Co-reference Arg1:T112 Arg2:T111	
+R109	Co-reference Arg1:T114 Arg2:T113	
+R110	Co-reference Arg1:T113 Arg2:T92	
+R111	Co-reference Arg1:T115 Arg2:T107	
+R112	Co-reference Arg1:T116 Arg2:T106	
+R70	Co-reference Arg1:T73 Arg2:T69	
+R113	Co-reference Arg1:T69 Arg2:T77	
+T118	Actor 1827 1829	ik
+R78	Co-reference Arg1:T62 Arg2:T118	
+R114	Co-reference Arg1:T118 Arg2:T65	

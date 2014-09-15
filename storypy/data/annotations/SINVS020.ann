@@ -1,0 +1,41 @@
+T1	Title 0 41	DE WEDSTRIJD TUSSEN DE KIKVORS EN DE SLAK
+T2	Actor 45 52	kikvors
+T3	Actor 71 75	slak
+T4	Location 97 101	stad
+T5	Actor 115 122	kikvors
+T6	Actor 144 147	hij
+T7	Actor 170 173	hij
+T8	Actor 214 218	slak
+T9	Actor 228 230	ze
+T10	Actor 252 255	hij
+T11	Actor 259 263	slak
+T12	Actor 319 321	ik
+T13	Actor 334 336	je
+T14	Location 368 372	stad
+T15	Actor 387 390	hij
+T16	Actor 412 415	hij
+T17	Actor 496 500	slak
+T18	Location 546 550	stad
+T19	Actor 556 558	Ze
+T20	Actor 606 610	haar
+T21	Actor 636 643	kikvors
+T22	Actor 682 684	ze
+R1	Co-reference Arg1:T5 Arg2:T2	
+R2	Co-reference Arg1:T16 Arg2:T15	
+R3	Co-reference Arg1:T18 Arg2:T14	
+R4	Co-reference Arg1:T14 Arg2:T4	
+R5	Co-reference Arg1:T6 Arg2:T5	
+R6	Co-reference Arg1:T7 Arg2:T6	
+R7	Co-reference Arg1:T8 Arg2:T3	
+R8	Co-reference Arg1:T9 Arg2:T8	
+R9	Co-reference Arg1:T9 Arg2:T7	
+R10	Co-reference Arg1:T10 Arg2:T7	
+R11	Co-reference Arg1:T11 Arg2:T8	
+R12	Co-reference Arg1:T12 Arg2:T10	
+R13	Co-reference Arg1:T13 Arg2:T11	
+R14	Co-reference Arg1:T15 Arg2:T12	
+R15	Co-reference Arg1:T17 Arg2:T13	
+R16	Co-reference Arg1:T19 Arg2:T17	
+R17	Co-reference Arg1:T20 Arg2:T19	
+R18	Co-reference Arg1:T22 Arg2:T20	
+R19	Co-reference Arg1:T21 Arg2:T16	

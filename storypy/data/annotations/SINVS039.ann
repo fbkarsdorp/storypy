@@ -1,0 +1,212 @@
+T1	Title 0 13	SLIMME MENSEN
+T2	Location 30 34	stad
+T3	Actor 57 63	mensen
+T4	Actor 87 92	negen
+T5	Actor 101 113	stommelingen
+R2	Co-reference Arg1:T4 Arg2:T3	
+T6	Actor 134 136	ze
+T7	Actor 148 151	hun
+T8	Location 152 156	stad
+T9	Actor 173 175	ze
+T10	Actor 187 189	ze
+T11	Actor 193 196	een
+R3	Co-reference Arg1:T8 Arg2:T2	
+R5	Co-reference Arg1:T7 Arg2:T6	
+R6	Co-reference Arg1:T9 Arg2:T7	
+R7	Co-reference Arg1:T10 Arg2:T9	
+T12	Actor 241 244	een
+T13	Actor 247 249	we
+R8	Co-reference Arg1:T13 Arg2:T10	
+T14	Actor 304 306	we
+T15	Actor 317 320	een
+R9	Co-reference Arg1:T15 Arg2:T11	
+T16	Actor 325 328	ons
+T17	Location 349 352	bos
+R10	Co-reference Arg1:T16 Arg2:T14	
+R11	Co-reference Arg1:T14 Arg2:T13	
+T18	Actor 375 378	ene
+R12	Co-reference Arg1:T18 Arg2:T12	
+T19	Actor 416 419	hij
+T20	Actor 420 428	zichzelf
+R13	Co-reference Arg1:T20 Arg2:T19	
+R14	Co-reference Arg1:T19 Arg2:T18	
+T21	Actor 462 465	hij
+T23	Actor 493 496	een
+T22	Actor 473 475	we
+R15	Co-reference Arg1:T21 Arg2:T20	
+R16	Co-reference Arg1:T22 Arg2:T16	
+R17	Co-reference Arg1:T23 Arg2:T15	
+T24	Actor 532 534	ik
+T25	Actor 554 557	een
+T26	Actor 565 572	anderen
+R18	Co-reference Arg1:T26 Arg2:T22	
+T27	Actor 575 577	ik
+R19	Co-reference Arg1:T27 Arg2:T25	
+R20	Co-reference Arg1:T25 Arg2:T24	
+T28	Actor 674 676	we
+R21	Co-reference Arg1:T28 Arg2:T26	
+T29	Actor 743 748	jager
+T30	Actor 765 768	die
+R22	Co-reference Arg1:T30 Arg2:T29	
+T31	Actor 846 851	ander
+T32	Actor 854 856	ik
+T33	Actor 867 869	we
+R23	Co-reference Arg1:T33 Arg2:T28	
+R24	Co-reference Arg1:T32 Arg2:T31	
+T34	Actor 1058 1064	mensen
+T35	Location 1069 1077	stadhuis
+T36	Actor 1099 1101	ze
+R25	Co-reference Arg1:T36 Arg2:T34	
+R4	Co-reference Arg1:T6 Arg2:T5	
+T37	Actor 1206 1218	slimmerikken
+R1	Co-reference Arg1:T37 Arg2:T36	
+T38	Actor 1231 1233	Ze
+T39	Location 1277 1284	straten
+T40	Actor 1301 1303	ze
+T42	Location 1343 1351	stadhuis
+R27	Co-reference Arg1:T42 Arg2:T35	
+R28	Co-reference Arg1:T40 Arg2:T38	
+R29	Co-reference Arg1:T38 Arg2:T37	
+T41	Actor 1353 1355	Ze
+T43	Actor 1368 1370	ze
+R30	Co-reference Arg1:T41 Arg2:T40	
+R31	Co-reference Arg1:T43 Arg2:T41	
+T44	Location 1434 1442	stadhuis
+R32	Co-reference Arg1:T44 Arg2:T42	
+T45	Actor 1461 1467	muizen
+T46	Actor 1469 1472	die
+T47	Actor 1502 1504	ze
+T48	Actor 1526 1528	ze
+T49	Actor 1529 1532	die
+R33	Co-reference Arg1:T49 Arg2:T46	
+R34	Co-reference Arg1:T46 Arg2:T45	
+R35	Co-reference Arg1:T48 Arg2:T47	
+R36	Co-reference Arg1:T47 Arg2:T43	
+T50	Actor 1579 1590	vreemdeling
+T51	Actor 1607 1610	kat
+T52	Actor 1614 1618	zijn
+R37	Co-reference Arg1:T52 Arg2:T50	
+T53	Actor 1630 1632	Ze
+T54	Actor 1641 1644	hem
+T55	Actor 1662 1667	beest
+R38	Co-reference Arg1:T55 Arg2:T51	
+R39	Co-reference Arg1:T54 Arg2:T52	
+R40	Co-reference Arg1:T53 Arg2:T48	
+T56	Actor 1678 1684	mannen
+T57	Actor 1701 1712	vreemdeling
+T58	Actor 1731 1736	beest
+T59	Location 1741 1748	Amerika
+R41	Co-reference Arg1:T58 Arg2:T55	
+R42	Co-reference Arg1:T57 Arg2:T54	
+R43	Co-reference Arg1:T56 Arg2:T53	
+T60	Actor 1816 1821	beest
+T61	Actor 1832 1838	muizen
+R44	Co-reference Arg1:T61 Arg2:T49	
+R45	Co-reference Arg1:T60 Arg2:T58	
+T62	Actor 1869 1874	beest
+T63	Location 1885 1889	stad
+T64	Actor 1914 1925	stedelingen
+T65	Actor 1933 1945	burgemeester
+T66	Actor 1973 1975	je
+T67	Actor 1980 1990	muizeneter
+R47	Co-reference Arg1:T66 Arg2:T57	
+R48	Co-reference Arg1:T64 Arg2:T56	
+R49	Co-reference Arg1:T63 Arg2:T8	
+R46	Co-reference Arg1:T67 Arg2:T62	
+R50	Co-reference Arg1:T62 Arg2:T60	
+T68	Actor 2008 2019	vreemdeling
+T69	Actor 2022 2024	ik
+T70	Actor 2033 2036	hem
+T71	Actor 2054 2056	ik
+T72	Actor 2069 2072	hem
+T73	Actor 2096 2098	ik
+T74	Actor 2103 2106	hem
+T75	Actor 2159 2161	je
+T76	Actor 2162 2165	hem
+R51	Co-reference Arg1:T76 Arg2:T74	
+R52	Co-reference Arg1:T74 Arg2:T72	
+R53	Co-reference Arg1:T72 Arg2:T70	
+R54	Co-reference Arg1:T70 Arg2:T67	
+R55	Co-reference Arg1:T73 Arg2:T71	
+R56	Co-reference Arg1:T71 Arg2:T69	
+R57	Co-reference Arg1:T69 Arg2:T68	
+R58	Co-reference Arg1:T68 Arg2:T66	
+R59	Co-reference Arg1:T75 Arg2:T65	
+T77	Actor 2204 2215	vreemdeling
+T78	Actor 2234 2237	hij
+R60	Co-reference Arg1:T78 Arg2:T77	
+R61	Co-reference Arg1:T77 Arg2:T73	
+T79	Actor 2255 2258	hij
+T80	Actor 2298 2310	burgemeester
+T81	Actor 2338 2341	hem
+T82	Actor 2386 2394	mijnheer
+T83	Actor 2404 2407	hij
+T84	Actor 2412 2415	hij
+T85	Actor 2421 2427	muizen
+R62	Co-reference Arg1:T84 Arg2:T83	
+R63	Co-reference Arg1:T83 Arg2:T76	
+R64	Co-reference Arg1:T85 Arg2:T61	
+R65	Co-reference Arg1:T82 Arg2:T81	
+R66	Co-reference Arg1:T81 Arg2:T79	
+R67	Co-reference Arg1:T79 Arg2:T78	
+R68	Co-reference Arg1:T80 Arg2:T75	
+T86	Actor 2466 2477	vreemdeling
+T87	Actor 2487 2490	hij
+T88	Actor 2526 2529	hij
+T89	Actor 2537 2539	ze
+T90	Actor 2566 2568	ze
+R69	Co-reference Arg1:T90 Arg2:T89	
+R70	Co-reference Arg1:T89 Arg2:T64	
+R71	Co-reference Arg1:T88 Arg2:T87	
+R72	Co-reference Arg1:T87 Arg2:T86	
+R73	Co-reference Arg1:T86 Arg2:T82	
+T91	Actor 2595 2607	burgemeester
+R74	Co-reference Arg1:T91 Arg2:T80	
+T92	Actor 2618 2621	hij
+R75	Co-reference Arg1:T92 Arg2:T88	
+T93	Actor 2651 2662	medeburgers
+T94	Actor 2664 2666	we
+R76	Co-reference Arg1:T94 Arg2:T93	
+R77	Co-reference Arg1:T93 Arg2:T90	
+T95	Actor 2705 2717	burgemeester
+T96	Actor 2724 2727	hij
+T97	Actor 2735 2742	anderen
+R78	Co-reference Arg1:T97 Arg2:T94	
+R79	Co-reference Arg1:T96 Arg2:T95	
+R80	Co-reference Arg1:T95 Arg2:T91	
+T98	Actor 2770 2775	beest
+T99	Actor 2781 2787	muizen
+T100	Actor 2808 2811	het
+R81	Co-reference Arg1:T100 Arg2:T98	
+R82	Co-reference Arg1:T98 Arg2:T84	
+R83	Co-reference Arg1:T99 Arg2:T85	
+T101	Actor 2838 2840	ze
+T102	Actor 2862 2864	ze
+T103	Actor 2865 2868	hun
+T104	Location 2875 2883	stadhuis
+T105	Actor 2909 2919	muizeneter
+R84	Co-reference Arg1:T105 Arg2:T100	
+R85	Co-reference Arg1:T104 Arg2:T44	
+R86	Co-reference Arg1:T103 Arg2:T102	
+R87	Co-reference Arg1:T102 Arg2:T101	
+R88	Co-reference Arg1:T101 Arg2:T97	
+T106	Actor 2948 2955	beestje
+R89	Co-reference Arg1:T106 Arg2:T105	
+T107	Actor 2990 2994	zijn
+R90	Co-reference Arg1:T107 Arg2:T106	
+T108	Location 3012 3016	huis
+T109	Actor 3036 3038	ze
+R91	Co-reference Arg1:T109 Arg2:T107	
+T110	Location 3083 3087	stad
+R92	Co-reference Arg1:T110 Arg2:T63	
+T111	Actor 3103 3109	mensen
+T112	Actor 3144 3146	ze
+R93	Co-reference Arg1:T112 Arg2:T111	
+R94	Co-reference Arg1:T111 Arg2:T103	
+R26	Co-reference Arg1:T5 Arg2:T4	
+R95	Co-reference Arg1:T3 Arg2:T11	
+R96	Co-reference Arg1:T3 Arg2:T12	
+R97	Co-reference Arg1:T3 Arg2:T24	
+R98	Co-reference Arg1:T3 Arg2:T29	
+R99	Co-reference Arg1:T3 Arg2:T31	
+R100	Co-reference Arg1:T34 Arg2:T3	

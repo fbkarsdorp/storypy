@@ -1,0 +1,135 @@
+T1	Title 0 25	DE PASTOOR EN ZIJN KOSTER
+T2	Actor 42 49	pastoor
+T3	Actor 88 94	boeren
+T4	Actor 151 154	hij
+T5	Actor 155 159	zelf
+T6	Actor 164 170	varken
+T7	Actor 213 216	hij
+T8	Actor 232 234	ik
+T9	Actor 239 247	iedereen
+T10	Actor 252 255	mij
+T11	Actor 371 374	mij
+T12	Actor 430 433	hij
+T13	Actor 438 441	hij
+T14	Actor 446 452	koster
+T15	Actor 469 473	zijn
+T16	Actor 532 538	koster
+T17	Actor 585 587	Ik
+T18	Actor 618 625	pastoor
+T19	Actor 579 582	hij
+T20	Actor 627 628	U
+T21	Actor 638 644	varken
+T23	Actor 722 728	boeren
+T24	Actor 760 762	ze
+T25	Actor 777 781	dier
+T26	Actor 811 814	hun
+T27	Actor 864 865	u
+T28	Actor 907 908	u
+T30	Actor 937 938	u
+T32	Actor 964 966	Ze
+T33	Actor 988 994	varken
+T34	Actor 983 987	mijn
+T35	Actor 1021 1029	iedereen
+T36	Actor 1030 1031	u
+T37	Actor 1053 1054	u
+T38	Actor 1112 1119	pastoor
+T39	Actor 1129 1131	ik
+T40	Actor 1169 1175	koster
+T41	Location 1214 1222	pastorie
+T42	Actor 1241 1248	pastoor
+T43	Actor 1234 1237	hij
+T44	Actor 1276 1280	zijn
+T45	Actor 1281 1285	zoon
+T46	Actor 1290 1296	varken
+T47	Location 1304 1308	boom
+T48	Actor 1320 1323	het
+T49	Location 1333 1344	kostershuis
+T50	Actor 1377 1384	pastoor
+T51	Actor 1406 1409	hij
+T52	Actor 1436 1440	zijn
+T53	Actor 1441 1447	varken
+T54	Actor 1507 1514	pastoor
+T55	Location 1523 1527	kerk
+T56	Actor 1545 1551	koster
+T57	Actor 1562 1565	Hij
+T58	Actor 1571 1574	hem
+T59	Actor 1593 1599	Koster
+T60	Actor 1605 1607	ik
+T61	Actor 1608 1610	je
+T62	Actor 1631 1633	Ze
+T63	Actor 1650 1654	mijn
+T64	Actor 1655 1661	varken
+T65	Actor 1693 1699	koster
+T66	Actor 1706 1707	u
+T67	Actor 1724 1732	iedereen
+T68	Actor 1733 1734	u
+T69	Actor 1752 1753	U
+T70	Actor 1835 1842	pastoor
+T71	Actor 1845 1849	mijn
+T72	Actor 1850 1856	varken
+T73	Actor 1913 1919	koster
+R1	Co-reference Arg1:T5 Arg2:T4	
+R2	Co-reference Arg1:T4 Arg2:T2	
+R3	Co-reference Arg1:T7 Arg2:T5	
+R4	Co-reference Arg1:T8 Arg2:T7	
+R5	Co-reference Arg1:T9 Arg2:T3	
+R6	Co-reference Arg1:T10 Arg2:T8	
+R7	Co-reference Arg1:T11 Arg2:T10	
+R8	Co-reference Arg1:T12 Arg2:T11	
+R9	Co-reference Arg1:T13 Arg2:T12	
+R10	Co-reference Arg1:T15 Arg2:T14	
+R12	Co-reference Arg1:T19 Arg2:T16	
+R13	Co-reference Arg1:T17 Arg2:T19	
+R14	Co-reference Arg1:T18 Arg2:T13	
+R15	Co-reference Arg1:T20 Arg2:T18	
+R16	Co-reference Arg1:T21 Arg2:T6	
+R17	Co-reference Arg1:T23 Arg2:T9	
+R18	Co-reference Arg1:T24 Arg2:T23	
+R19	Co-reference Arg1:T25 Arg2:T21	
+R20	Co-reference Arg1:T26 Arg2:T24	
+R21	Co-reference Arg1:T27 Arg2:T20	
+R22	Co-reference Arg1:T28 Arg2:T27	
+R24	Co-reference Arg1:T34 Arg2:T30	
+R25	Co-reference Arg1:T30 Arg2:T28	
+R26	Co-reference Arg1:T33 Arg2:T25	
+R27	Co-reference Arg1:T35 Arg2:T32	
+R28	Co-reference Arg1:T36 Arg2:T34	
+R29	Co-reference Arg1:T37 Arg2:T36	
+R30	Co-reference Arg1:T38 Arg2:T37	
+R31	Co-reference Arg1:T39 Arg2:T38	
+R32	Co-reference Arg1:T40 Arg2:T17	
+R33	Co-reference Arg1:T43 Arg2:T40	
+R34	Co-reference Arg1:T42 Arg2:T39	
+R35	Co-reference Arg1:T44 Arg2:T43	
+R36	Co-reference Arg1:T46 Arg2:T33	
+T74	Location 702 706	boom
+R37	Co-reference Arg1:T47 Arg2:T74	
+R38	Co-reference Arg1:T48 Arg2:T46	
+R39	Co-reference Arg1:T50 Arg2:T42	
+R40	Co-reference Arg1:T51 Arg2:T50	
+R41	Co-reference Arg1:T52 Arg2:T51	
+R42	Co-reference Arg1:T53 Arg2:T48	
+R43	Co-reference Arg1:T54 Arg2:T52	
+R44	Co-reference Arg1:T56 Arg2:T44	
+R45	Co-reference Arg1:T57 Arg2:T54	
+R46	Co-reference Arg1:T58 Arg2:T56	
+R47	Co-reference Arg1:T59 Arg2:T58	
+R48	Co-reference Arg1:T61 Arg2:T59	
+R49	Co-reference Arg1:T60 Arg2:T57	
+R50	Co-reference Arg1:T62 Arg2:T32	
+R51	Co-reference Arg1:T67 Arg2:T35	
+R52	Co-reference Arg1:T71 Arg2:T70	
+R53	Co-reference Arg1:T63 Arg2:T60	
+R54	Co-reference Arg1:T64 Arg2:T53	
+R55	Co-reference Arg1:T68 Arg2:T66	
+R56	Co-reference Arg1:T65 Arg2:T61	
+R57	Co-reference Arg1:T66 Arg2:T63	
+R58	Co-reference Arg1:T69 Arg2:T68	
+R59	Co-reference Arg1:T70 Arg2:T69	
+R60	Co-reference Arg1:T72 Arg2:T64	
+R61	Co-reference Arg1:T73 Arg2:T65	
+T22	Actor 504 507	die
+R11	Co-reference Arg1:T22 Arg2:T15	
+R62	Co-reference Arg1:T16 Arg2:T22	
+R23	Co-reference Arg1:T49 Arg2:T41	
+R63	Co-reference Arg1:T32 Arg2:T26	

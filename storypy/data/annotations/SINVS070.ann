@@ -1,0 +1,98 @@
+T1	Title 0 24	DE EKSTER EN DE HOUTDUIF
+T2	Actor 29 37	houtduif
+T3	Actor 91 94	hij
+T4	Actor 113 116	Hij
+T6	Actor 186 189	hij
+T5	Actor 209 213	zijn
+T7	Actor 214 219	bruid
+T8	Actor 230 237	buurman
+T9	Actor 241 247	ekster
+T10	Actor 281 284	die
+T11	Actor 302 306	zijn
+T12	Actor 354 356	je
+T13	Actor 357 359	me
+T14	Actor 370 372	ik
+T15	Actor 402 405	jij
+T16	Actor 419 422	hij
+T17	Actor 440 446	ekster
+T18	Actor 449 451	Ik
+T19	Actor 460 462	je
+T20	Actor 492 494	je
+T21	Actor 510 518	rode koe
+T22	Actor 545 547	ik
+T23	Actor 536 540	daar
+T24	Actor 582 590	houtduif
+T25	Actor 622 624	we
+T26	Actor 674 680	ekster
+T27	Actor 703 705	ik
+T28	Actor 740 742	ik
+T29	Actor 789 792	hij
+T30	Actor 801 804	hij
+T31	Actor 848 856	houtduif
+T32	Actor 895 897	ik
+T33	Actor 952 958	ekster
+T34	Actor 961 963	je
+T35	Actor 1025 1029	duif
+T36	Actor 1032 1035	Hij
+T37	Actor 1043 1049	ekster
+T38	Actor 1055 1063	rode koe
+T39	Actor 1083 1088	bruid
+T40	Actor 1078 1082	zijn
+T41	Actor 1107 1110	hij
+T42	Actor 1193 1196	Hij
+T43	Actor 1274 1282	rode koe
+T44	Actor 1225 1229	zijn
+T45	Actor 1293 1296	hij
+T46	Actor 1321 1324	hij
+T47	Actor 1356 1360	zijn
+T48	Actor 1361 1364	koe
+T49	Actor 1371 1374	hij
+R1	Co-reference Arg1:T49 Arg2:T47	
+R2	Co-reference Arg1:T48 Arg2:T43	
+R3	Co-reference Arg1:T47 Arg2:T46	
+R4	Co-reference Arg1:T46 Arg2:T45	
+T50	Actor 1269 1273	zijn
+R5	Co-reference Arg1:T45 Arg2:T50	
+R6	Co-reference Arg1:T50 Arg2:T44	
+R7	Co-reference Arg1:T44 Arg2:T42	
+R8	Co-reference Arg1:T42 Arg2:T41	
+R9	Co-reference Arg1:T41 Arg2:T40	
+R10	Co-reference Arg1:T39 Arg2:T7	
+R11	Co-reference Arg1:T40 Arg2:T36	
+R12	Co-reference Arg1:T43 Arg2:T38	
+R13	Co-reference Arg1:T36 Arg2:T35	
+R14	Co-reference Arg1:T35 Arg2:T34	
+R15	Co-reference Arg1:T37 Arg2:T33	
+R16	Co-reference Arg1:T34 Arg2:T32	
+R17	Co-reference Arg1:T32 Arg2:T31	
+R18	Co-reference Arg1:T33 Arg2:T30	
+R19	Co-reference Arg1:T30 Arg2:T29	
+R20	Co-reference Arg1:T29 Arg2:T28	
+R21	Co-reference Arg1:T28 Arg2:T27	
+R22	Co-reference Arg1:T27 Arg2:T26	
+R23	Co-reference Arg1:T25 Arg2:T24	
+R24	Co-reference Arg1:T25 Arg2:T22	
+R25	Co-reference Arg1:T26 Arg2:T22	
+R26	Co-reference Arg1:T23 Arg2:T21	
+R27	Co-reference Arg1:T38 Arg2:T23	
+R28	Co-reference Arg1:T22 Arg2:T18	
+R29	Co-reference Arg1:T24 Arg2:T20	
+R30	Co-reference Arg1:T20 Arg2:T19	
+R31	Co-reference Arg1:T18 Arg2:T17	
+R32	Co-reference Arg1:T19 Arg2:T16	
+R33	Co-reference Arg1:T17 Arg2:T15	
+R34	Co-reference Arg1:T16 Arg2:T14	
+R35	Co-reference Arg1:T14 Arg2:T13	
+R36	Co-reference Arg1:T15 Arg2:T12	
+R37	Co-reference Arg1:T13 Arg2:T11	
+R38	Co-reference Arg1:T12 Arg2:T10	
+R39	Co-reference Arg1:T10 Arg2:T9	
+R40	Co-reference Arg1:T9 Arg2:T8	
+R41	Co-reference Arg1:T11 Arg2:T51	
+R42	Co-reference Arg1:T5 Arg2:T6	
+R43	Co-reference Arg1:T6 Arg2:T4	
+R44	Co-reference Arg1:T4 Arg2:T3	
+R45	Co-reference Arg1:T3 Arg2:T2	
+R46	Co-reference Arg1:T31 Arg2:T24	
+T51	Actor 225 229	zijn
+R47	Co-reference Arg1:T51 Arg2:T5	

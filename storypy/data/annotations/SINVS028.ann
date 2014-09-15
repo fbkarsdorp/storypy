@@ -1,0 +1,310 @@
+T1	Title 0 39	VAN DE KONINGSZOON MET ZIJN DRIE HONDEN
+T2	Actor 56 62	koning
+T3	Actor 73 78	zonen
+T4	Actor 93 100	oudsten
+T5	Actor 194 201	jongste
+T6	Actor 244 248	zijn
+T7	Actor 254 260	honden
+T8	Actor 262 267	IJzer
+T9	Actor 269 274	Staal
+T10	Actor 278 281	Jan
+T11	Actor 290 292	ze
+T12	Actor 319 321	ze
+T13	Actor 331 338	jongens
+T14	Actor 361 363	ze
+T15	Actor 422 426	zoon
+R1	Co-reference Arg1:T3 Arg2:T15	
+R2	Co-reference Arg1:T3 Arg2:T4	
+R3	Co-reference Arg1:T3 Arg2:T5	
+R4	Co-reference Arg1:T6 Arg2:T5	
+R5	Co-reference Arg1:T7 Arg2:T8	
+R6	Co-reference Arg1:T7 Arg2:T9	
+R7	Co-reference Arg1:T7 Arg2:T10	
+R8	Co-reference Arg1:T11 Arg2:T7	
+R9	Co-reference Arg1:T12 Arg2:T11	
+R10	Co-reference Arg1:T13 Arg2:T3	
+R11	Co-reference Arg1:T14 Arg2:T13	
+T16	Actor 563 568	prins
+T17	Actor 593 596	hij
+T18	Location 605 611	tolhek
+R12	Co-reference Arg1:T17 Arg2:T16	
+R13	Co-reference Arg1:T16 Arg2:T15	
+T19	Actor 619 629	Tolmeester
+T20	Actor 631 641	tolmeester
+T21	Actor 665 668	hij
+R14	Co-reference Arg1:T21 Arg2:T17	
+R15	Co-reference Arg1:T20 Arg2:T19	
+T22	Actor 696 706	tolmeester
+R16	Co-reference Arg1:T22 Arg2:T20	
+T23	Actor 712 719	Konings
+T24	Actor 720 724	zoon
+T25	Actor 731 738	Konings
+T26	Actor 739 743	zoon
+T27	Actor 765 772	Konings
+T28	Actor 773 777	zoon
+T29	Actor 805 807	je
+T30	Actor 808 810	je
+T31	Actor 857 862	prins
+T32	Actor 869 873	zijn
+R17	Co-reference Arg1:T23 Arg2:T2	
+R18	Co-reference Arg1:T24 Arg2:T21	
+R19	Co-reference Arg1:T25 Arg2:T23	
+R20	Co-reference Arg1:T26 Arg2:T24	
+R21	Co-reference Arg1:T27 Arg2:T25	
+R22	Co-reference Arg1:T28 Arg2:T26	
+R23	Co-reference Arg1:T29 Arg2:T28	
+R24	Co-reference Arg1:T30 Arg2:T29	
+R25	Co-reference Arg1:T31 Arg2:T30	
+R26	Co-reference Arg1:T32 Arg2:T31	
+T33	Actor 911 914	hij
+T34	Location 928 934	tolhek
+T35	Location 945 951	tolhek
+T36	Actor 958 968	tolmeester
+T37	Actor 976 979	hij
+R27	Co-reference Arg1:T37 Arg2:T33	
+R28	Co-reference Arg1:T35 Arg2:T34	
+T38	Actor 1007 1017	tolmeester
+R29	Co-reference Arg1:T38 Arg2:T36	
+T39	Actor 1023 1030	Konings
+T40	Actor 1031 1035	zoon
+T41	Actor 1042 1049	Konings
+T42	Actor 1076 1083	Konings
+T43	Actor 1050 1054	zoon
+T44	Actor 1084 1088	zoon
+R30	Co-reference Arg1:T40 Arg2:T37	
+R31	Co-reference Arg1:T39 Arg2:T27	
+R32	Co-reference Arg1:T41 Arg2:T39	
+R33	Co-reference Arg1:T43 Arg2:T40	
+R34	Co-reference Arg1:T42 Arg2:T41	
+R35	Co-reference Arg1:T44 Arg2:T43	
+T45	Actor 1116 1118	je
+T46	Actor 1132 1134	je
+R36	Co-reference Arg1:T46 Arg2:T45	
+R37	Co-reference Arg1:T45 Arg2:T44	
+T47	Location 1170 1176	tolhek
+T48	Actor 1217 1220	hij
+T49	Actor 1248 1252	zijn
+R38	Co-reference Arg1:T49 Arg2:T48	
+R39	Co-reference Arg1:T48 Arg2:T46	
+T50	Actor 1332 1335	hij
+R40	Co-reference Arg1:T50 Arg2:T49	
+T51	Actor 1438 1441	hij
+T52	Actor 1442 1446	zijn
+R41	Co-reference Arg1:T52 Arg2:T51	
+R42	Co-reference Arg1:T51 Arg2:T50	
+T53	Actor 1496 1499	hij
+T54	Location 1518 1525	herberg
+T55	Actor 1532 1535	hij
+R43	Co-reference Arg1:T55 Arg2:T53	
+R44	Co-reference Arg1:T53 Arg2:T52	
+T56	Actor 1593 1598	waard
+T57	Actor 1614 1624	menseneter
+R45	Co-reference Arg1:T57 Arg2:T56	
+T58	Actor 1626 1629	Hij
+T59	Actor 1637 1642	prins
+T60	Actor 1661 1664	hij
+T61	Actor 1665 1668	hem
+T62	Actor 1705 1708	hem
+T63	Actor 1727 1730	hij
+T64	Location 1751 1758	vertrek
+R46	Co-reference Arg1:T63 Arg2:T60	
+R47	Co-reference Arg1:T60 Arg2:T58	
+R48	Co-reference Arg1:T58 Arg2:T57	
+T65	Actor 1731 1734	hem
+R49	Co-reference Arg1:T65 Arg2:T62	
+R50	Co-reference Arg1:T62 Arg2:T61	
+R51	Co-reference Arg1:T61 Arg2:T59	
+R52	Co-reference Arg1:T59 Arg2:T55	
+T66	Location 1766 1771	kamer
+T67	Actor 1781 1786	prins
+R53	Co-reference Arg1:T67 Arg2:T65	
+R54	Co-reference Arg1:T66 Arg2:T64	
+T68	Actor 1885 1895	menseneter
+T69	Actor 1896 1900	zijn
+R55	Co-reference Arg1:T69 Arg2:T68	
+R56	Co-reference Arg1:T68 Arg2:T63	
+T70	Actor 1942 1945	hij
+T71	Actor 1953 1958	prins
+T72	Actor 1965 1970	prins
+R57	Co-reference Arg1:T72 Arg2:T71	
+R58	Co-reference Arg1:T71 Arg2:T67	
+R59	Co-reference Arg1:T70 Arg2:T69	
+T73	Actor 2014 2018	zoon
+T74	Actor 2026 2032	koning
+R60	Co-reference Arg1:T74 Arg2:T42	
+R61	Co-reference Arg1:T3 Arg2:T73	
+T75	Actor 2049 2052	Hij
+T76	Actor 2069 2073	zijn
+T77	Actor 2104 2107	hem
+T78	Actor 2116 2120	zijn
+T79	Actor 2121 2126	broer
+R62	Co-reference Arg1:T78 Arg2:T77	
+R63	Co-reference Arg1:T77 Arg2:T76	
+R64	Co-reference Arg1:T76 Arg2:T75	
+R65	Co-reference Arg1:T75 Arg2:T73	
+R66	Co-reference Arg1:T79 Arg2:T72	
+T80	Actor 2133 2137	zijn
+T81	Actor 2160 2163	hij
+T82	Location 2172 2178	tolhek
+T83	Actor 2189 2199	Tolmeester
+T84	Actor 2201 2211	tolmeester
+T85	Location 2217 2223	tolhek
+T86	Actor 2251 2258	Konings
+T87	Actor 2259 2263	zoon
+T88	Actor 2270 2277	Konings
+T89	Actor 2278 2282	zoon
+T90	Actor 2304 2311	Konings
+T91	Actor 2312 2316	zoon
+R67	Co-reference Arg1:T86 Arg2:T74	
+R68	Co-reference Arg1:T87 Arg2:T81	
+R69	Co-reference Arg1:T81 Arg2:T80	
+R70	Co-reference Arg1:T80 Arg2:T78	
+R71	Co-reference Arg1:T84 Arg2:T83	
+R72	Co-reference Arg1:T88 Arg2:T86	
+R73	Co-reference Arg1:T89 Arg2:T87	
+R74	Co-reference Arg1:T90 Arg2:T88	
+R75	Co-reference Arg1:T91 Arg2:T89	
+T92	Actor 2344 2347	hij
+T93	Actor 2348 2352	zijn
+R76	Co-reference Arg1:T93 Arg2:T92	
+R77	Co-reference Arg1:T92 Arg2:T91	
+T94	Actor 2383 2386	hij
+T95	Actor 2387 2391	zijn
+T96	Location 2449 2453	huis
+T97	Actor 2461 2471	menseneter
+R78	Co-reference Arg1:T94 Arg2:T93	
+R79	Co-reference Arg1:T95 Arg2:T94	
+R80	Co-reference Arg1:T96 Arg2:T54	
+R81	Co-reference Arg1:T97 Arg2:T70	
+T98	Actor 2477 2480	Die
+T99	Actor 2489 2492	hem
+T100	Location 2531 2538	vertrek
+T101	Actor 2555 2560	prins
+R82	Co-reference Arg1:T85 Arg2:T82	
+R83	Co-reference Arg1:T100 Arg2:T66	
+R84	Co-reference Arg1:T101 Arg2:T79	
+R85	Co-reference Arg1:T98 Arg2:T97	
+R86	Co-reference Arg1:T99 Arg2:T95	
+T102	Actor 2608 2613	prins
+R87	Co-reference Arg1:T102 Arg2:T6	
+T103	Actor 2638 2641	hij
+T104	Actor 2705 2709	zijn
+T105	Actor 2715 2721	honden
+R88	Co-reference Arg1:T104 Arg2:T103	
+R89	Co-reference Arg1:T103 Arg2:T102	
+T106	Actor 2732 2735	hij
+T107	Location 2744 2750	tolhek
+T108	Actor 2765 2768	hij
+R91	Co-reference Arg1:T108 Arg2:T106	
+R92	Co-reference Arg1:T106 Arg2:T104	
+T109	Actor 2772 2782	Tolmeester
+T110	Actor 2784 2794	tolmeester
+T111	Location 2800 2806	tolhek
+R93	Co-reference Arg1:T111 Arg2:T107	
+T112	Actor 2835 2842	Konings
+T113	Actor 2843 2847	zoon
+T114	Actor 2854 2861	Konings
+T115	Actor 2862 2866	zoon
+T116	Actor 2888 2895	Konings
+T117	Actor 2896 2900	zoon
+R94	Co-reference Arg1:T117 Arg2:T115	
+R95	Co-reference Arg1:T115 Arg2:T113	
+R96	Co-reference Arg1:T116 Arg2:T114	
+R97	Co-reference Arg1:T114 Arg2:T112	
+R98	Co-reference Arg1:T112 Arg2:T90	
+R99	Co-reference Arg1:T113 Arg2:T108	
+T118	Actor 2927 2937	tolmeester
+T119	Actor 2938 2941	hem
+T120	Actor 2964 2967	hij
+T121	Actor 2970 2972	Je
+T122	Actor 2986 2988	je
+T123	Actor 2989 2995	honden
+T124	Actor 3018 3023	prins
+T125	Actor 3024 3028	zijn
+T126	Actor 3029 3035	honden
+R100	Co-reference Arg1:T125 Arg2:T124	
+R101	Co-reference Arg1:T124 Arg2:T122	
+R102	Co-reference Arg1:T122 Arg2:T121	
+R103	Co-reference Arg1:T121 Arg2:T119	
+R104	Co-reference Arg1:T120 Arg2:T118	
+R105	Co-reference Arg1:T118 Arg2:T110	
+R106	Co-reference Arg1:T110 Arg2:T109	
+R107	Co-reference Arg1:T119 Arg2:T117	
+R108	Co-reference Arg1:T123 Arg2:T105	
+R109	Co-reference Arg1:T126 Arg2:T123	
+T127	Actor 3041 3046	IJzer
+T128	Actor 3048 3053	Staal
+T129	Actor 3057 3060	Jan
+R110	Co-reference Arg1:T127 Arg2:T8	
+R111	Co-reference Arg1:T128 Arg2:T9	
+R112	Co-reference Arg1:T129 Arg2:T10	
+T130	Actor 3079 3084	kerel
+R113	Co-reference Arg1:T130 Arg2:T120	
+T131	Actor 3110 3113	hem
+R114	Co-reference Arg1:T131 Arg2:T130	
+T132	Actor 3136 3139	hij
+T133	Actor 3213 3216	hij
+R116	Co-reference Arg1:T132 Arg2:T125	
+T134	Actor 3252 3255	hij
+T135	Location 3267 3273	woning
+T136	Actor 3281 3291	menseneter
+R117	Co-reference Arg1:T134 Arg2:T133	
+R118	Co-reference Arg1:T135 Arg2:T96	
+R119	Co-reference Arg1:T136 Arg2:T98	
+T137	Actor 3293 3296	Hij
+R120	Co-reference Arg1:T137 Arg2:T134	
+T138	Actor 3329 3334	waard
+R121	Co-reference Arg1:T138 Arg2:T136	
+T139	Actor 3344 3347	hij
+R122	Co-reference Arg1:T139 Arg2:T138	
+T140	Actor 3396 3402	gasten
+R123	Co-reference Arg1:T140 Arg2:T101	
+R124	Co-reference Arg1:T140 Arg2:T99	
+T141	Location 3357 3364	vertrek
+R125	Co-reference Arg1:T141 Arg2:T100	
+T142	Actor 3426 3431	prins
+R126	Co-reference Arg1:T142 Arg2:T137	
+T143	Actor 3450 3453	hij
+R127	Co-reference Arg1:T143 Arg2:T142	
+T144	Actor 3459 3463	zich
+R128	Co-reference Arg1:T144 Arg2:T143	
+T145	Actor 3495 3498	hij
+R129	Co-reference Arg1:T145 Arg2:T144	
+T146	Location 3505 3512	drempel
+R130	Co-reference Arg1:T146 Arg2:T141	
+T147	Actor 3516 3519	hij
+T148	Actor 3534 3540	broers
+R131	Co-reference Arg1:T147 Arg2:T145	
+T149	Actor 3529 3533	zijn
+R132	Co-reference Arg1:T149 Arg2:T147	
+R133	Co-reference Arg1:T148 Arg2:T140	
+T150	Actor 3552 3555	hij
+T151	Actor 3556 3560	zijn
+T152	Actor 3561 3567	honden
+R134	Co-reference Arg1:T151 Arg2:T150	
+R135	Co-reference Arg1:T150 Arg2:T149	
+R136	Co-reference Arg1:T152 Arg2:T126	
+T153	Actor 3569 3574	IJzer
+T154	Actor 3576 3581	Staal
+T155	Actor 3585 3588	Jan
+R137	Co-reference Arg1:T153 Arg2:T127	
+R138	Co-reference Arg1:T154 Arg2:T128	
+R139	Co-reference Arg1:T155 Arg2:T129	
+T156	Actor 3608 3613	kerel
+R140	Co-reference Arg1:T156 Arg2:T139	
+T157	Actor 3639 3642	hem
+R141	Co-reference Arg1:T157 Arg2:T156	
+T158	Actor 3667 3673	honden
+R142	Co-reference Arg1:T158 Arg2:T152	
+T159	Actor 3700 3706	broers
+R143	Co-reference Arg1:T159 Arg2:T148	
+T160	Actor 3742 3749	jongste
+R144	Co-reference Arg1:T160 Arg2:T151	
+T161	Location 3755 3759	huis
+R90	Co-reference Arg1:T105 Arg2:T12	
+T162	Actor 3140 3144	zich
+R115	Co-reference Arg1:T133 Arg2:T162	
+R145	Co-reference Arg1:T162 Arg2:T132	
+R148	Co-reference Arg1:T4 Arg2:T15	
+R149	Co-reference Arg1:T4 Arg2:T73	
+R150	Co-reference Arg1:T33 Arg2:T32	

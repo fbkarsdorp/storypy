@@ -1,0 +1,113 @@
+T1	Title 0 18	VAN DE DRIE WENSEN
+T2	Actor 42 48	mensen
+T3	Actor 50 53	die
+T4	Actor 124 131	zoontje
+T5	Actor 140 143	dat
+T6	Actor 160 163	hen
+T7	Actor 188 191	die
+T8	Actor 231 233	ze
+R1	Co-reference Arg1:T3 Arg2:T2	
+R2	Co-reference Arg1:T5 Arg2:T4	
+R3	Co-reference Arg1:T6 Arg2:T3	
+R4	Co-reference Arg1:T7 Arg2:T6	
+R5	Co-reference Arg1:T8 Arg2:T7	
+T9	Actor 270 272	Ze
+T10	Actor 320 322	ze
+T11	Actor 350 352	ze
+T12	Actor 363 369	elkaar
+R6	Co-reference Arg1:T12 Arg2:T11	
+R7	Co-reference Arg1:T11 Arg2:T10	
+R8	Co-reference Arg1:T10 Arg2:T9	
+R9	Co-reference Arg1:T9 Arg2:T8	
+T13	Actor 382 384	ze
+R10	Co-reference Arg1:T13 Arg2:T12	
+R11	Co-reference Arg1:T13 Arg2:T21	
+T14	Location 407 412	kamer
+T15	Actor 446 449	fee
+T16	Actor 476 479	die
+T17	Actor 484 487	hen
+T18	Actor 503 509	jullie
+T19	Actor 535 540	vader
+T20	Actor 546 552	moeder
+T21	Actor 564 571	zoontje
+R12	Co-reference Arg1:T18 Arg2:T17	
+R14	Co-reference Arg1:T16 Arg2:T15	
+R15	Co-reference Arg1:T18 Arg2:T19	
+R16	Co-reference Arg1:T18 Arg2:T20	
+R17	Co-reference Arg1:T18 Arg2:T21	
+T22	Actor 593 595	ze
+T23	Actor 610 612	ze
+T24	Actor 635 638	hen
+T25	Actor 643 646	hun
+R20	Co-reference Arg1:T25 Arg2:T24	
+R21	Co-reference Arg1:T24 Arg2:T18	
+R22	Co-reference Arg1:T23 Arg2:T22	
+R23	Co-reference Arg1:T22 Arg2:T16	
+T26	Actor 682 684	ze
+T27	Actor 685 691	elkaar
+T28	Actor 736 743	zoontje
+R24	Co-reference Arg1:T27 Arg2:T26	
+R25	Co-reference Arg1:T26 Arg2:T25	
+R26	Co-reference Arg1:T28 Arg2:T21	
+T29	Actor 769 775	moeder
+T30	Actor 782 785	hij
+T31	Actor 792 794	ik
+R27	Co-reference Arg1:T31 Arg2:T30	
+R28	Co-reference Arg1:T30 Arg2:T28	
+R29	Co-reference Arg1:T29 Arg2:T20	
+T32	Actor 830 836	moeder
+R30	Co-reference Arg1:T32 Arg2:T29	
+T33	Actor 896 902	jongen
+T34	Actor 905 907	ik
+R31	Co-reference Arg1:T34 Arg2:T33	
+R32	Co-reference Arg1:T33 Arg2:T31	
+T35	Actor 949 952	Hij
+T36	Actor 1051 1054	hem
+R33	Co-reference Arg1:T36 Arg2:T35	
+R34	Co-reference Arg1:T35 Arg2:T34	
+T37	Actor 1068 1074	Moeder
+T38	Actor 1112 1118	jongen
+R35	Co-reference Arg1:T38 Arg2:T36	
+R36	Co-reference Arg1:T37 Arg2:T32	
+T39	Actor 1130 1132	je
+T40	Actor 1140 1142	je
+T41	Actor 1170 1172	Ik
+T42	Actor 1209 1211	je
+R37	Co-reference Arg1:T42 Arg2:T40	
+R38	Co-reference Arg1:T40 Arg2:T39	
+R39	Co-reference Arg1:T39 Arg2:T38	
+R40	Co-reference Arg1:T41 Arg2:T37	
+T43	Actor 1261 1267	jongen
+T44	Actor 1300 1304	zijn
+R41	Co-reference Arg1:T44 Arg2:T43	
+R42	Co-reference Arg1:T43 Arg2:T42	
+T45	Actor 1318 1323	Vader
+T46	Actor 1330 1334	zijn
+T47	Actor 1360 1363	hij
+T48	Actor 1422 1428	jongen
+R43	Co-reference Arg1:T48 Arg2:T44	
+R44	Co-reference Arg1:T47 Arg2:T46	
+R45	Co-reference Arg1:T46 Arg2:T45	
+R46	Co-reference Arg1:T45 Arg2:T19	
+T49	Actor 1452 1455	hij
+T50	Actor 1507 1513	moeder
+R47	Co-reference Arg1:T49 Arg2:T47	
+R48	Co-reference Arg1:T50 Arg2:T41	
+T51	Actor 1540 1542	we
+R49	Co-reference Arg1:T51 Arg2:T27	
+T52	Actor 1603 1609	jongen
+R50	Co-reference Arg1:T52 Arg2:T48	
+T53	Actor 1621 1622	u
+R51	Co-reference Arg1:T53 Arg2:T50	
+T54	Actor 1636 1638	ik
+R52	Co-reference Arg1:T54 Arg2:T52	
+T55	Actor 1679 1681	ik
+R53	Co-reference Arg1:T55 Arg2:T54	
+R54	Co-reference Arg1:T21 Arg2:T5	
+R55	Co-reference Arg1:T2 Arg2:T19	
+R56	Co-reference Arg1:T2 Arg2:T20	
+T56	Actor 394 400	drieën
+T57	Actor 389 393	zijn
+R13	Co-reference Arg1:T56 Arg2:T57	
+R57	Co-reference Arg1:T57 Arg2:T13	
+R58	Co-reference Arg1:T17 Arg2:T56	

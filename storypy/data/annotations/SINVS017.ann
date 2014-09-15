@@ -1,0 +1,227 @@
+T1	Title 0 17	HET GEVONDEN GELD
+T2	Location 49 55	dorpje
+T3	Actor 69 72	man
+T4	Location 2988 2992	huis
+T5	Actor 99 107	kinderen
+T6	Actor 113 116	hun
+T7	Actor 80 85	vrouw
+T8	Actor 197 200	man
+T9	Actor 273 276	hij
+T10	Location 231 239	zalmfuik
+T11	Location 248 256	vosseval
+T12	Location 333 341	zalmfuik
+T13	Location 353 361	vosseval
+T14	Actor 378 381	hij
+T15	Location 392 396	huis
+T16	Actor 411 416	Griet
+T17	Actor 461 464	hij
+T18	Location 483 487	huis
+T19	Actor 501 504	hij
+T20	Actor 505 509	zich
+T21	Actor 523 531	zichzelf
+T22	Actor 537 539	ik
+T23	Actor 548 552	mijn
+T24	Actor 553 558	vrouw
+T25	Actor 622 625	Hij
+T26	Actor 641 645	zijn
+T27	Location 722 730	vosseval
+T28	Location 737 741	fuik
+T29	Location 749 752	val
+T30	Actor 761 764	vos
+T31	Location 774 778	fuik
+T32	Actor 783 787	zalm
+T33	Actor 789 792	Hij
+T34	Actor 800 802	ze
+T35	Actor 829 832	vos
+T36	Location 839 843	fuik
+T37	Actor 850 854	zalm
+T38	Location 861 864	val
+T39	Actor 881 884	hij
+T40	Actor 895 900	Griet
+T41	Actor 930 935	Griet
+T42	Actor 943 946	hij
+T43	Actor 971 974	mij
+T44	Actor 997 999	ik
+T45	Actor 1028 1033	Griet
+T46	Actor 1042 1046	zich
+T47	Actor 1069 1073	Piet
+T48	Actor 1095 1097	ze
+T50	Actor 1209 1214	Griet
+T51	Location 1108 1120	gemeentehuis
+T52	Location 1240 1248	raadhuis
+T53	Actor 1288 1292	Piet
+T54	Actor 1324 1335	veldwachter
+T55	Actor 1343 1349	duivel
+T56	Actor 1366 1370	Piet
+T57	Actor 1406 1410	Piet
+T58	Actor 1441 1452	veldwachter
+T59	Actor 1418 1420	je
+T60	Actor 1480 1486	duivel
+T61	Actor 1513 1515	ik
+T62	Actor 1527 1532	Griet
+T63	Actor 1551 1553	ze
+T64	Location 1561 1565	fuik
+T65	Actor 1581 1583	ze
+T66	Actor 1588 1591	vos
+T67	Location 1601 1609	vosseval
+T68	Actor 1620 1624	zalm
+T69	Actor 1638 1640	ze
+T70	Location 1651 1655	huis
+T71	Location 701 705	boom
+T72	Actor 1679 1683	Piet
+T73	Actor 1701 1706	Griet
+T74	Actor 1708 1710	we
+T75	Location 1736 1740	boom
+T76	Actor 1760 1762	ze
+T77	Actor 1788 1793	Griet
+T78	Actor 1821 1826	Griet
+T79	Actor 1833 1837	Piet
+T80	Location 1858 1862	huis
+T81	Actor 1913 1915	je
+T82	Actor 1957 1959	je
+T83	Actor 2004 2009	Griet
+T84	Actor 2042 2047	Griet
+T85	Actor 2092 2100	Trijntje
+T86	Actor 2176 2184	Trijntje
+T87	Actor 2202 2210	Marietje
+T88	Actor 2215 2223	Marietje
+T89	Actor 2228 2236	Jannetje
+T90	Actor 2273 2277	Piet
+T91	Actor 2281 2286	Griet
+T92	Actor 2341 2345	Piet
+T93	Actor 2349 2354	Griet
+T94	Location 2370 2378	raadhuis
+T95	Actor 2414 2417	Wij
+T96	Actor 2450 2454	Piet
+T97	Actor 2471 2483	burgemeester
+T98	Actor 2486 2488	je
+T99	Actor 2489 2494	vrouw
+T100	Actor 2527 2539	burgemeester
+T101	Actor 2546 2550	Piet
+T102	Actor 2558 2563	vrouw
+T103	Actor 2588 2590	ze
+T104	Actor 2655 2657	je
+T105	Actor 2658 2661	mij
+T106	Actor 2687 2692	Griet
+T107	Actor 2695 2697	Ik
+T108	Actor 2767 2778	veldwachter
+T109	Actor 2786 2792	duivel
+T110	Actor 2810 2812	we
+T111	Location 2819 2823	fuik
+T112	Actor 2828 2831	vos
+T113	Location 2848 2856	vosseval
+T114	Actor 2861 2865	zalm
+T115	Actor 2885 2897	burgemeester
+T116	Actor 2929 2933	Piet
+T117	Actor 2960 2972	burgemeester
+T118	Actor 2936 2938	Ik
+R1	Co-reference Arg1:T6 Arg2:T7	
+R2	Co-reference Arg1:T6 Arg2:T3	
+R3	Co-reference Arg1:T8 Arg2:T3	
+R4	Co-reference Arg1:T9 Arg2:T8	
+R5	Co-reference Arg1:T12 Arg2:T10	
+R6	Co-reference Arg1:T13 Arg2:T11	
+R7	Co-reference Arg1:T14 Arg2:T9	
+T119	Actor 406 410	zijn
+R8	Co-reference Arg1:T117 Arg2:T118	
+R9	Co-reference Arg1:T118 Arg2:T115	
+R10	Co-reference Arg1:T115 Arg2:T100	
+R11	Co-reference Arg1:T100 Arg2:T97	
+R12	Co-reference Arg1:T108 Arg2:T58	
+R13	Co-reference Arg1:T58 Arg2:T54	
+R14	Co-reference Arg1:T60 Arg2:T55	
+R15	Co-reference Arg1:T109 Arg2:T60	
+R16	Co-reference Arg1:T88 Arg2:T87	
+R17	Co-reference Arg1:T86 Arg2:T85	
+R18	Co-reference Arg1:T94 Arg2:T52	
+R19	Co-reference Arg1:T52 Arg2:T51	
+R20	Co-reference Arg1:T4 Arg2:T80	
+R21	Co-reference Arg1:T80 Arg2:T70	
+R22	Co-reference Arg1:T70 Arg2:T18	
+R23	Co-reference Arg1:T18 Arg2:T15	
+R24	Co-reference Arg1:T29 Arg2:T27	
+R25	Co-reference Arg1:T31 Arg2:T28	
+R26	Co-reference Arg1:T36 Arg2:T31	
+R27	Co-reference Arg1:T38 Arg2:T29	
+R28	Co-reference Arg1:T27 Arg2:T13	
+R29	Co-reference Arg1:T28 Arg2:T12	
+R30	Co-reference Arg1:T111 Arg2:T64	
+R31	Co-reference Arg1:T113 Arg2:T67	
+R32	Co-reference Arg1:T64 Arg2:T36	
+R33	Co-reference Arg1:T67 Arg2:T38	
+R34	Co-reference Arg1:T75 Arg2:T71	
+R35	Co-reference Arg1:T34 Arg2:T32	
+R36	Co-reference Arg1:T34 Arg2:T30	
+R37	Co-reference Arg1:T35 Arg2:T30	
+R38	Co-reference Arg1:T37 Arg2:T32	
+R39	Co-reference Arg1:T26 Arg2:T25	
+R40	Co-reference Arg1:T119 Arg2:T14	
+R41	Co-reference Arg1:T17 Arg2:T119	
+R42	Co-reference Arg1:T19 Arg2:T17	
+R43	Co-reference Arg1:T20 Arg2:T19	
+R44	Co-reference Arg1:T21 Arg2:T20	
+R45	Co-reference Arg1:T22 Arg2:T21	
+R46	Co-reference Arg1:T23 Arg2:T22	
+R47	Co-reference Arg1:T24 Arg2:T16	
+R48	Co-reference Arg1:T25 Arg2:T23	
+R49	Co-reference Arg1:T33 Arg2:T26	
+R50	Co-reference Arg1:T39 Arg2:T33	
+T120	Actor 890 894	zijn
+R51	Co-reference Arg1:T120 Arg2:T39	
+R52	Co-reference Arg1:T40 Arg2:T24	
+R53	Co-reference Arg1:T41 Arg2:T40	
+R54	Co-reference Arg1:T42 Arg2:T120	
+R55	Co-reference Arg1:T43 Arg2:T42	
+R56	Co-reference Arg1:T44 Arg2:T43	
+R57	Co-reference Arg1:T45 Arg2:T41	
+R58	Co-reference Arg1:T47 Arg2:T44	
+R59	Co-reference Arg1:T46 Arg2:T45	
+R60	Co-reference Arg1:T48 Arg2:T47	
+R61	Co-reference Arg1:T48 Arg2:T46	
+R62	Co-reference Arg1:T50 Arg2:T46	
+R63	Co-reference Arg1:T53 Arg2:T47	
+R64	Co-reference Arg1:T56 Arg2:T53	
+R65	Co-reference Arg1:T57 Arg2:T56	
+R66	Co-reference Arg1:T59 Arg2:T50	
+R67	Co-reference Arg1:T62 Arg2:T61	
+R68	Co-reference Arg1:T61 Arg2:T59	
+R69	Co-reference Arg1:T63 Arg2:T48	
+R70	Co-reference Arg1:T65 Arg2:T63	
+R71	Co-reference Arg1:T66 Arg2:T35	
+R72	Co-reference Arg1:T68 Arg2:T37	
+R73	Co-reference Arg1:T69 Arg2:T65	
+R74	Co-reference Arg1:T72 Arg2:T57	
+R75	Co-reference Arg1:T73 Arg2:T62	
+R76	Co-reference Arg1:T74 Arg2:T69	
+R77	Co-reference Arg1:T76 Arg2:T74	
+R78	Co-reference Arg1:T77 Arg2:T73	
+R79	Co-reference Arg1:T78 Arg2:T77	
+R80	Co-reference Arg1:T82 Arg2:T81	
+R81	Co-reference Arg1:T81 Arg2:T78	
+R82	Co-reference Arg1:T79 Arg2:T72	
+R83	Co-reference Arg1:T83 Arg2:T82	
+R84	Co-reference Arg1:T84 Arg2:T83	
+R85	Co-reference Arg1:T91 Arg2:T84	
+R86	Co-reference Arg1:T90 Arg2:T79	
+T121	Actor 2553 2557	mijn
+R87	Co-reference Arg1:T121 Arg2:T101	
+R88	Co-reference Arg1:T92 Arg2:T90	
+R89	Co-reference Arg1:T93 Arg2:T91	
+R90	Co-reference Arg1:T96 Arg2:T92	
+R91	Co-reference Arg1:T95 Arg2:T76	
+R92	Co-reference Arg1:T98 Arg2:T96	
+R93	Co-reference Arg1:T99 Arg2:T93	
+R94	Co-reference Arg1:T103 Arg2:T102	
+R95	Co-reference Arg1:T101 Arg2:T98	
+R96	Co-reference Arg1:T102 Arg2:T99	
+R97	Co-reference Arg1:T105 Arg2:T103	
+R98	Co-reference Arg1:T106 Arg2:T105	
+R99	Co-reference Arg1:T104 Arg2:T121	
+R100	Co-reference Arg1:T107 Arg2:T106	
+R101	Co-reference Arg1:T110 Arg2:T95	
+R102	Co-reference Arg1:T116 Arg2:T104	
+R103	Co-reference Arg1:T112 Arg2:T66	
+R104	Co-reference Arg1:T114 Arg2:T68	
+T122	Actor 2082 2091	buurvrouw
+R105	Co-reference Arg1:T85 Arg2:T122	
+R106	Co-reference Arg1:T16 Arg2:T7	

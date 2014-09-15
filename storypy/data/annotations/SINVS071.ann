@@ -1,0 +1,21 @@
+T1	Title 0 24	﻿DRIE TANDEN IN HET RIET
+T2	Actor 227 242	Onze Lieve Heer
+T3	Location 263 269	Egypte
+T4	Actor 271 287	Onze Lieve Vrouw
+T5	Actor 291 307	ons lief Heertje
+T6	Actor 321 325	ezel
+T7	Actor 334 338	ezel
+T8	Actor 359 362	hij
+T9	Actor 442 458	de heilige Jozef
+T10	Actor 475 479	ezel
+T11	Actor 557 561	zijn
+T12	Actor 576 579	Hij
+T13	Actor 611 615	zijn
+R1	Co-reference Arg1:T5 Arg2:T2	
+R2	Co-reference Arg1:T7 Arg2:T6	
+R3	Co-reference Arg1:T8 Arg2:T7	
+R4	Co-reference Arg1:T9 Arg2:T5	
+R5	Co-reference Arg1:T10 Arg2:T8	
+R6	Co-reference Arg1:T11 Arg2:T10	
+R7	Co-reference Arg1:T12 Arg2:T11	
+R8	Co-reference Arg1:T13 Arg2:T12	

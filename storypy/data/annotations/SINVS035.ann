@@ -1,0 +1,232 @@
+T1	Title 0 26	HANENEEFJE EN HENNENICHTJE
+T2	Actor 28 38	Haneneefje
+T3	Actor 42 54	Hennenichtje
+T4	Location 82 88	huisje
+T5	Actor 192 194	ze
+T6	Actor 264 274	Haneneefje
+T7	Actor 289 292	wij
+T8	Actor 293 296	ons
+T9	Actor 252 257	nicht
+T10	Actor 401 413	Hennenichtje
+T11	Actor 440 448	Haneneef
+T12	Actor 525 535	Hennenicht
+T13	Actor 574 576	Ze
+T14	Actor 586 588	ze
+T15	Actor 838 850	Hennenichtje
+T16	Actor 865 867	Ze
+T17	Actor 935 937	ze
+T18	Actor 968 970	ze
+T19	Actor 976 978	ze
+T20	Actor 1147 1155	Haneneef
+T21	Actor 1166 1178	Hennenichtje
+T22	Actor 1208 1216	Haneneef
+T23	Actor 1246 1254	Haneneef
+T24	Actor 1268 1271	hij
+T25	Actor 1319 1322	hij
+T26	Actor 1276 1280	zijn
+T27	Actor 1333 1337	zijn
+T28	Actor 1352 1355	hij
+T29	Actor 1356 1368	Hennenichtje
+T30	Actor 1407 1410	hij
+T31	Location 1411 1417	buiten
+T32	Actor 1498 1517	Griesgrauwgruweltje
+T33	Actor 1557 1565	Haneneef
+T34	Location 1571 1577	buiten
+T35	Actor 1613 1616	hij
+T36	Actor 1634 1653	Griesgrauwgruweltje
+T37	Actor 1688 1691	hij
+T38	Actor 1720 1723	hij
+T39	Actor 1774 1777	hij
+T40	Actor 1813 1832	Griesgrauwgruweltje
+T41	Actor 1849 1852	hij
+T42	Actor 1857 1859	os
+T43	Actor 1877 1885	Haneneef
+T44	Actor 1914 1916	Ik
+T45	Actor 1925 1944	Griesgrauwgruweltje
+T46	Actor 1954 1968	Hennenichtje's
+T47	Actor 1987 1989	ik
+T48	Actor 2074 2077	hij
+T49	Actor 2082 2086	haan
+T50	Actor 2104 2112	Haneneef
+T51	Actor 2141 2143	Ik
+T52	Actor 2152 2171	Griesgrauwgruweltje
+T53	Actor 2180 2194	Hennenichtje's
+T54	Actor 2217 2219	ik
+T55	Actor 2301 2306	hekel
+T56	Actor 2312 2317	speld
+T57	Actor 2323 2328	naald
+T58	Actor 2334 2336	ei
+T59	Actor 2344 2354	slijpsteen
+T60	Actor 2382 2384	ze
+T61	Actor 2446 2449	hij
+T62	Actor 2467 2486	Griesgrauwgruweltje
+T63	Location 2458 2462	huis
+T64	Actor 2537 2545	Haneneef
+T65	Actor 2571 2575	haan
+T66	Actor 2578 2580	ik
+T67	Location 2620 2628	staldeur
+T68	Actor 2686 2690	haan
+T69	Actor 2720 2728	Haneneef
+T70	Location 2739 2745	binnen
+T71	Actor 2784 2796	Hennenichtje
+T72	Actor 2825 2827	we
+T73	Actor 2844 2847	hij
+T74	Actor 2869 2872	ons
+T75	Actor 2890 2897	anderen
+T76	Actor 2904 2906	ei
+T77	Actor 2931 2936	speld
+T78	Actor 2943 2948	naald
+T79	Actor 2987 2992	hekel
+T80	Actor 3031 3033	os
+T81	Location 3042 3046	stal
+T82	Actor 3057 3061	haan
+T83	Location 3076 3086	hanebalken
+T84	Actor 3093 3103	slijpsteen
+T85	Location 3129 3133	deur
+T86	Actor 3151 3170	Griesgrauwgruweltje
+T87	Actor 3178 3181	Hij
+T88	Actor 3223 3225	ei
+T89	Actor 3236 3239	hem
+T90	Location 3171 3176	thuis
+T91	Actor 3261 3265	mijn
+T92	Actor 3279 3282	hij
+T93	Actor 3334 3339	speld
+T94	Actor 3346 3351	naald
+T95	Actor 3382 3385	hij
+T96	Actor 3394 3398	zich
+T97	Actor 3422 3427	hekel
+T98	Actor 3438 3442	mijn
+T99	Actor 3459 3462	hij
+T100	Location 3402 3405	bed
+T101	Location 3476 3479	bed
+T102	Location 3496 3500	stal
+T103	Location 3507 3511	daar
+T104	Actor 3548 3550	os
+T105	Actor 3564 3568	zijn
+T106	Actor 3585 3588	hem
+T107	Actor 3605 3608	hem
+T108	Actor 3619 3622	mij
+T109	Actor 3638 3642	haan
+T110	Location 3660 3670	hanebalken
+T111	Actor 3677 3696	Griesgrauwgruweltje
+T112	Actor 3711 3714	hij
+T113	Location 3722 3726	deur
+T114	Actor 3741 3744	hij
+T115	Actor 3840 3859	Griesgrauwgruweltje
+R2	Co-reference Arg1:T5 Arg2:T116	
+T116	Actor 63 68	samen
+R3	Co-reference Arg1:T116 Arg2:T3	
+R1	Co-reference Arg1:T116 Arg2:T2	
+R4	Co-reference Arg1:T9 Arg2:T3	
+R5	Co-reference Arg1:T6 Arg2:T2	
+R6	Co-reference Arg1:T7 Arg2:T5	
+R7	Co-reference Arg1:T8 Arg2:T7	
+R8	Co-reference Arg1:T10 Arg2:T9	
+R10	Co-reference Arg1:T12 Arg2:T10	
+R9	Co-reference Arg1:T11 Arg2:T6	
+R11	Co-reference Arg1:T13 Arg2:T12	
+R12	Co-reference Arg1:T14 Arg2:T13	
+R13	Co-reference Arg1:T15 Arg2:T14	
+R14	Co-reference Arg1:T16 Arg2:T15	
+R15	Co-reference Arg1:T17 Arg2:T16	
+R16	Co-reference Arg1:T18 Arg2:T17	
+R17	Co-reference Arg1:T19 Arg2:T18	
+R18	Co-reference Arg1:T20 Arg2:T11	
+R19	Co-reference Arg1:T21 Arg2:T19	
+R20	Co-reference Arg1:T22 Arg2:T20	
+R21	Co-reference Arg1:T23 Arg2:T22	
+R22	Co-reference Arg1:T24 Arg2:T23	
+R23	Co-reference Arg1:T26 Arg2:T24	
+R24	Co-reference Arg1:T25 Arg2:T26	
+R25	Co-reference Arg1:T27 Arg2:T25	
+R26	Co-reference Arg1:T28 Arg2:T27	
+R27	Co-reference Arg1:T29 Arg2:T21	
+R28	Co-reference Arg1:T30 Arg2:T28	
+R29	Co-reference Arg1:T33 Arg2:T30	
+R30	Co-reference Arg1:T34 Arg2:T31	
+R31	Co-reference Arg1:T35 Arg2:T33	
+R32	Co-reference Arg1:T36 Arg2:T32	
+R33	Co-reference Arg1:T37 Arg2:T35	
+R34	Co-reference Arg1:T38 Arg2:T37	
+R35	Co-reference Arg1:T39 Arg2:T38	
+R36	Co-reference Arg1:T40 Arg2:T36	
+R37	Co-reference Arg1:T41 Arg2:T39	
+T117	Actor 1867 1870	die
+R38	Co-reference Arg1:T117 Arg2:T42	
+R39	Co-reference Arg1:T43 Arg2:T41	
+R40	Co-reference Arg1:T44 Arg2:T43	
+R41	Co-reference Arg1:T45 Arg2:T40	
+R42	Co-reference Arg1:T46 Arg2:T29	
+R43	Co-reference Arg1:T47 Arg2:T117	
+R44	Co-reference Arg1:T48 Arg2:T44	
+R45	Co-reference Arg1:T50 Arg2:T48	
+R46	Co-reference Arg1:T51 Arg2:T50	
+R47	Co-reference Arg1:T52 Arg2:T45	
+R48	Co-reference Arg1:T53 Arg2:T46	
+R49	Co-reference Arg1:T54 Arg2:T49	
+R50	Co-reference Arg1:T60 Arg2:T59	
+R51	Co-reference Arg1:T60 Arg2:T58	
+R52	Co-reference Arg1:T60 Arg2:T57	
+R53	Co-reference Arg1:T60 Arg2:T56	
+R54	Co-reference Arg1:T60 Arg2:T55	
+R55	Co-reference Arg1:T61 Arg2:T51	
+R56	Co-reference Arg1:T62 Arg2:T52	
+R57	Co-reference Arg1:T64 Arg2:T61	
+R58	Co-reference Arg1:T65 Arg2:T54	
+R59	Co-reference Arg1:T66 Arg2:T65	
+R60	Co-reference Arg1:T68 Arg2:T66	
+R61	Co-reference Arg1:T69 Arg2:T64	
+R62	Co-reference Arg1:T70 Arg2:T63	
+R63	Co-reference Arg1:T71 Arg2:T53	
+R64	Co-reference Arg1:T72 Arg2:T69	
+R65	Co-reference Arg1:T72 Arg2:T68	
+R66	Co-reference Arg1:T72 Arg2:T60	
+R67	Co-reference Arg1:T72 Arg2:T47	
+R68	Co-reference Arg1:T73 Arg2:T69	
+R69	Co-reference Arg1:T74 Arg2:T68	
+R70	Co-reference Arg1:T74 Arg2:T60	
+R71	Co-reference Arg1:T74 Arg2:T47	
+R72	Co-reference Arg1:T75 Arg2:T74	
+R73	Co-reference Arg1:T76 Arg2:T58	
+R74	Co-reference Arg1:T77 Arg2:T56	
+R75	Co-reference Arg1:T78 Arg2:T57	
+T118	Location 2977 2982	stoel
+T119	Location 3016 3019	bed
+R76	Co-reference Arg1:T79 Arg2:T55	
+R77	Co-reference Arg1:T80 Arg2:T47	
+R78	Co-reference Arg1:T82 Arg2:T68	
+R79	Co-reference Arg1:T84 Arg2:T59	
+R80	Co-reference Arg1:T86 Arg2:T62	
+R81	Co-reference Arg1:T90 Arg2:T70	
+R82	Co-reference Arg1:T87 Arg2:T86	
+R83	Co-reference Arg1:T88 Arg2:T76	
+R84	Co-reference Arg1:T89 Arg2:T87	
+R85	Co-reference Arg1:T91 Arg2:T89	
+R86	Co-reference Arg1:T92 Arg2:T91	
+T120	Location 3298 3303	stoel
+R87	Co-reference Arg1:T120 Arg2:T118	
+R88	Co-reference Arg1:T93 Arg2:T77	
+R89	Co-reference Arg1:T94 Arg2:T78	
+R90	Co-reference Arg1:T95 Arg2:T92	
+R91	Co-reference Arg1:T96 Arg2:T95	
+R92	Co-reference Arg1:T100 Arg2:T119	
+R93	Co-reference Arg1:T97 Arg2:T79	
+R94	Co-reference Arg1:T98 Arg2:T96	
+R95	Co-reference Arg1:T99 Arg2:T98	
+R96	Co-reference Arg1:T101 Arg2:T100	
+R97	Co-reference Arg1:T102 Arg2:T81	
+R98	Co-reference Arg1:T103 Arg2:T102	
+R99	Co-reference Arg1:T104 Arg2:T80	
+R100	Co-reference Arg1:T105 Arg2:T104	
+R101	Co-reference Arg1:T106 Arg2:T99	
+R102	Co-reference Arg1:T107 Arg2:T106	
+R103	Co-reference Arg1:T108 Arg2:T82	
+R104	Co-reference Arg1:T109 Arg2:T108	
+R105	Co-reference Arg1:T110 Arg2:T83	
+R106	Co-reference Arg1:T111 Arg2:T107	
+R107	Co-reference Arg1:T112 Arg2:T111	
+R108	Co-reference Arg1:T113 Arg2:T85	
+R109	Co-reference Arg1:T114 Arg2:T112	
+T121	Actor 3788 3798	slijpsteen
+R110	Co-reference Arg1:T121 Arg2:T84	
+R111	Co-reference Arg1:T115 Arg2:T114	

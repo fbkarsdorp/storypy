@@ -1,0 +1,529 @@
+T1	Title 0 11	VOGEL VINUS
+T2	Actor 28 34	koning
+T3	Actor 35 38	die
+T4	Actor 59 65	koning
+T5	Actor 70 80	drie zoons
+T6	Actor 93 96	hij
+T7	Actor 108 110	ik
+T8	Actor 111 122	vogel Vinus
+T9	Actor 155 157	ik
+T10	Actor 173 184	vogel Vinus
+T11	Actor 221 225	zijn
+T12	Location 226 232	paleis
+T13	Actor 253 264	oudste zoon
+T14	Actor 281 285	zijn
+T15	Actor 286 291	vader
+T16	Actor 317 320	hij
+T17	Actor 339 350	wondervogel
+T18	Actor 361 364	Hij
+T19	Actor 376 379	hij
+T20	Actor 425 428	hij
+R1	Co-reference Arg1:T3 Arg2:T2	
+R2	Co-reference Arg1:T4 Arg2:T3	
+R3	Co-reference Arg1:T6 Arg2:T4	
+R4	Co-reference Arg1:T7 Arg2:T6	
+R5	Co-reference Arg1:T9 Arg2:T7	
+R6	Co-reference Arg1:T10 Arg2:T8	
+R7	Co-reference Arg1:T11 Arg2:T9	
+R8	Co-reference Arg1:T14 Arg2:T13	
+R9	Co-reference Arg1:T15 Arg2:T11	
+R10	Co-reference Arg1:T16 Arg2:T14	
+R11	Co-reference Arg1:T17 Arg2:T10	
+R12	Co-reference Arg1:T18 Arg2:T16	
+R13	Co-reference Arg1:T19 Arg2:T18	
+R14	Co-reference Arg1:T20 Arg2:T19	
+T21	Actor 461 472	tweede zoon
+T22	Actor 483 486	hij
+T23	Actor 529 535	koning
+R15	Co-reference Arg1:T22 Arg2:T21	
+T24	Actor 545 555	derde zoon
+T25	Actor 570 576	jongen
+R16	Co-reference Arg1:T25 Arg2:T24	
+T26	Actor 604 607	hij
+T27	Actor 653 659	koning
+T28	Actor 697 708	vogel Vinus
+T29	Actor 749 757	Diederik
+T30	Actor 781 785	zoon
+T31	Actor 791 796	Vader
+T32	Actor 803 806	mij
+R17	Co-reference Arg1:T32 Arg2:T30	
+R18	Co-reference Arg1:T30 Arg2:T29	
+R19	Co-reference Arg1:T29 Arg2:T26	
+R20	Co-reference Arg1:T26 Arg2:T25	
+R21	Co-reference Arg1:T31 Arg2:T242	
+R22	Co-reference Arg1:T27 Arg2:T23	
+R23	Co-reference Arg1:T23 Arg2:T15	
+R24	Co-reference Arg1:T28 Arg2:T17	
+T33	Actor 823 825	Ik
+T34	Actor 842 844	ik
+T35	Actor 845 846	u
+T36	Actor 847 858	vogel Vinus
+R25	Co-reference Arg1:T36 Arg2:T28	
+R26	Co-reference Arg1:T35 Arg2:T31	
+R27	Co-reference Arg1:T34 Arg2:T33	
+R28	Co-reference Arg1:T33 Arg2:T32	
+T37	Actor 875 879	mijn
+T38	Actor 880 886	jongen
+T39	Actor 901 907	koning
+R30	Co-reference Arg1:T38 Arg2:T34	
+R31	Co-reference Arg1:T37 Arg2:T35	
+R29	Co-reference Arg1:T39 Arg2:T37	
+T40	Actor 911 919	Diederik
+T41	Actor 946 949	hij
+T42	Actor 960 963	vos
+T43	Actor 975 978	hem
+T44	Actor 971 974	die
+T45	Actor 994 997	hij
+R32	Co-reference Arg1:T41 Arg2:T40	
+R33	Co-reference Arg1:T44 Arg2:T42	
+R34	Co-reference Arg1:T43 Arg2:T41	
+R35	Co-reference Arg1:T45 Arg2:T43	
+T46	Actor 1005 1007	Ik
+T47	Actor 1017 1022	Vinus
+R36	Co-reference Arg1:T47 Arg2:T36	
+R37	Co-reference Arg1:T46 Arg2:T45	
+T48	Actor 1063 1065	je
+T49	Actor 1087 1095	Diederik
+R38	Co-reference Arg1:T48 Arg2:T46	
+R39	Co-reference Arg1:T49 Arg2:T48	
+T50	Actor 1105 1108	vos
+T51	Actor 1111 1113	Je
+T52	Actor 1119 1121	je
+R41	Co-reference Arg1:T51 Arg2:T49	
+R42	Co-reference Arg1:T52 Arg2:T51	
+T53	Actor 1162 1164	je
+T54	Actor 1174 1176	ik
+T55	Actor 1185 1187	je
+R43	Co-reference Arg1:T55 Arg2:T53	
+R44	Co-reference Arg1:T53 Arg2:T52	
+R45	Co-reference Arg1:T54 Arg2:T50	
+T56	Actor 1204 1206	ze
+R46	Co-reference Arg1:T56 Arg2:T55	
+R47	Co-reference Arg1:T56 Arg2:T54	
+T57	Actor 1246 1248	ze
+R48	Co-reference Arg1:T57 Arg2:T56	
+T58	Location 1263 1270	kasteel
+T59	Actor 1287 1290	vos
+T60	Actor 1299 1310	vogel Vinus
+R49	Co-reference Arg1:T60 Arg2:T47	
+R50	Co-reference Arg1:T59 Arg2:T54	
+T61	Actor 1349 1352	hij
+T62	Actor 1353 1357	zich
+R51	Co-reference Arg1:T62 Arg2:T61	
+R52	Co-reference Arg1:T61 Arg2:T60	
+T63	Actor 1411 1413	Je
+T64	Actor 1444 1455	vogel Vinus
+T65	Actor 1496 1498	je
+T66	Actor 1530 1532	je
+T67	Actor 1527 1529	ze
+R53	Co-reference Arg1:T64 Arg2:T62	
+R54	Co-reference Arg1:T63 Arg2:T55	
+R55	Co-reference Arg1:T65 Arg2:T63	
+R56	Co-reference Arg1:T66 Arg2:T65	
+T68	Actor 1550 1556	jongen
+T69	Actor 1645 1648	hij
+T70	Actor 1653 1661	zichzelf
+T72	Actor 1676 1678	ik
+R57	Co-reference Arg1:T72 Arg2:T70	
+R58	Co-reference Arg1:T70 Arg2:T69	
+R59	Co-reference Arg1:T69 Arg2:T68	
+R60	Co-reference Arg1:T68 Arg2:T66	
+T71	Actor 1757 1760	hij
+R61	Co-reference Arg1:T71 Arg2:T72	
+T73	Actor 1761 1765	zijn
+R62	Co-reference Arg1:T73 Arg2:T71	
+T74	Actor 1867 1873	koning
+R63	Co-reference Arg1:T74 Arg2:T67	
+T75	Actor 1906 1914	Diederik
+R64	Co-reference Arg1:T75 Arg2:T73	
+T76	Actor 1941 1944	hij
+T77	Actor 1956 1962	koning
+T78	Actor 1982 1985	hij
+T79	Actor 2001 2004	hij
+R65	Co-reference Arg1:T79 Arg2:T78	
+R66	Co-reference Arg1:T78 Arg2:T247	
+R67	Co-reference Arg1:T76 Arg2:T75	
+R68	Co-reference Arg1:T77 Arg2:T246	
+T80	Actor 2011 2019	Diederik
+T81	Actor 2033 2037	zijn
+T82	Actor 2038 2043	vader
+T83	Actor 2093 2104	vogel Vinus
+T84	Actor 2127 2130	hem
+R69	Co-reference Arg1:T84 Arg2:T82	
+R70	Co-reference Arg1:T83 Arg2:T64	
+R71	Co-reference Arg1:T81 Arg2:T80	
+R72	Co-reference Arg1:T80 Arg2:T79	
+R73	Co-reference Arg1:T82 Arg2:T39	
+T85	Actor 2144 2150	koning
+T86	Actor 2172 2175	hem
+T87	Actor 2192 2203	vogel Vinus
+T88	Actor 2213 2221	Diederik
+T89	Location 2342 2349	kasteel
+R74	Co-reference Arg1:T85 Arg2:T77	
+R75	Co-reference Arg1:T86 Arg2:T81	
+R76	Co-reference Arg1:T87 Arg2:T83	
+R77	Co-reference Arg1:T88 Arg2:T244	
+T90	Actor 2357 2365	Diederik
+T91	Actor 2411 2414	hij
+T92	Actor 2434 2437	vos
+T93	Actor 2452 2455	hem
+R78	Co-reference Arg1:T93 Arg2:T91	
+R79	Co-reference Arg1:T91 Arg2:T90	
+R80	Co-reference Arg1:T90 Arg2:T88	
+R81	Co-reference Arg1:T92 Arg2:T59	
+T94	Actor 2463 2466	zij
+T95	Actor 2501 2504	zij
+R84	Co-reference Arg1:T95 Arg2:T94	
+T96	Location 2528 2535	kasteel
+T97	Actor 2588 2591	vos
+R85	Co-reference Arg1:T97 Arg2:T92	
+T98	Actor 2603 2605	je
+R86	Co-reference Arg1:T98 Arg2:T93	
+T99	Actor 2644 2646	je
+R87	Co-reference Arg1:T99 Arg2:T98	
+T100	Actor 2730 2738	Diederik
+T101	Actor 2750 2753	hij
+T102	Actor 2776 2779	hij
+T103	Actor 2780 2784	zijn
+T104	Actor 2817 2820	hij
+R88	Co-reference Arg1:T104 Arg2:T103	
+R89	Co-reference Arg1:T103 Arg2:T102	
+R90	Co-reference Arg1:T102 Arg2:T101	
+R91	Co-reference Arg1:T101 Arg2:T100	
+R92	Co-reference Arg1:T100 Arg2:T99	
+T105	Actor 2873 2876	hij
+T106	Actor 2983 2989	koning
+R93	Co-reference Arg1:T105 Arg2:T104	
+T107	Actor 3034 3042	Diederik
+R94	Co-reference Arg1:T107 Arg2:T105	
+T108	Actor 3064 3067	hij
+T109	Actor 3079 3085	koning
+R95	Co-reference Arg1:T108 Arg2:T107	
+R96	Co-reference Arg1:T109 Arg2:T245	
+T110	Actor 3087 3090	die
+T111	Actor 3091 3094	hem
+T112	Actor 3105 3108	hij
+T113	Actor 3124 3127	hij
+R97	Co-reference Arg1:T113 Arg2:T112	
+R98	Co-reference Arg1:T112 Arg2:T111	
+R99	Co-reference Arg1:T111 Arg2:T108	
+R100	Co-reference Arg1:T110 Arg2:T109	
+T114	Actor 3134 3142	Diederik
+T115	Actor 3152 3155	hem
+T116	Actor 3168 3174	koning
+R101	Co-reference Arg1:T116 Arg2:T115	
+R102	Co-reference Arg1:T115 Arg2:T110	
+R103	Co-reference Arg1:T114 Arg2:T113	
+T117	Actor 3196 3198	Je
+T118	Actor 3237 3240	hij
+T119	Actor 3259 3261	je
+T120	Actor 3277 3281	Lena
+T121	Location 3299 3310	Glazen berg
+R104	Co-reference Arg1:T119 Arg2:T117	
+R105	Co-reference Arg1:T117 Arg2:T114	
+R106	Co-reference Arg1:T118 Arg2:T116	
+T122	Actor 3355 3363	Diederik
+T123	Actor 3367 3370	hij
+R107	Co-reference Arg1:T123 Arg2:T122	
+R108	Co-reference Arg1:T122 Arg2:T119	
+T124	Actor 3401 3404	vos
+T125	Actor 3405 3409	zich
+T126	Actor 3414 3417	hem
+R109	Co-reference Arg1:T126 Arg2:T123	
+R110	Co-reference Arg1:T125 Arg2:T124	
+R111	Co-reference Arg1:T124 Arg2:T97	
+T127	Actor 3435 3437	ze
+T128	Actor 3471 3473	ze
+T129	Location 3493 3504	Glazen berg
+R114	Co-reference Arg1:T129 Arg2:T121	
+T130	Actor 3513 3515	ze
+T131	Location 3516 3519	die
+R115	Co-reference Arg1:T131 Arg2:T129	
+R116	Co-reference Arg1:T130 Arg2:T128	
+R117	Co-reference Arg1:T128 Arg2:T127	
+T132	Location 3556 3563	kasteel
+T133	Actor 3585 3589	Lena
+R118	Co-reference Arg1:T133 Arg2:T120	
+T134	Actor 3545 3547	ze
+R119	Co-reference Arg1:T134 Arg2:T130	
+T135	Actor 3598 3602	Lena
+R120	Co-reference Arg1:T135 Arg2:T133	
+T136	Actor 3644 3646	ze
+T137	Actor 3611 3615	haar
+R121	Co-reference Arg1:T137 Arg2:T135	
+R122	Co-reference Arg1:T136 Arg2:T134	
+T138	Actor 3674 3682	Diederik
+T139	Actor 3683 3687	haar
+R123	Co-reference Arg1:T138 Arg2:T126	
+T140	Actor 3691 3694	zij
+T141	Actor 3699 3702	hem
+R124	Co-reference Arg1:T139 Arg2:T137	
+R125	Co-reference Arg1:T140 Arg2:T139	
+R126	Co-reference Arg1:T141 Arg2:T138	
+T142	Actor 3731 3733	ze
+R127	Co-reference Arg1:T142 Arg2:T140	
+T143	Actor 3775 3777	ze
+R128	Co-reference Arg1:T143 Arg2:T142	
+T144	Actor 3794 3796	Ze
+T145	Actor 3852 3854	ze
+T146	Actor 3911 3917	knecht
+R129	Co-reference Arg1:T144 Arg2:T143	
+R130	Co-reference Arg1:T145 Arg2:T144	
+R131	Co-reference Arg1:T145 Arg2:T141	
+T147	Location 3942 3949	kasteel
+R132	Co-reference Arg1:T147 Arg2:T96	
+T148	Actor 3924 3926	ze
+R133	Co-reference Arg1:T148 Arg2:T145	
+T149	Actor 3965 3971	koning
+T150	Actor 3989 3993	Lena
+T151	Actor 4008 4011	hij
+R134	Co-reference Arg1:T151 Arg2:T149	
+R135	Co-reference Arg1:T150 Arg2:T144	
+R136	Co-reference Arg1:T149 Arg2:T118	
+T152	Actor 4037 4040	Hij
+R137	Co-reference Arg1:T152 Arg2:T151	
+T153	Actor 4085 4093	Diederik
+R138	Co-reference Arg1:T153 Arg2:T141	
+T154	Actor 4095 4103	Diederik
+T155	Actor 4117 4123	koning
+R139	Co-reference Arg1:T154 Arg2:T153	
+R140	Co-reference Arg1:T155 Arg2:T152	
+T156	Actor 4131 4133	uw
+T157	Actor 4134 4139	bruid
+R141	Co-reference Arg1:T156 Arg2:T155	
+R142	Co-reference Arg1:T157 Arg2:T150	
+T158	Actor 4186 4189	wij
+R143	Co-reference Arg1:T158 Arg2:T157	
+R144	Co-reference Arg1:T158 Arg2:T156	
+R145	Co-reference Arg1:T158 Arg2:T154	
+T159	Location 4224 4228	stad
+T160	Actor 4256 4264	Diederik
+T161	Actor 4285 4289	Lena
+T162	Actor 4310 4314	haar
+R146	Co-reference Arg1:T162 Arg2:T161	
+R147	Co-reference Arg1:T160 Arg2:T154	
+R148	Co-reference Arg1:T161 Arg2:T157	
+T163	Actor 4412 4414	ze
+T164	Actor 4421 4427	koning
+R149	Co-reference Arg1:T163 Arg2:T162	
+R150	Co-reference Arg1:T163 Arg2:T160	
+R151	Co-reference Arg1:T164 Arg2:T156	
+T165	Actor 4455 4457	ze
+T166	Location 4476 4483	kasteel
+T167	Actor 4490 4496	koning
+T168	Actor 4523 4526	hij
+T169	Actor 4546 4554	Diederik
+T170	Actor 4567 4569	Ik
+T171	Actor 4574 4575	u
+T172	Actor 4596 4598	ik
+T173	Actor 4621 4629	Diederik
+T174	Actor 4649 4660	vogel Vinus
+T175	Actor 4666 4668	ik
+T176	Actor 4718 4722	mijn
+T177	Actor 4723 4728	bruid
+R152	Co-reference Arg1:T165 Arg2:T163	
+R153	Co-reference Arg1:T166 Arg2:T58	
+R154	Co-reference Arg1:T96 Arg2:T89	
+R156	Co-reference Arg1:T176 Arg2:T175	
+R157	Co-reference Arg1:T175 Arg2:T173	
+R158	Co-reference Arg1:T173 Arg2:T172	
+R159	Co-reference Arg1:T172 Arg2:T170	
+R160	Co-reference Arg1:T170 Arg2:T169	
+R161	Co-reference Arg1:T168 Arg2:T167	
+R162	Co-reference Arg1:T171 Arg2:T168	
+R163	Co-reference Arg1:T174 Arg2:T87	
+R164	Co-reference Arg1:T177 Arg2:T162	
+T178	Actor 4739 4745	koning
+T179	Actor 4756 4761	vogel
+T180	Actor 4801 4807	meisje
+R165	Co-reference Arg1:T180 Arg2:T177	
+R166	Co-reference Arg1:T179 Arg2:T174	
+R167	Co-reference Arg1:T178 Arg2:T171	
+T181	Actor 4833 4841	Diederik
+T182	Actor 4847 4851	Lena
+T183	Actor 4859 4864	vogel
+T184	Actor 4890 4892	ze
+T185	Actor 4917 4923	koning
+R168	Co-reference Arg1:T185 Arg2:T178	
+R169	Co-reference Arg1:T181 Arg2:T176	
+R170	Co-reference Arg1:T182 Arg2:T180	
+R171	Co-reference Arg1:T183 Arg2:T248	
+R172	Co-reference Arg1:T184 Arg2:T182	
+R173	Co-reference Arg1:T184 Arg2:T181	
+T186	Actor 4969 4971	ze
+R174	Co-reference Arg1:T186 Arg2:T184	
+T187	Actor 4994 4996	ze
+R175	Co-reference Arg1:T187 Arg2:T186	
+T188	Actor 5007 5010	vos
+R176	Co-reference Arg1:T188 Arg2:T125	
+T189	Actor 5043 5049	jullie
+R177	Co-reference Arg1:T189 Arg2:T187	
+T190	Location 5057 5061	stad
+T191	Actor 5077 5080	vos
+T192	Actor 5088 5090	je
+R178	Co-reference Arg1:T192 Arg2:T189	
+R179	Co-reference Arg1:T191 Arg2:T188	
+T193	Actor 5173 5181	Diederik
+R180	Co-reference Arg1:T193 Arg2:T181	
+T194	Location 5194 5198	stad
+R181	Co-reference Arg1:T194 Arg2:T190	
+T195	Actor 5203 5206	hij
+T196	Actor 5218 5224	broers
+T197	Actor 5280 5283	Hij
+T198	Actor 5328 5331	hen
+T199	Actor 5345 5348	hij
+T200	Actor 5355 5358	hen
+R182	Co-reference Arg1:T195 Arg2:T193	
+T201	Actor 5207 5211	zijn
+R184	Co-reference Arg1:T201 Arg2:T195	
+R185	Co-reference Arg1:T197 Arg2:T201	
+R186	Co-reference Arg1:T198 Arg2:T196	
+R187	Co-reference Arg1:T199 Arg2:T197	
+R188	Co-reference Arg1:T200 Arg2:T198	
+T202	Actor 5367 5371	volk
+T203	Actor 5427 5435	Diederik
+T204	Actor 5472 5476	Lena
+T205	Location 5532 5536	stad
+R189	Co-reference Arg1:T205 Arg2:T194	
+R190	Co-reference Arg1:T204 Arg2:T182	
+R191	Co-reference Arg1:T203 Arg2:T199	
+T206	Actor 5564 5567	vos
+R192	Co-reference Arg1:T206 Arg2:T191	
+T207	Actor 5593 5596	hij
+R193	Co-reference Arg1:T207 Arg2:T206	
+T208	Actor 5634 5636	ze
+T209	Actor 5649 5653	zijn
+R194	Co-reference Arg1:T209 Arg2:T207	
+R195	Co-reference Arg1:T208 Arg2:T204	
+R196	Co-reference Arg1:T208 Arg2:T203	
+T210	Actor 5682 5684	je
+R197	Co-reference Arg1:T210 Arg2:T208	
+T211	Actor 5704 5707	vos
+R198	Co-reference Arg1:T211 Arg2:T209	
+T212	Actor 5714 5716	ze
+R199	Co-reference Arg1:T212 Arg2:T210	
+T213	Actor 5760 5762	je
+T214	Actor 5768 5771	mij
+T215	Actor 5786 5788	je
+T216	Actor 5794 5798	zelf
+R200	Co-reference Arg1:T216 Arg2:T215	
+R201	Co-reference Arg1:T215 Arg2:T213	
+R202	Co-reference Arg1:T213 Arg2:T212	
+R203	Co-reference Arg1:T214 Arg2:T211	
+T217	Actor 5822 5830	Diederik
+T218	Actor 5834 5838	Lena
+T219	Actor 5856 5859	vos
+T220	Actor 5861 5864	die
+T221	Actor 5921 5925	dier
+T222	Actor 5944 5947	zij
+T223	Actor 5948 5951	hem
+R204	Co-reference Arg1:T223 Arg2:T221	
+R205	Co-reference Arg1:T221 Arg2:T220	
+R206	Co-reference Arg1:T220 Arg2:T219	
+R207	Co-reference Arg1:T219 Arg2:T214	
+R208	Co-reference Arg1:T218 Arg2:T204	
+R209	Co-reference Arg1:T217 Arg2:T203	
+T224	Actor 5995 6002	edelman
+T225	Actor 6008 6011	hen
+T226	Actor 6034 6037	vos
+R210	Co-reference Arg1:T226 Arg2:T224	
+R211	Co-reference Arg1:T224 Arg2:T223	
+R212	Co-reference Arg1:T225 Arg2:T222	
+R213	Co-reference Arg1:T222 Arg2:T218	
+R214	Co-reference Arg1:T222 Arg2:T217	
+T227	Actor 6050 6055	broer
+T228	Actor 6039 6042	Dat
+R215	Co-reference Arg1:T228 Arg2:T226	
+R216	Co-reference Arg1:T227 Arg2:T228	
+T229	Actor 6075 6079	Lena
+R217	Co-reference Arg1:T229 Arg2:T218	
+T230	Actor 6084 6090	jongen
+R218	Co-reference Arg1:T230 Arg2:T227	
+T231	Actor 6104 6108	zijn
+R219	Co-reference Arg1:T231 Arg2:T230	
+T232	Actor 6129 6133	heks
+T233	Actor 6141 6144	vos
+R220	Co-reference Arg1:T233 Arg2:T231	
+T234	Actor 6184 6186	ze
+R221	Co-reference Arg1:T234 Arg2:T233	
+R222	Co-reference Arg1:T234 Arg2:T229	
+R223	Co-reference Arg1:T234 Arg2:T217	
+T235	Actor 6206 6212	koning
+R224	Co-reference Arg1:T235 Arg2:T84	
+T236	Actor 6246 6257	vogel Vinus
+R225	Co-reference Arg1:T236 Arg2:T183	
+T237	Actor 6259 6267	Diederik
+T238	Actor 6295 6299	Lena
+T239	Actor 6308 6313	broer
+T240	Actor 6324 6327	hen
+T241	Actor 6364 6366	ze
+R226	Co-reference Arg1:T241 Arg2:T240	
+R227	Co-reference Arg1:T240 Arg2:T238	
+R228	Co-reference Arg1:T240 Arg2:T237	
+R229	Co-reference Arg1:T237 Arg2:T217	
+R230	Co-reference Arg1:T238 Arg2:T229	
+R231	Co-reference Arg1:T239 Arg2:T233	
+R232	Co-reference Arg1:T5 Arg2:T13	
+R233	Co-reference Arg1:T5 Arg2:T21	
+R234	Co-reference Arg1:T5 Arg2:T24	
+T242	Actor 690 693	hij
+R235	Co-reference Arg1:T242 Arg2:T27	
+T243	Actor 2246 2249	hem
+T244	Actor 2188 2191	hem
+R155	Co-reference Arg1:T244 Arg2:T86	
+R236	Co-reference Arg1:T243 Arg2:T85	
+T245	Actor 2996 3000	zijn
+R237	Co-reference Arg1:T245 Arg2:T106	
+R40	Co-reference Arg1:T50 Arg2:T44	
+T246	Actor 1882 1886	zijn
+R238	Co-reference Arg1:T246 Arg2:T74	
+T247	Actor 1968 1971	hem
+R239	Co-reference Arg1:T247 Arg2:T76	
+R82	Co-reference Arg1:T94 Arg2:T57	
+R83	Co-reference Arg1:T127 Arg2:T95	
+R112	Co-reference Arg1:T167 Arg2:T243	
+T248	Actor 4789 4792	hem
+R113	Co-reference Arg1:T248 Arg2:T179	
+R240	Co-reference Arg1:T184 Arg2:T183	
+R183	Co-reference Arg1:T196 Arg2:T22	
+R241	Co-reference Arg1:T196 Arg2:T20	
+R242	Co-reference Arg1:T40 Arg2:T38	
+T249	Actor 2226 2234	rosbonte
+T250	Actor 2235 2240	paard
+R243	Co-reference Arg1:T250 Arg2:T249	
+T251	Actor 2272 2278	draver
+R244	Co-reference Arg1:T251 Arg2:T250	
+T252	Actor 2294 2297	die
+R245	Co-reference Arg1:T252 Arg2:T251	
+T253	Location 2323 2327	stal
+T254	Actor 2553 2561	rosbonte
+T255	Actor 2562 2567	paard
+R246	Co-reference Arg1:T255 Arg2:T254	
+R247	Co-reference Arg1:T254 Arg2:T252	
+T256	Actor 2610 2614	dier
+R248	Co-reference Arg1:T256 Arg2:T255	
+T257	Actor 2647 2650	het
+R249	Co-reference Arg1:T257 Arg2:T256	
+T258	Actor 3208 3216	rosbonte
+T259	Actor 3217 3222	paard
+R250	Co-reference Arg1:T259 Arg2:T258	
+R251	Co-reference Arg1:T258 Arg2:T257	
+T260	Actor 4149 4157	rosbonte
+T261	Actor 4158 4163	paard
+R252	Co-reference Arg1:T261 Arg2:T260	
+R253	Co-reference Arg1:T260 Arg2:T259	
+T262	Actor 4297 4302	paard
+R254	Co-reference Arg1:T262 Arg2:T261	
+T263	Actor 4385 4390	paard
+R255	Co-reference Arg1:T263 Arg2:T262	
+R256	Co-reference Arg1:T163 Arg2:T263	
+R257	Co-reference Arg1:T169 Arg2:T160	
+T264	Actor 4698 4706	rosbonte
+T265	Actor 4707 4712	paard
+R258	Co-reference Arg1:T265 Arg2:T264	
+R259	Co-reference Arg1:T264 Arg2:T263	
+T266	Actor 4872 4880	rosbonte
+T267	Actor 4881 4886	paard
+R260	Co-reference Arg1:T267 Arg2:T266	
+R261	Co-reference Arg1:T266 Arg2:T265	
+R262	Co-reference Arg1:T184 Arg2:T267	
