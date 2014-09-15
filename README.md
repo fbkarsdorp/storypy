@@ -6,6 +6,8 @@ This repo consists of a collection of scripts in Python to deal with a small col
 
 ## Narrative Charts
 
+![Bremen City Musicians](https://github.com/fbkarsdorp/storypy/blob/master/storypy/output/SINVS047.tiff)
+
 ## Sentiment Analysis
 
 ## Storytiling
