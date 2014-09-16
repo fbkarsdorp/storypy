@@ -1,7 +1,7 @@
 import numpy as np
 
 
-def _peak(scope, scores, peak):
+def peak(scope, scores, peak):
     for n in scope:
         if scores[n] >= peak:
             peak = scores[n]
@@ -10,18 +10,18 @@ def _peak(scope, scores, peak):
     return peak
 
 
-def _depth_scores(scores):
+def depth_scores(scores):
     clip = min(max(len(scores) / 10, 2), 5)
     depths = [0 for i in range(len(scores))]
     for i in range(clip, len(scores) - clip):
-        lpeak = _peak(range(i, -1, -1), scores, scores[i])
-        rpeak = _peak(range(i), scores, scores[i])
+        lpeak = peak(range(i, -1, -1), scores, scores[i])
+        rpeak = peak(range(i), scores, scores[i])
         depths[i] = (rpeak - scores[i]) + (lpeak - scores[i])
         #depths[i] = lpeak + rpeak - 2*scores[i]
     return depths
 
 
-def _identify_boundaries(depths, policy='HC', adjacent_gaps=4):
+def identify_boundaries(depths, policy='HC', adjacent_gaps=4):
     """Identifies boundaries at the peaks of similarity score
     differences."""
     boundaries = [0 for _ in depths]
@@ -51,10 +51,10 @@ def smooth(x, window_len=11, window='hanning'):
         return x
     if not window in ['flat', 'hanning', 'hamming', 'bartlett', 'blackman']:
         raise ValueError, "Window is on of 'flat', 'hanning', 'hamming', 'bartlett', 'blackman'"
-    s = np.r_[x[window_len - 1: 0: -1], x, x[-1: -window_len: -1]]
+    s = np.r_[2*x[0]-x[window_len:1:-1],x,2*x[-1]-x[-1:-window_len:-1]]#np.r_[x[window_len - 1: 0: -1], x, x[-1: -window_len: -1]]
     if window == 'flat':  # moving average
         w = np.ones(window_len, 'd')
     else:
         w = eval('np.' + window + '(window_len)')
     y = np.convolve(w / w.sum(), s, mode='same')  # mode='same'?
-    return y[(window_len / 2 - 1): -(window_len / 2)]
+    return y[window_len-1:-window_len+1]#y[(window_len / 2 - 1): -(window_len / 2)]

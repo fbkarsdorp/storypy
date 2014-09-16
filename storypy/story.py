@@ -1,6 +1,7 @@
 import codecs
 import operator
 import os
+import os.path as path
 import sys
 
 from collections import defaultdict, Counter
@@ -15,11 +16,13 @@ import distance
 from sklearn.cluster import DBSCAN
 from sklearn.metrics import pairwise_distances
 from pattern.nl import sentiment as extract_sentiment, parse, Sentence
+from dtw import dtw_distance
 
 sys.path.append(os.path.expanduser("~") + "/local/brat/server/src")
 from annotation import Annotations
 from ssplit import regex_sentence_boundary_gen
 
+from storytiling import *
 
 # ----------------------------------------------------------------------------
 # Functions to read the annotation files of Brat
@@ -37,6 +40,7 @@ def graphize(relations, entities):
 
 
 def resolve(relations, entities):
+    """Resolve the coreference chains."""
     mentions = graphize(relations, entities)
     for start_entity, _ in mentions.selfloop_edges():  # moet start er nog bij?
         chain = set(entity for edge in nx.bfs_edges(mentions, start_entity)
@@ -45,6 +49,7 @@ def resolve(relations, entities):
 
 
 def read_annotation_file(filename):
+    """Loads a file annotated for co-references with brat."""
     annotations = Annotations(filename, read_only=True)
     entities = {entity.id: entity for entity in annotations.get_entities()
                 if entity.type in ('Actor', 'Location')}
@@ -78,7 +83,8 @@ class Entity(object):
 
     def standardize(self):
         """Standardize the chain mention of this Entity."""
-        stopwords = set(w.strip() for w in open('pronouns.txt'))
+        module_path = path.dirname(__file__)
+        stopwords = set(w.strip() for w in open(path.join(module_path, 'data', 'pronouns.txt')))
         try:
             longest_token, _ = Counter([token.lower() for _, token in self.chain
                                         if token.lower() not in stopwords]).most_common()[0]
@@ -104,6 +110,9 @@ class Entity(object):
     def __repr__(self):
         return '<Entity(%s)>' % self.name
 
+    def __str__(self):
+        return self.name
+
 
 class Scene(object):
     """A Scene represents is a part of a Story represented by a set 
@@ -123,14 +132,22 @@ class Scene(object):
         self.start, self.end = start, end
         self.sentiment = 0
 
-    def distance(self, other):
+    def distance(self, other, dist_between='characters'):
         """Compute the distance between this Scene and some other Scene 
-        on the basis of the Jaccard distance between their character sets."""
+        on the basis of the Jaccard distance between their character or location sets
+        or the union of their locations and characters."""
         if not isinstance(other, Scene):
             raise ValueError("Can't compare to %s" % type(other))
-        if not self.characters or not other.characters:
+        if dist_between == 'characters':
+            source, target = self.characters, other.characters
+        elif dist_between == 'locations':
+            source, target = self.locations, other.locations
+        elif dist_between == 'both':
+            source = self.characters.union(self.locations)
+            target = other.characters.union(other.locations)
+        if not source or not other:
             return 1.0
-        return distance.jaccard(self.characters, other.characters)
+        return distance.jaccard(source, target)
 
     def __eq__(self, other):
         if not isinstance(self, other):
@@ -147,7 +164,16 @@ class Scene(object):
         if not isinstance(other, Scene):
             raise ValueError("Can't merge with %s" % type(other))
         return Scene(min(self.start, other.start), max(self.end, other.end),
-                     self.characters.union(other.characters))
+                     self.characters.union(other.characters), 
+                     self.locations.union(other.locations))
+
+    def __str__(self):
+        s = 'Scene (%s-%s):\n\n' % (self.start, self.end)
+        if self.characters:
+            s += '   Characters:\n   -----------\n      %s\n\n' % ', '.join(map(str, self.characters))
+        if self.locations:
+            s += '   Locations:\n   ----------\n      %s\n\n' % ', '.join(map(str, self.locations))
+        return s
 
     @staticmethod
     def concat(scenes):
@@ -160,28 +186,34 @@ class Scene(object):
 class Story(list):
     """A Story represents a sequence of Scene objects, where each scene is
     represented by a set of characters and a set of locations."""
-    def __init__(self, id, scenes=[], characters=set(), locations=set()):
+    def __init__(self, id, filepath, scenes=[], characters=set(), locations=set()):
         assert all(isinstance(scene, Scene) for scene in scenes)
         list.__init__(self, scenes)
         self.id = id
+        self.filepath = filepath
         self.characters = characters
         self.locations = locations
 
-    def distance(self, other):
+    def distance(self, other, normalized=True, summed=False, sentiments=False):
         if not isinstance(other, Story):
             raise ValueError("Can't compare to %s" % type(other))
+        source = self.to_dataframe(sentiments=sentiments, summed=summed).values
+        target = other.to_dataframe(sentiments=sentiments, summed=summed).values
+        return dtw_distance(source, target, step_pattern=2, normalized=normalized)
 
     @staticmethod
     def load(filename):
         """Construct a new Story on the basis of some input file."""
+        filepath, _ = os.path.splitext(filename)
+        id = os.path.basename(filepath)
         characters, locations, entities = read_annotation_file(
-            filename + '.ann')
+            filepath + '.ann')
         characters = [Entity(i, character)
                       for i, character in enumerate(characters)]
         locations = [Entity(i, location)
                      for i, location in enumerate(locations)]
         scenes = []
-        with open(filename + '.txt') as infile:
+        with open(filepath + '.txt') as infile:
             for start, end in regex_sentence_boundary_gen(infile.read()):
                 scenes.append(Scene(start, end))
         for scene in scenes:
@@ -195,7 +227,7 @@ class Story(list):
                     if (entities[mention].start >= scene.start and
                         entities[mention].end <= scene.end):
                         scene.locations.add(location)
-        return Story(filename, scenes, set(characters), set(locations))
+        return Story(id, filepath, scenes, set(characters), set(locations))
 
     def cluster_characters(self):
         """On the basis of co-occurrences of characters in scenes,
@@ -221,8 +253,8 @@ class Story(list):
             scenes.append(Scene.concat(self[i: i + window_size]))
         self[:] = scenes
 
-    def _character_boundaries(self, smooth=False, window_size=3,
-                              policy='HC', adjacent_gaps=4, k=6):
+    def _storytiling(self, dist_between='characters', smoothed=False, window_size=3, 
+                     window_type='flat', policy='HC', adjacent_gaps=4, k=6):
         gaps = []
         for gap in range(len(self) - 1):
             if gap < (k - 1):
@@ -233,14 +265,14 @@ class Story(list):
                 ws = k
             lhs = Scene.concat(self[gap - ws + 1: gap + 1])
             rhs = Scene.concat(self[gap + 1: gap + ws + 1])
-            gaps.append(1 - lhs.distance(rhs))
+            gaps.append(1 - lhs.distance(rhs, dist_between=dist_between))
         gaps = np.array(gaps)
-        if smooth:
+        if smoothed:
             gaps = smooth(gaps, window_len=window_size, window=window_type)
-        depths = _depth_scores(gaps)
+        depths = depth_scores(gaps)
         scenes = []
         previous = 0
-        for i, boundary in enumerate(_identify_boundaries(depths, policy, adjacent_gaps)):
+        for i, boundary in enumerate(identify_boundaries(depths, policy, adjacent_gaps)):
             if boundary == 1:
                 scenes.append(Scene.concat(self[previous:i + 1]))
                 previous = i + 1
@@ -248,26 +280,29 @@ class Story(list):
             scenes.append(Scene.concat(self[previous:]))
         self[:] = scenes
 
-    def scenify(self, method='blocks', window_size=1, k=6, policy='HC', adjacent_gaps=4):
+    def scenify(self, method='blocks', dist_between='characters', window_size=3, 
+                window_type='flat', k=6, policy='HC', smoothed=False, adjacent_gaps=4):
         """Partition the story into a number of scenes. Two methods are supported: 
            1) simple sliding window function;
            2) texttiling-like algorithm that tries to find homogeneous blocks of text
               on the basis of the participants involved."""
         if method == 'blocks':
             self._block_scenes(window_size=window_size, smooth=smooth)
-        elif method == 'char_boundary':
-            self._character_boundaries(smooth=smooth, window_size=window_size,
-                                       policy=policy, adjacent_gaps=adjacent_gaps, k=k)
+        elif method == 'storytiling':
+            self._storytiling(smoothed=smoothed, dist_between=dist_between, window_size=window_size, 
+                              window_type=window_type, policy=policy, adjacent_gaps=adjacent_gaps, k=k)
+        else:
+            raise ValueError("method '%s' is not supported." % method)
 
-    def add_sentiments(self, smooth=False, window_size=12, window_type='flat'):
+    def add_sentiments(self, smoothed=False, window_size=12, window_type='flat'):
         """Add a sentiment score to each scene in this story."""
-        with codecs.open(self.id + '.txt', encoding='utf-8') as infile:
+        with codecs.open(self.filepath + '.txt', encoding='utf-8') as infile:
             text = infile.read()
             sentiments = []
             for scene in self:
                 sentiments.append(extract_sentiment(
                     Sentence(parse(text[scene.start: scene.end], lemmata=True)))[0])
-            if smooth:
+            if smoothed:
                 while window_size > len(self):
                     window_size -= 2
                 sentiments = smooth(
@@ -292,7 +327,7 @@ class Story(list):
 
     def to_json(self, empty_scenes=False):
         """Write the story to a json file."""
-        with open(self.id + '.json', 'w') as out:
+        with open(self.filepath + '.json', 'w') as out:
             out.write(dumps(self.to_dict(empty_scenes)))
 
     def to_graph(self):
@@ -309,7 +344,7 @@ class Story(list):
         xml = '\n'.join(
             '  <%s group="%d" id="%d" name="%d" />' % (c.cluster, c.id, c.name)
             for c in self.characters)
-        with open(self.id + '.xml', 'w') as out:
+        with open(self.filepath + '.xml', 'w') as out:
             out.write(xml.encode('utf-8'))
 
     def to_dataframe(self, summed=False, sentiments=False):
@@ -318,10 +353,12 @@ class Story(list):
         matrix = np.zeros((len(self.characters), len(self)))
         for i, scene in enumerate(self):
             for character in scene.characters:
-                matrix[character, i] = 1 if not sentiments else scene.sentiment
-        characters = sorted(self.characters, key=lambda c: c.id)
+                matrix[character.id, i] = 1 if not sentiments else scene.sentiment
+        characters = sorted(self.characters, key=lambda character: character.id)
         df = pd.DataFrame(
             matrix, index=[self.id + '-' + character.name[:-2] for character in characters])
         if summed:
             df = df.mean(axis=0)
         return df
+
+    def plot(self): pass
