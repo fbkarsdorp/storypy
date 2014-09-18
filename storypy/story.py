@@ -5,27 +5,33 @@ import os.path as path
 import sys
 
 from collections import defaultdict, Counter
-from itertools import combinations
+from itertools import combinations, groupby
 from json import dumps
 
 import numpy as np
 import pandas as pd
+import scipy.sparse as sp
 import networkx as nx
 import distance
 
+from scipy.cluster.hierarchy import fcluster
 from sklearn.cluster import DBSCAN
 from sklearn.metrics import pairwise_distances
 from pattern.nl import sentiment as extract_sentiment, parse, Sentence
 from dtw import dtw_distance
+from HACluster import VNClusterer
 
 sys.path.append(os.path.expanduser("~") + "/local/brat/server/src")
 from annotation import Annotations
 from ssplit import regex_sentence_boundary_gen
 
 from storytiling import *
+from storyplot import grid_plot
+from utils import mean
 
 # ----------------------------------------------------------------------------
 # Functions to read the annotation files of Brat
+
 
 def graphize(relations, entities):
     mentions = nx.DiGraph()
@@ -70,10 +76,13 @@ def read_annotation_file(filename):
 # -----------------------------------------------------------------------------
 # Classes to create Story objects
 
+
 class Entity(object):
+
     """An Enitity represents either a character in a story or a location. 
     Each entity consist of a list of all occurences in a story and a standardized
     name."""
+
     def __init__(self, i, chain):
         self.id = i
         self.chain = chain
@@ -84,7 +93,8 @@ class Entity(object):
     def standardize(self):
         """Standardize the chain mention of this Entity."""
         module_path = path.dirname(__file__)
-        stopwords = set(w.strip() for w in open(path.join(module_path, 'data', 'pronouns.txt')))
+        stopwords = set(w.strip()
+                        for w in open(path.join(module_path, 'data', 'pronouns.txt')))
         try:
             longest_token, _ = Counter([token.lower() for _, token in self.chain
                                         if token.lower() not in stopwords]).most_common()[0]
@@ -115,8 +125,10 @@ class Entity(object):
 
 
 class Scene(object):
+
     """A Scene represents is a part of a Story represented by a set 
     of characters and a set of locations."""
+
     def __init__(self, start, end, characters=None, locations=None):
         if characters is not None:
             assert all(isinstance(character, Entity)
@@ -145,6 +157,9 @@ class Scene(object):
         elif dist_between == 'both':
             source = self.characters.union(self.locations)
             target = other.characters.union(other.locations)
+        else:
+            raise ValueError(
+                "The distance between %s cannot be computed." % dist_between)
         if not source or not other:
             return 1.0
         return distance.jaccard(source, target)
@@ -164,15 +179,18 @@ class Scene(object):
         if not isinstance(other, Scene):
             raise ValueError("Can't merge with %s" % type(other))
         return Scene(min(self.start, other.start), max(self.end, other.end),
-                     self.characters.union(other.characters), 
+                     self.characters.union(other.characters),
                      self.locations.union(other.locations))
 
     def __str__(self):
-        s = 'Scene (%s-%s):\n\n' % (self.start, self.end)
+        s = 'Scene (%s-%s; sentiment: %.3f):\n\n' % (
+            self.start, self.end, self.sentiment)
         if self.characters:
-            s += '   Characters:\n   -----------\n      %s\n\n' % ', '.join(map(str, self.characters))
+            s += '   Characters:\n   -----------\n      %s\n\n' % ', '.join(
+                map(str, self.characters))
         if self.locations:
-            s += '   Locations:\n   ----------\n      %s\n\n' % ', '.join(map(str, self.locations))
+            s += '   Locations:\n   ----------\n      %s\n\n' % ', '.join(
+                map(str, self.locations))
         return s
 
     @staticmethod
@@ -184,8 +202,10 @@ class Scene(object):
 
 
 class Story(list):
+
     """A Story represents a sequence of Scene objects, where each scene is
     represented by a set of characters and a set of locations."""
+
     def __init__(self, id, filepath, scenes=[], characters=set(), locations=set()):
         assert all(isinstance(scene, Scene) for scene in scenes)
         list.__init__(self, scenes)
@@ -198,7 +218,8 @@ class Story(list):
         if not isinstance(other, Story):
             raise ValueError("Can't compare to %s" % type(other))
         source = self.to_dataframe(sentiments=sentiments, summed=summed).values
-        target = other.to_dataframe(sentiments=sentiments, summed=summed).values
+        target = other.to_dataframe(
+            sentiments=sentiments, summed=summed).values
         return dtw_distance(source, target, step_pattern=2, normalized=normalized)
 
     @staticmethod
@@ -237,9 +258,9 @@ class Story(list):
         for scene in self:
             for character_i in scene.characters:
                 for character_j in scene.characters:
-                    cooccurences[character_i, character_j] += 1.0
-                    cooccurences[character_j, character_i] = cooccurences[
-                        character_i, character_j]
+                    cooccurences[character_i.id, character_j.id] += 1.0
+                    cooccurences[character_j.id, character_i.id] = cooccurences[
+                        character_i.id, character_j.id]
         cooccurences = cooccurences / cooccurences.sum()
         clusterer = DBSCAN(eps=cooccurences.mean(), min_samples=1)
         clustering = clusterer.fit_predict(cooccurences)
@@ -253,7 +274,8 @@ class Story(list):
             scenes.append(Scene.concat(self[i: i + window_size]))
         self[:] = scenes
 
-    def _storytiling(self, dist_between='characters', smoothed=False, window_size=3, 
+    def _storytiling(
+        self, dist_between='characters', smoothed=False, window_size=3,
                      window_type='flat', policy='HC', adjacent_gaps=4, k=6):
         gaps = []
         for gap in range(len(self) - 1):
@@ -280,21 +302,43 @@ class Story(list):
             scenes.append(Scene.concat(self[previous:]))
         self[:] = scenes
 
-    def scenify(self, method='blocks', dist_between='characters', window_size=3, 
+    def _dynamic_clustering(self, n_clusters=None,  t=0.6, dist_between='characters'):
+        dm = np.zeros((len(self), len(self)))
+        for i in range(len(self)):
+            for j in range(i):
+                dm[j, i] = dm[i, j] = self[i].distance(
+                    self[j], dist_between=dist_between)
+        clusterer = VNClusterer(dm)
+        clusterer.cluster()
+        Z = clusterer.dendrogram().to_linkage_matrix()
+        clusters = fcluster(Z, t * max(Z[:,2]), criterion='distance')
+        scenes = []
+        for cluster, indexes in groupby(range(len(clusters)), key=lambda i: clusters[i]):
+            indexes = list(indexes)
+            scenes.append(Scene.concat(self[min(indexes): max(indexes)+1]))
+        self[:] = scenes
+
+    def scenify(
+        self, method='blocks', dist_between='characters', window_size=3,
                 window_type='flat', k=6, policy='HC', smoothed=False, adjacent_gaps=4):
-        """Partition the story into a number of scenes. Two methods are supported: 
-           1) simple sliding window function;
-           2) texttiling-like algorithm that tries to find homogeneous blocks of text
-              on the basis of the participants involved."""
+        """Partition the story into a number of scenes. Three methods are supported: 
+           1) blocks: simple sliding window function;
+           2) storytiling: texttiling-like algorithm that tries to find homogeneous blocks of text
+              on the basis of the participants involved.
+           3) vnc: Variability Neighbor Clustering.
+        """
         if method == 'blocks':
             self._block_scenes(window_size=window_size, smooth=smooth)
         elif method == 'storytiling':
-            self._storytiling(smoothed=smoothed, dist_between=dist_between, window_size=window_size, 
-                              window_type=window_type, policy=policy, adjacent_gaps=adjacent_gaps, k=k)
+            self._storytiling(
+                smoothed=smoothed, dist_between=dist_between, window_size=window_size,
+                window_type=window_type, policy=policy, adjacent_gaps=adjacent_gaps, k=k)
+        elif method == 'vnc':
+            return self._dynamic_clustering(n_clusters=3)
         else:
             raise ValueError("method '%s' is not supported." % method)
 
-    def add_sentiments(self, smoothed=False, window_size=12, window_type='flat'):
+    def add_sentiments(self, smoothed=False, window_size=12, binary=False, window_type='flat'):
         """Add a sentiment score to each scene in this story."""
         with codecs.open(self.filepath + '.txt', encoding='utf-8') as infile:
             text = infile.read()
@@ -308,7 +352,8 @@ class Story(list):
                 sentiments = smooth(
                     np.array(sentiments), window_len=window_size, window=window_type)
             for i, sentiment in enumerate(sentiments):
-                self[i].sentiment = sentiment
+                self[i].sentiment = sentiment if not binary else - \
+                    1 if sentiment < 0 else 1
 
     def to_dict(self, empty_scenes=False):
         """Transform the story into a dictionary."""
@@ -341,24 +386,49 @@ class Story(list):
 
     def to_xml(self):
         """Write the characters of this story to an XML file."""
-        xml = '\n'.join(
-            '  <%s group="%d" id="%d" name="%d" />' % (c.cluster, c.id, c.name)
+        xml = '<characters>\n'
+        xml += '\n'.join(
+            '  <character group="%d" id="%d" name="%s" />' % (
+                c.cluster, c.id, c.name)
             for c in self.characters)
+        xml += '</characters>'
         with open(self.filepath + '.xml', 'w') as out:
             out.write(xml.encode('utf-8'))
 
-    def to_dataframe(self, summed=False, sentiments=False):
+    def to_dataframe(self, summed=False, entities='characters', sentiments=False):
         """Transform the story into a n by m matrix where n is the numbers
         of unique characters in the story and m the number of scenes."""
-        matrix = np.zeros((len(self.characters), len(self)))
+        elements = self.characters if entities == 'characters' else self.locations
+        matrix = np.zeros((len(elements), len(self)))
         for i, scene in enumerate(self):
-            for character in scene.characters:
-                matrix[character.id, i] = 1 if not sentiments else scene.sentiment
-        characters = sorted(self.characters, key=lambda character: character.id)
+            for entity in getattr(scene,  entities):
+                matrix[entity.id, i] = 1 if not sentiments else scene.sentiment
+        elements = sorted(elements, key=lambda element: entity.id)
         df = pd.DataFrame(
-            matrix, index=[self.id + '-' + character.name[:-2] for character in characters])
+            matrix, index=[self.id + '-' + entity.name[:-2] for entity in elements])
         if summed:
             df = df.mean(axis=0)
         return df
 
-    def plot(self): pass
+    def plot(self, kind='signal', summed=False, entities='characters', sentiments=False):
+        df = self.to_dataframe(
+            summed=summed, entities=entities, sentiments=sentiments)
+        if kind == 'signal':
+            if summed:
+                df.plot()
+            else:
+                grid_plot(df.values, labels=df.index)
+
+    def sociogram(self, filter=None, binary=True):
+        """Construct a sociogram on the basis of the sentiments assigned to the scenes in the story."""
+        co_occurrences = defaultdict(lambda: defaultdict(list))
+        for scene in self:
+            for character_i, character_j in combinations(scene.characters, 2):
+                co_occurrences[character_i][
+                    character_j].append(scene.sentiment)
+        sociogram = nx.Graph()
+        for character, neighbors in co_occurrences.items():
+            for neighbor, sentiment in neighbors.items():
+                sociogram.add_edge(
+                    character.name, neighbor.name, weight=mean(sentiment) if not binary else -1 if mean(sentiment) < 0 else 1)
+        return sociogram

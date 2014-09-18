@@ -1,4 +1,5 @@
 from collections import defaultdict
+from itertools import combinations
 
 class Encoder(defaultdict):
 
@@ -13,3 +14,6 @@ class Encoder(defaultdict):
     def update(self, items):
         for item in items:
             self.add(item)
+
+def mean(lst):
+	return sum(lst) / float(len(lst))
