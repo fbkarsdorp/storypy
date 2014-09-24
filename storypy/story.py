@@ -214,13 +214,29 @@ class Story(list):
         self.characters = characters
         self.locations = locations
 
-    def distance(self, other, normalized=True, summed=False, sentiments=False):
+    def distance(self, other, entities='characters', constraint='none', 
+                 window=0, normalized=True, summed=False, sentiments=False):
         if not isinstance(other, Story):
             raise ValueError("Can't compare to %s" % type(other))
         source = self.to_dataframe(sentiments=sentiments, summed=summed).values
         target = other.to_dataframe(
             sentiments=sentiments, summed=summed).values
-        return dtw_distance(source, target, step_pattern=2, normalized=normalized)
+        return dtw_distance(source, target, constraint=constraint, window=window, step_pattern=2, normalized=normalized)
+
+    def map(self, other, entities='characters', constraint='none', window=0, threshold=0.6):
+        source, target = (self, other) if len(self.characters) > other.characters else (other, self)
+        source_df = source.to_dataframe(entities=entities) 
+        target_df = target.to_dataframe(entities=entities)
+
+        dm = np.zeros((len(source.characters), len(target.characters))) 
+        for i, character_i in enumerate(source_df.index):
+            for j, character_j in enumerate(target_df.index):
+                chars_s, chars_t = source_df.ix[i].values, target_df.ix[j].values
+                if chars_s.shape[0] < chars_t.shape[0]:
+                    chars_s, chars_t = chars_t, chars_s
+                d = dtw_distance(chars_s, chars_t, constraint=constraint, window=window, normalized=True)
+                dm[i, j] = d        
+        return pd.DataFrame(dm, index=source_df.index, columns=target_df.index)
 
     @staticmethod
     def load(filename):
@@ -302,7 +318,7 @@ class Story(list):
             scenes.append(Scene.concat(self[previous:]))
         self[:] = scenes
 
-    def _dynamic_clustering(self, n_clusters=None,  t=0.6, dist_between='characters'):
+    def _dynamic_clustering(self, t=0.6, criterion='distance', dist_between='characters'):
         dm = np.zeros((len(self), len(self)))
         for i in range(len(self)):
             for j in range(i):
@@ -311,16 +327,19 @@ class Story(list):
         clusterer = VNClusterer(dm)
         clusterer.cluster()
         Z = clusterer.dendrogram().to_linkage_matrix()
-        clusters = fcluster(Z, t * max(Z[:,2]), criterion='distance')
+        if criterion == 'distance':
+            t = t * max(Z[:,2])
+        clusters = fcluster(Z, t, criterion=criterion)
         scenes = []
         for cluster, indexes in groupby(range(len(clusters)), key=lambda i: clusters[i]):
             indexes = list(indexes)
             scenes.append(Scene.concat(self[min(indexes): max(indexes)+1]))
         self[:] = scenes
+        return Z
 
     def scenify(
-        self, method='blocks', dist_between='characters', window_size=3,
-                window_type='flat', k=6, policy='HC', smoothed=False, adjacent_gaps=4):
+        self, method='blocks', dist_between='characters', window_size=3, criterion='distance', 
+                window_type='flat', t=0.6, k=6, policy='HC', smoothed=False, adjacent_gaps=4):
         """Partition the story into a number of scenes. Three methods are supported: 
            1) blocks: simple sliding window function;
            2) storytiling: texttiling-like algorithm that tries to find homogeneous blocks of text
@@ -334,7 +353,7 @@ class Story(list):
                 smoothed=smoothed, dist_between=dist_between, window_size=window_size,
                 window_type=window_type, policy=policy, adjacent_gaps=adjacent_gaps, k=k)
         elif method == 'vnc':
-            return self._dynamic_clustering(n_clusters=3)
+            return self._dynamic_clustering(t=t, criterion=criterion)
         else:
             raise ValueError("method '%s' is not supported." % method)
 
@@ -431,4 +450,4 @@ class Story(list):
             for neighbor, sentiment in neighbors.items():
                 sociogram.add_edge(
                     character.name, neighbor.name, weight=mean(sentiment) if not binary else -1 if mean(sentiment) < 0 else 1)
-        return sociogram
+        return Sociogram(sociogram)
