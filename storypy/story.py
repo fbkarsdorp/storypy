@@ -65,7 +65,9 @@ def read_annotation_file(filename):
     chains = resolve(relations, entities)
     actors, locations = [], []
     for chain in chains:
-        chain = [(entity, entities[entity].tail.strip()) for entity in chain]
+        chain = [(entity, entities[entity].tail.strip(),
+                          entities[entity].get_start(),
+                          entities[entity].get_end()) for entity in chain]
         entity_type = entities[chain[0][0]].type
         if entity_type == 'Actor':
             actors.append(chain)
@@ -79,7 +81,7 @@ def read_annotation_file(filename):
 
 class Entity(object):
 
-    """An Enitity represents either a character in a story or a location. 
+    """An Entity represents either a character in a story or a location.
     Each entity consist of a list of all occurences in a story and a standardized
     name."""
 
@@ -96,13 +98,13 @@ class Entity(object):
         stopwords = set(w.strip()
                         for w in open(path.join(module_path, 'data', 'pronouns.txt')))
         try:
-            longest_token, _ = Counter([token.lower() for _, token in self.chain
+            longest_token, _ = Counter([token.lower() for _, token, _, _ in self.chain
                                         if token.lower() not in stopwords]).most_common()[0]
         except IndexError:
             _, longest_token = max(
                 self.chain, key=lambda entity: len(entity[1]))
         longest_token += '-' + str(self.id)
-        self.chain = [(id, longest_token) for id, _ in self.chain]
+        self.chain = [(id, longest_token, start, end) for id, _, start, end in self.chain]
         self.name = self.chain[0][1]
 
     def __eq__(self, other):
@@ -126,7 +128,7 @@ class Entity(object):
 
 class Scene(object):
 
-    """A Scene represents is a part of a Story represented by a set 
+    """A Scene represents is a part of a Story represented by a set
     of characters and a set of locations."""
 
     def __init__(self, start, end, characters=None, locations=None):
@@ -145,7 +147,7 @@ class Scene(object):
         self.sentiment = 0
 
     def distance(self, other, dist_between='characters'):
-        """Compute the distance between this Scene and some other Scene 
+        """Compute the distance between this Scene and some other Scene
         on the basis of the Jaccard distance between their character or location sets
         or the union of their locations and characters."""
         if not isinstance(other, Scene):
@@ -214,7 +216,7 @@ class Story(list):
         self.characters = characters
         self.locations = locations
 
-    def distance(self, other, entities='characters', constraint='none', 
+    def distance(self, other, entities='characters', constraint='none',
                  window=0, normalized=True, summed=False, sentiments=False):
         if not isinstance(other, Story):
             raise ValueError("Can't compare to %s" % type(other))
@@ -225,17 +227,17 @@ class Story(list):
 
     def map(self, other, entities='characters', constraint='none', window=0, threshold=0.6):
         source, target = (self, other) if len(self.characters) > other.characters else (other, self)
-        source_df = source.to_dataframe(entities=entities) 
+        source_df = source.to_dataframe(entities=entities)
         target_df = target.to_dataframe(entities=entities)
 
-        dm = np.zeros((len(source.characters), len(target.characters))) 
+        dm = np.zeros((len(source.characters), len(target.characters)))
         for i, character_i in enumerate(source_df.index):
             for j, character_j in enumerate(target_df.index):
                 chars_s, chars_t = source_df.ix[i].values, target_df.ix[j].values
                 if chars_s.shape[0] < chars_t.shape[0]:
                     chars_s, chars_t = chars_t, chars_s
                 d = dtw_distance(chars_s, chars_t, constraint=constraint, window=window, normalized=True)
-                dm[i, j] = d        
+                dm[i, j] = d
         return pd.DataFrame(dm, index=source_df.index, columns=target_df.index)
 
     @staticmethod
@@ -255,12 +257,12 @@ class Story(list):
                 scenes.append(Scene(start, end))
         for scene in scenes:
             for character in characters:
-                for mention, _ in character.chain:
+                for mention, _, _, _ in character.chain:
                     if (entities[mention].start >= scene.start and
                         entities[mention].end <= scene.end):
                         scene.characters.add(character)
             for location in locations:
-                for mention, _ in location.chain:
+                for mention, _, _, _ in location.chain:
                     if (entities[mention].start >= scene.start and
                         entities[mention].end <= scene.end):
                         scene.locations.add(location)
@@ -338,9 +340,9 @@ class Story(list):
         return Z
 
     def scenify(
-        self, method='blocks', dist_between='characters', window_size=3, criterion='distance', 
+        self, method='blocks', dist_between='characters', window_size=3, criterion='distance',
                 window_type='flat', t=0.6, k=6, policy='HC', smoothed=False, adjacent_gaps=4):
-        """Partition the story into a number of scenes. Three methods are supported: 
+        """Partition the story into a number of scenes. Three methods are supported:
            1) blocks: simple sliding window function;
            2) storytiling: texttiling-like algorithm that tries to find homogeneous blocks of text
               on the basis of the participants involved.
