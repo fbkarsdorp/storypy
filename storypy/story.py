@@ -241,18 +241,21 @@ class Story(list):
         return pd.DataFrame(dm, index=source_df.index, columns=target_df.index)
 
     @staticmethod
-    def load(filename):
+    def load(filename, annotation_dir=None, text_dir=None):
         """Construct a new Story on the basis of some input file."""
         filepath, _ = os.path.splitext(filename)
+        if annotation_dir != text_dir:
+            annotation_file = os.path.join(annotation_dir, filepath)
+            text_file = os.path.join(text_dirm, filepath)
         id = os.path.basename(filepath)
         characters, locations, entities = read_annotation_file(
-            filepath + '.ann')
+            annotation_file + '.ann')
         characters = [Entity(i, character)
                       for i, character in enumerate(characters)]
         locations = [Entity(i, location)
                      for i, location in enumerate(locations)]
         scenes = []
-        with open(filepath + '.txt') as infile:
+        with open(text_file + '.txt') as infile:
             for start, end in regex_sentence_boundary_gen(infile.read()):
                 scenes.append(Scene(start, end))
         for scene in scenes:
