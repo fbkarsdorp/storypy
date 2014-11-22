@@ -246,7 +246,7 @@ class Story(list):
         filepath, _ = os.path.splitext(filename)
         if annotation_dir != text_dir:
             annotation_file = os.path.join(annotation_dir, filepath)
-            text_file = os.path.join(text_dirm, filepath)
+            text_file = os.path.join(text_dir, filepath)
         id = os.path.basename(filepath)
         characters, locations, entities = read_annotation_file(
             annotation_file + '.ann')
