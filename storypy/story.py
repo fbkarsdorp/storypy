@@ -101,7 +101,7 @@ class Entity(object):
             longest_token, _ = Counter([token.lower() for _, token, _, _ in self.chain
                                         if token.lower() not in stopwords]).most_common()[0]
         except IndexError:
-            _, longest_token = max(
+            _, longest_token, _, _ = max(
                 self.chain, key=lambda entity: len(entity[1]))
         longest_token += '-' + str(self.id)
         self.chain = [(id, longest_token, start, end) for id, _, start, end in self.chain]
