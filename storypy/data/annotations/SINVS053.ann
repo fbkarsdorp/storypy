@@ -44,7 +44,7 @@ T32	Actor 943 946	hem
 R12	Co-reference Arg1:T15 Arg2:T14	
 R13	Co-reference Arg1:T16 Arg2:T15	
 R14	Co-reference Arg1:T17 Arg2:T13	
-R15	Co-reference Arg1:T19 Arg2:T16	
+R15	Co-reference Arg1:T19 Arg2:T241	
 R16	Co-reference Arg1:T20 Arg2:T19	
 R17	Co-reference Arg1:T23 Arg2:T22	
 R18	Co-reference Arg1:T24 Arg2:T20	
@@ -390,7 +390,7 @@ R184	Co-reference Arg1:T198 Arg2:T196
 R188	Co-reference Arg1:T200 Arg2:T198	
 R189	Co-reference Arg1:T204 Arg2:T203	
 R193	Co-reference Arg1:T208 Arg2:T195	
-R194	Co-reference Arg1:T209 Arg2:T200	
+R194	Co-reference Arg1:T209 Arg2:T242	
 R185	Co-reference Arg1:T203 Arg2:T172	
 T201	Actor 5664 5667	hij
 T202	Actor 5677 5681	zijn
@@ -459,3 +459,9 @@ R220	Co-reference Arg1:T233 Arg2:T230
 R221	Co-reference Arg1:T234 Arg2:T231	
 R222	Co-reference Arg1:T235 Arg2:T234	
 R223	Co-reference Arg1:T236 Arg2:T233	
+T239	Actor 3714 3719	paard
+T240	Actor 6157 6162	paard
+T241	Actor 540 543	hij
+R224	Co-reference Arg1:T241 Arg2:T16	
+T242	Actor 5516 5519	hij
+R225	Co-reference Arg1:T242 Arg2:T200	

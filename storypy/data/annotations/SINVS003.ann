@@ -120,12 +120,12 @@ T117	Actor 3723 3735	schaapherder
 T118	Actor 3739 3742	abt
 T119	Actor 3760 3763	hij
 T120	Actor 3788 3791	hij
-R4	Co-reference Arg1:T4 Arg2:T2	
+R4	Co-reference Arg1:T4 Arg2:T126	
 R5	Co-reference Arg1:T5 Arg2:T14	
 R6	Co-reference Arg1:T6 Arg2:T4	
 R7	Co-reference Arg1:T7 Arg2:T6	
 R8	Co-reference Arg1:T8 Arg2:T7	
-R9	Co-reference Arg1:T10 Arg2:T9	
+R9	Co-reference Arg1:T10 Arg2:T66	
 R10	Co-reference Arg1:T11 Arg2:T8	
 R11	Co-reference Arg1:T12 Arg2:T3	
 R13	Co-reference Arg1:T16 Arg2:T13	
@@ -134,7 +134,6 @@ R14	Co-reference Arg1:T17 Arg2:T16
 R15	Co-reference Arg1:T15 Arg2:T11	
 R16	Co-reference Arg1:T18 Arg2:T15	
 R17	Co-reference Arg1:T19 Arg2:T18	
-R18	Co-reference Arg1:T20 Arg2:T10	
 R19	Co-reference Arg1:T21 Arg2:T19	
 R20	Co-reference Arg1:T22 Arg2:T20	
 R21	Co-reference Arg1:T23 Arg2:T21	
@@ -158,8 +157,7 @@ R38	Co-reference Arg1:T42 Arg2:T40
 R39	Co-reference Arg1:T41 Arg2:T37	
 R40	Co-reference Arg1:T43 Arg2:T42	
 R41	Co-reference Arg1:T45 Arg2:T43	
-R42	Co-reference Arg1:T44 Arg2:T41	
-R43	Co-reference Arg1:T46 Arg2:T45	
+R43	Co-reference Arg1:T46 Arg2:T125	
 R44	Co-reference Arg1:T47 Arg2:T44	
 R45	Co-reference Arg1:T48 Arg2:T47	
 R46	Co-reference Arg1:T49 Arg2:T46	
@@ -209,7 +207,7 @@ R89	Co-reference Arg1:T104 Arg2:T97
 R90	Co-reference Arg1:T95 Arg2:T93	
 R91	Co-reference Arg1:T94 Arg2:T90	
 R92	Co-reference Arg1:T93 Arg2:T88	
-R93	Co-reference Arg1:T90 Arg2:T89	
+R93	Co-reference Arg1:T90 Arg2:T123	
 R94	Co-reference Arg1:T89 Arg2:T87	
 R95	Co-reference Arg1:T87 Arg2:T86	
 R96	Co-reference Arg1:T86 Arg2:T85	
@@ -234,3 +232,19 @@ R114	Co-reference Arg1:T14 Arg2:T29
 R115	Co-reference Arg1:T14 Arg2:T30	
 R116	Co-reference Arg1:T13 Arg2:T14	
 R117	Co-reference Arg1:T31 Arg2:T17	
+T66	Actor 435 440	Vader
+R118	Co-reference Arg1:T66 Arg2:T9	
+T121	Actor 774 779	vader
+R119	Co-reference Arg1:T20 Arg2:T121	
+R18	Co-reference Arg1:T121 Arg2:T124	
+T122	Actor 1768 1773	Vader
+R42	Co-reference Arg1:T44 Arg2:T122	
+R120	Co-reference Arg1:T122 Arg2:T41	
+T123	Actor 2995 3000	vader
+R121	Co-reference Arg1:T123 Arg2:T89	
+T124	Actor 509 511	uw
+R122	Co-reference Arg1:T124 Arg2:T10	
+T125	Actor 1816 1819	mij
+R123	Co-reference Arg1:T125 Arg2:T45	
+T126	Actor 85 88	hij
+R124	Co-reference Arg1:T126 Arg2:T2	

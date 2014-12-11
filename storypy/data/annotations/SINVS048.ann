@@ -125,7 +125,7 @@ R60	Co-reference Arg1:T64 Arg2:T63
 T65	Actor 1883 1886	hij
 R61	Co-reference Arg1:T65 Arg2:T62	
 T66	Actor 1919 1934	Onze Lieve Heer
-R62	Co-reference Arg1:T66 Arg2:T64	
+R62	Co-reference Arg1:T66 Arg2:T121	
 T67	Actor 1947 1950	hij
 T68	Actor 1993 1996	hij
 T69	Actor 2009 2013	heer
@@ -153,7 +153,7 @@ T79	Actor 2223 2225	je
 T80	Actor 2241 2245	heer
 R74	Co-reference Arg1:T80 Arg2:T78	
 R75	Co-reference Arg1:T78 Arg2:T72	
-R76	Co-reference Arg1:T79 Arg2:T74	
+R76	Co-reference Arg1:T79 Arg2:T129	
 T81	Actor 2248 2249	U
 R77	Co-reference Arg1:T81 Arg2:T80	
 T82	Actor 2268 2269	u
@@ -232,3 +232,15 @@ R113	Co-reference Arg1:T118 Arg2:T110
 T120	Actor 2986 2988	ik
 R114	Co-reference Arg1:T120 Arg2:T101	
 T116	Actor 3690 3694	hond
+T121	Actor 1786 1793	persoon
+R115	Co-reference Arg1:T121 Arg2:T64	
+T122	Actor 418 424	mensen
+T123	Actor 1162 1168	mensen
+T124	Actor 1449 1455	mensen
+T125	Actor 1810 1816	mensen
+T126	Actor 2344 2350	mensen
+T127	Actor 2815 2821	mensen
+T128	Actor 710 719	roofvogel
+T129	Actor 2136 2138	ik
+R116	Co-reference Arg1:T129 Arg2:T74	
+T130	Actor 447 450	man

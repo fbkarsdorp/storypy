@@ -990,7 +990,7 @@ R455	Co-reference Arg1:T480 Arg2:T474
 R456	Co-reference Arg1:T481 Arg2:T480	
 R457	Co-reference Arg1:T483 Arg2:T481	
 R458	Co-reference Arg1:T482 Arg2:T479	
-R459	Co-reference Arg1:T484 Arg2:T471	
+R459	Co-reference Arg1:T484 Arg2:T547	
 R460	Co-reference Arg1:T487 Arg2:T483	
 R461	Co-reference Arg1:T486 Arg2:T485	
 R462	Co-reference Arg1:T485 Arg2:T482	
@@ -1056,3 +1056,13 @@ R516	Co-reference Arg1:T399 Arg2:T531
 R517	Co-reference Arg1:T385 Arg2:T415	
 R380	Co-reference Arg1:T439 Arg2:T436	
 R518	Co-reference Arg1:T438 Arg2:T436	
+T541	Actor 12053 12061	vrienden
+T542	Actor 3981 3985	wolf
+T543	Actor 2069 2077	iedereen
+T544	Actor 2084 2088	mens
+T545	Actor 2433 2441	iedereen
+T546	Actor 11874 11876	ik
+R519	Co-reference Arg1:T455 Arg2:T546	
+T547	Actor 12584 12586	ik
+R520	Co-reference Arg1:T547 Arg2:T471	
+T548	Actor 786 792	duivel

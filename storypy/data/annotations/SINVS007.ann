@@ -23,7 +23,7 @@ T13	Actor 425 433	kannetje
 T14	Actor 460 463	het
 R10	Co-reference Arg1:T14 Arg2:T13	
 T15	Actor 488 491	het
-T16	Location 500 506	slager
+T16	Actor 500 506	slager
 R11	Co-reference Arg1:T15 Arg2:T14	
 R12	Co-reference Arg1:T13 Arg2:T8	
 T17	Actor 534 539	vrouw
@@ -124,7 +124,6 @@ R21	Co-reference Arg1:T102 Arg2:T95
 R22	Co-reference Arg1:T95 Arg2:T96	
 R23	Co-reference Arg1:T23 Arg2:T22	
 T103	Location 813 819	winkel
-R24	Co-reference Arg1:T103 Arg2:T16	
 R25	Co-reference Arg1:T24 Arg2:T23	
 R26	Co-reference Arg1:T26 Arg2:T24	
 R27	Co-reference Arg1:T28 Arg2:T26	

@@ -220,7 +220,7 @@ R40	Co-reference Arg1:T139 Arg2:T141
 R41	Co-reference Arg1:T137 Arg2:T139	
 R42	Co-reference Arg1:T129 Arg2:T137	
 R43	Co-reference Arg1:T96 Arg2:T129	
-R44	Co-reference Arg1:T77 Arg2:T80	
+R44	Co-reference Arg1:T77 Arg2:T30	
 R45	Co-reference Arg1:T81 Arg2:T86	
 R46	Co-reference Arg1:T86 Arg2:T84	
 R47	Co-reference Arg1:T84 Arg2:T85	
@@ -349,3 +349,5 @@ R169	Co-reference Arg1:T89 Arg2:T92
 R170	Co-reference Arg1:T82 Arg2:T83	
 R171	Co-reference Arg1:T83 Arg2:T88	
 R172	Co-reference Arg1:T79 Arg2:T82	
+T30	Actor 3584 3586	ik
+R173	Co-reference Arg1:T30 Arg2:T80	

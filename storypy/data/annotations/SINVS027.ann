@@ -303,3 +303,20 @@ R47	Co-reference Arg1:T117 Arg2:T112
 T13	Actor 2820 2834	bruiloftsstoet
 R60	Co-reference Arg1:T13 Arg2:T133	
 R68	Co-reference Arg1:T13 Arg2:T143	
+T46	Actor 1012 1015	God
+T47	Actor 1096 1099	God
+R71	Co-reference Arg1:T47 Arg2:T46	
+T58	Actor 1361 1364	God
+R87	Co-reference Arg1:T58 Arg2:T47	
+T69	Actor 2150 2153	God
+T73	Actor 2263 2266	God
+R144	Co-reference Arg1:T73 Arg2:T69	
+R145	Co-reference Arg1:T69 Arg2:T58	
+T84	Actor 2444 2447	God
+R146	Co-reference Arg1:T84 Arg2:T73	
+T87	Actor 1595 1601	duivel
+T97	Actor 1693 1699	duivel
+R147	Co-reference Arg1:T97 Arg2:T87	
+T104	Actor 1922 1928	duivel
+R148	Co-reference Arg1:T104 Arg2:T97	
+T174	Actor 177 186	arbeiders

@@ -452,7 +452,7 @@ R174	Co-reference Arg1:T186 Arg2:T183
 R175	Co-reference Arg1:T187 Arg2:T184	
 R176	Co-reference Arg1:T188 Arg2:T185	
 R177	Co-reference Arg1:T189 Arg2:T186	
-R178	Co-reference Arg1:T190 Arg2:T187	
+R178	Co-reference Arg1:T190 Arg2:T298	
 R179	Co-reference Arg1:T191 Arg2:T190	
 R181	Co-reference Arg1:T193 Arg2:T191	
 R182	Co-reference Arg1:T194 Arg2:T192	
@@ -500,7 +500,7 @@ R223	Co-reference Arg1:T235 Arg2:T232
 R224	Co-reference Arg1:T236 Arg2:T234	
 R225	Co-reference Arg1:T237 Arg2:T295	
 R226	Co-reference Arg1:T238 Arg2:T235	
-R227	Co-reference Arg1:T239 Arg2:T237	
+R227	Co-reference Arg1:T239 Arg2:T299	
 R228	Co-reference Arg1:T240 Arg2:T239	
 R229	Co-reference Arg1:T241 Arg2:T236	
 R230	Co-reference Arg1:T242 Arg2:T238	
@@ -581,3 +581,7 @@ T297	Actor 6629 6633	haar
 R284	Co-reference Arg1:T297 Arg2:T267	
 R285	Co-reference Arg1:T285 Arg2:T93	
 R286	Co-reference Arg1:T285 Arg2:T119	
+T298	Actor 4428 4430	ik
+R287	Co-reference Arg1:T298 Arg2:T187	
+T299	Actor 5955 5957	ik
+R288	Co-reference Arg1:T299 Arg2:T237	

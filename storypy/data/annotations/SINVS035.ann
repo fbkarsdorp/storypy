@@ -134,13 +134,13 @@ R17	Co-reference Arg1:T19 Arg2:T18
 R18	Co-reference Arg1:T20 Arg2:T11	
 R19	Co-reference Arg1:T21 Arg2:T19	
 R20	Co-reference Arg1:T22 Arg2:T20	
-R21	Co-reference Arg1:T23 Arg2:T22	
+R21	Co-reference Arg1:T23 Arg2:T127	
 R22	Co-reference Arg1:T24 Arg2:T23	
 R23	Co-reference Arg1:T26 Arg2:T24	
 R24	Co-reference Arg1:T25 Arg2:T26	
 R25	Co-reference Arg1:T27 Arg2:T25	
 R26	Co-reference Arg1:T28 Arg2:T27	
-R27	Co-reference Arg1:T29 Arg2:T21	
+R27	Co-reference Arg1:T29 Arg2:T126	
 R28	Co-reference Arg1:T30 Arg2:T28	
 R29	Co-reference Arg1:T33 Arg2:T30	
 R30	Co-reference Arg1:T34 Arg2:T31	
@@ -169,10 +169,9 @@ R51	Co-reference Arg1:T60 Arg2:T58
 R52	Co-reference Arg1:T60 Arg2:T57	
 R53	Co-reference Arg1:T60 Arg2:T56	
 R54	Co-reference Arg1:T60 Arg2:T55	
-R55	Co-reference Arg1:T61 Arg2:T51	
+R55	Co-reference Arg1:T61 Arg2:T125	
 R56	Co-reference Arg1:T62 Arg2:T52	
 R57	Co-reference Arg1:T64 Arg2:T61	
-R58	Co-reference Arg1:T65 Arg2:T54	
 R59	Co-reference Arg1:T66 Arg2:T65	
 R60	Co-reference Arg1:T68 Arg2:T66	
 R61	Co-reference Arg1:T69 Arg2:T64	
@@ -230,3 +229,14 @@ R109	Co-reference Arg1:T114 Arg2:T112
 T121	Actor 3788 3798	slijpsteen
 R110	Co-reference Arg1:T121 Arg2:T84	
 R111	Co-reference Arg1:T115 Arg2:T114	
+T122	Actor 127 133	koeien
+T123	Actor 2549 2551	Ik
+R112	Co-reference Arg1:T65 Arg2:T123	
+R58	Co-reference Arg1:T123 Arg2:T54	
+T124	Actor 1751 1757	muizen
+T125	Actor 2289 2292	hij
+R113	Co-reference Arg1:T125 Arg2:T51	
+T126	Actor 1185 1188	jij
+R114	Co-reference Arg1:T126 Arg2:T21	
+T127	Actor 1218 1221	jij
+R115	Co-reference Arg1:T127 Arg2:T22	

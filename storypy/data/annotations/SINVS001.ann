@@ -99,7 +99,7 @@ R13	Co-reference Arg1:T15 Arg2:T14
 R14	Co-reference Arg1:T16 Arg2:T15	
 R15	Co-reference Arg1:T17 Arg2:T16	
 R16	Co-reference Arg1:T18 Arg2:T17	
-R17	Co-reference Arg1:T21 Arg2:T18	
+R17	Co-reference Arg1:T21 Arg2:T102	
 R19	Co-reference Arg1:T23 Arg2:T22	
 T9	Actor 1401 1404	hij
 R20	Co-reference Arg1:T9 Arg2:T31	
@@ -125,8 +125,8 @@ R40	Co-reference Arg1:T48 Arg2:T33
 R41	Co-reference Arg1:T49 Arg2:T48	
 R42	Co-reference Arg1:T50 Arg2:T46	
 R43	Co-reference Arg1:T51 Arg2:T49	
-R44	Co-reference Arg1:T52 Arg2:T50	
-R45	Co-reference Arg1:T55 Arg2:T52	
+R44	Co-reference Arg1:T52 Arg2:T103	
+R45	Co-reference Arg1:T55 Arg2:T104	
 T12	Actor 1507 1518	overwinnaar
 R47	Co-reference Arg1:T12 Arg2:T36	
 R30	Co-reference Arg1:T37 Arg2:T12	
@@ -192,3 +192,16 @@ R95	Co-reference Arg1:T3 Arg2:T38
 R96	Co-reference Arg1:T3 Arg2:T70	
 R97	Co-reference Arg1:T2 Arg2:T3	
 R98	Co-reference Arg1:T2 Arg2:T4	
+T97	Actor 191 197	koning
+T98	Actor 274 280	koning
+T99	Actor 361 367	koning
+T100	Actor 516 522	koning
+T101	Actor 624 630	koning
+T102	Actor 865 871	koning
+T103	Actor 1985 1991	koning
+T104	Actor 2053 2059	koning
+T105	Actor 2214 2220	koning
+R99	Co-reference Arg1:T105 Arg2:T59	
+R100	Co-reference Arg1:T104 Arg2:T52	
+R101	Co-reference Arg1:T103 Arg2:T50	
+R102	Co-reference Arg1:T102 Arg2:T18	

@@ -184,7 +184,7 @@ R72	Co-reference Arg1:T81 Arg2:T80
 R73	Co-reference Arg1:T84 Arg2:T82	
 R74	Co-reference Arg1:T85 Arg2:T79	
 T86	Actor 3541 3543	je
-R75	Co-reference Arg1:T86 Arg2:T81	
+R75	Co-reference Arg1:T86 Arg2:T134	
 R76	Co-reference Arg1:T88 Arg2:T86	
 R78	Co-reference Arg1:T90 Arg2:T89	
 R79	Co-reference Arg1:T91 Arg2:T90	
@@ -194,8 +194,8 @@ R83	Co-reference Arg1:T95 Arg2:T92
 R81	Co-reference Arg1:T97 Arg2:T96	
 R84	Co-reference Arg1:T98 Arg2:T85	
 R85	Co-reference Arg1:T99 Arg2:T98	
-R87	Co-reference Arg1:T100 Arg2:T97	
-R88	Co-reference Arg1:T96 Arg2:T88	
+R87	Co-reference Arg1:T100 Arg2:T136	
+R88	Co-reference Arg1:T96 Arg2:T135	
 R89	Co-reference Arg1:T101 Arg2:T99	
 R90	Co-reference Arg1:T102 Arg2:T95	
 R91	Co-reference Arg1:T103 Arg2:T102	
@@ -252,3 +252,14 @@ R43	Co-reference Arg1:T6 Arg2:T52
 R120	Co-reference Arg1:T6 Arg2:T89	
 R121	Co-reference Arg1:T6 Arg2:T93	
 R122	Co-reference Arg1:T111 Arg2:T84	
+T133	Actor 3505 3507	We
+T134	Actor 3521 3523	We
+R123	Co-reference Arg1:T133 Arg2:T138	
+R124	Co-reference Arg1:T134 Arg2:T133	
+T135	Actor 3745 3747	we
+R125	Co-reference Arg1:T135 Arg2:T88	
+T136	Actor 3777 3779	we
+R126	Co-reference Arg1:T136 Arg2:T97	
+T137	Actor 1334 1341	varkens
+T138	Actor 3404 3407	ons
+R127	Co-reference Arg1:T138 Arg2:T81	

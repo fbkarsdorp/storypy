@@ -209,7 +209,7 @@ R89	Co-reference Arg1:T50 Arg2:T49
 R90	Co-reference Arg1:T52 Arg2:T38	
 R91	Co-reference Arg1:T38 Arg2:T35	
 R93	Co-reference Arg1:T54 Arg2:T51	
-R94	Co-reference Arg1:T65 Arg2:T52	
+R94	Co-reference Arg1:T65 Arg2:T128	
 R95	Co-reference Arg1:T55 Arg2:T53	
 R96	Co-reference Arg1:T53 Arg2:T48	
 R97	Co-reference Arg1:T49 Arg2:T47	
@@ -239,3 +239,10 @@ R114	Co-reference Arg1:T35 Arg2:T57
 R115	Co-reference Arg1:T58 Arg2:T56	
 R116	Co-reference Arg1:T35 Arg2:T27	
 R117	Co-reference Arg1:T73 Arg2:T76	
+T124	Actor 2783 2789	krekel
+T125	Actor 3231 3237	Krekel
+R118	Co-reference Arg1:T125 Arg2:T124	
+T127	Actor 3321 3327	krekel
+R119	Co-reference Arg1:T127 Arg2:T125	
+T128	Actor 1557 1560	ons
+R120	Co-reference Arg1:T128 Arg2:T52	

@@ -803,3 +803,5 @@ R392	Co-reference Arg1:T306 Arg2:T300
 R393	Co-reference Arg1:T380 Arg2:T372	
 T75	Actor 1289 1292	die
 R394	Co-reference Arg1:T75 Arg2:T85	
+T104	Actor 181 189	iedereen
+T413	Actor 5252 5255	kat

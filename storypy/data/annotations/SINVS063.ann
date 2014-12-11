@@ -505,3 +505,6 @@ T268	Actor 5604 5608	mijn
 R244	Co-reference Arg1:T268 Arg2:T200	
 T269	Actor 6670 6673	die
 R245	Co-reference Arg1:T269 Arg2:T233	
+T259	Actor 512 518	koeien
+T260	Actor 75 83	kalveren
+T261	Actor 6775 6782	paarden

@@ -431,7 +431,7 @@ R114	Co-reference Arg1:T125 Arg2:T120
 R115	Co-reference Arg1:T126 Arg2:T124	
 R116	Co-reference Arg1:T127 Arg2:T123	
 R117	Co-reference Arg1:T128 Arg2:T126	
-R118	Co-reference Arg1:T129 Arg2:T117	
+R118	Co-reference Arg1:T129 Arg2:T319	
 R119	Co-reference Arg1:T130 Arg2:T128	
 R120	Co-reference Arg1:T131 Arg2:T125	
 R121	Co-reference Arg1:T132 Arg2:T131	
@@ -630,3 +630,5 @@ R163	Co-reference Arg1:T284 Arg2:T172
 R306	Co-reference Arg1:T176 Arg2:T266	
 R307	Co-reference Arg1:T176 Arg2:T267	
 T300	Actor 7298 7304	varken
+T319	Actor 2673 2681	wildeman
+R308	Co-reference Arg1:T319 Arg2:T117	

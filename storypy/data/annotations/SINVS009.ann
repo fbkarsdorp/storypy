@@ -160,7 +160,7 @@ R40	Co-reference Arg1:T41 Arg2:T39
 R41	Co-reference Arg1:T40 Arg2:T37	
 R42	Co-reference Arg1:T42 Arg2:T35	
 R43	Co-reference Arg1:T57 Arg2:T40	
-R44	Co-reference Arg1:T44 Arg2:T34	
+R44	Co-reference Arg1:T44 Arg2:T130	
 R45	Co-reference Arg1:T71 Arg2:T44	
 R46	Co-reference Arg1:T45 Arg2:T42	
 R47	Co-reference Arg1:T46 Arg2:T71	
@@ -176,7 +176,6 @@ R56	Co-reference Arg1:T62 Arg2:T56
 R57	Co-reference Arg1:T63 Arg2:T53	
 R58	Co-reference Arg1:T65 Arg2:T63	
 R59	Co-reference Arg1:T66 Arg2:T65	
-R60	Co-reference Arg1:T68 Arg2:T48	
 R61	Co-reference Arg1:T69 Arg2:T68	
 R62	Co-reference Arg1:T70 Arg2:T62	
 R63	Co-reference Arg1:T72 Arg2:T69	
@@ -190,14 +189,14 @@ R70	Co-reference Arg1:T79 Arg2:T78
 R71	Co-reference Arg1:T82 Arg2:T81	
 R72	Co-reference Arg1:T83 Arg2:T77	
 R73	Co-reference Arg1:T84 Arg2:T79	
-R74	Co-reference Arg1:T88 Arg2:T74	
+R74	Co-reference Arg1:T88 Arg2:T132	
 R75	Co-reference Arg1:T90 Arg2:T85	
 R76	Co-reference Arg1:T91 Arg2:T83	
 R77	Co-reference Arg1:T92 Arg2:T84	
 R78	Co-reference Arg1:T94 Arg2:T92	
 R79	Co-reference Arg1:T95 Arg2:T93	
 R80	Co-reference Arg1:T98 Arg2:T97	
-R81	Co-reference Arg1:T97 Arg2:T88	
+R81	Co-reference Arg1:T97 Arg2:T133	
 R82	Co-reference Arg1:T99 Arg2:T91	
 R83	Co-reference Arg1:T105 Arg2:T104	
 T120	Actor 2602 2605	hij
@@ -234,3 +233,16 @@ R107	Co-reference Arg1:T126 Arg2:T113
 T127	Location 3002 3006	huis
 R108	Co-reference Arg1:T127 Arg2:T9	
 R109	Co-reference Arg1:T101 Arg2:T99	
+T128	Actor 855 860	kudde
+R110	Co-reference Arg1:T38 Arg2:T128	
+T129	Actor 2044 2049	kudde
+R111	Co-reference Arg1:T129 Arg2:T81	
+T130	Actor 1182 1190	mijnheer
+R112	Co-reference Arg1:T130 Arg2:T34	
+T131	Actor 1786 1794	mijnheer
+R113	Co-reference Arg1:T68 Arg2:T131	
+R60	Co-reference Arg1:T131 Arg2:T48	
+T132	Actor 2315 2323	mijnheer
+R114	Co-reference Arg1:T132 Arg2:T74	
+T133	Actor 2637 2645	mijnheer
+R115	Co-reference Arg1:T133 Arg2:T88	

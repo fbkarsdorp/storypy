@@ -61,7 +61,7 @@ T35	Actor 891 897	vaders
 T36	Location 898 904	paleis
 R26	Co-reference Arg1:T35 Arg2:T6	
 R27	Co-reference Arg1:T36 Arg2:T21	
-R28	Co-reference Arg1:T34 Arg2:T32	
+R28	Co-reference Arg1:T34 Arg2:T372	
 R29	Co-reference Arg1:T32 Arg2:T31	
 R30	Co-reference Arg1:T33 Arg2:T15	
 T37	Actor 958 963	vrouw
@@ -92,7 +92,7 @@ R40	Co-reference Arg1:T47 Arg2:T44
 R41	Co-reference Arg1:T45 Arg2:T33	
 R42	Co-reference Arg1:T44 Arg2:T18	
 R43	Co-reference Arg1:T43 Arg2:T39	
-R44	Co-reference Arg1:T39 Arg2:T34	
+R44	Co-reference Arg1:T39 Arg2:T369	
 R45	Co-reference Arg1:T40 Arg2:T36	
 T52	Actor 1244 1246	Ze
 T53	Actor 1254 1262	kinderen
@@ -168,7 +168,7 @@ R77	Co-reference Arg1:T81 Arg2:T79
 R78	Co-reference Arg1:T82 Arg2:T80	
 R79	Co-reference Arg1:T84 Arg2:T69	
 R80	Co-reference Arg1:T85 Arg2:T84	
-R81	Co-reference Arg1:T86 Arg2:T74	
+R81	Co-reference Arg1:T86 Arg2:T370	
 R82	Co-reference Arg1:T87 Arg2:T91	
 R83	Co-reference Arg1:T88 Arg2:T86	
 R84	Co-reference Arg1:T89 Arg2:T88	
@@ -466,7 +466,7 @@ R214	Co-reference Arg1:T219 Arg2:T148
 R215	Co-reference Arg1:T220 Arg2:T216	
 R216	Co-reference Arg1:T222 Arg2:T218	
 R217	Co-reference Arg1:T223 Arg2:T217	
-R218	Co-reference Arg1:T224 Arg2:T222	
+R218	Co-reference Arg1:T224 Arg2:T373	
 R219	Co-reference Arg1:T226 Arg2:T225	
 R220	Co-reference Arg1:T227 Arg2:T223	
 T252	Location 6301 6305	plek
@@ -492,7 +492,7 @@ R238	Co-reference Arg1:T243 Arg2:T219
 R239	Co-reference Arg1:T244 Arg2:T220	
 R240	Co-reference Arg1:T245 Arg2:T241	
 R241	Co-reference Arg1:T246 Arg2:T236	
-R242	Co-reference Arg1:T247 Arg2:T245	
+R242	Co-reference Arg1:T247 Arg2:T371	
 R243	Co-reference Arg1:T248 Arg2:T242	
 R244	Co-reference Arg1:T249 Arg2:T247	
 R245	Co-reference Arg1:T250 Arg2:T249	
@@ -690,7 +690,7 @@ R322	Co-reference Arg1:T331 Arg2:T317
 R323	Co-reference Arg1:T332 Arg2:T331	
 R324	Co-reference Arg1:T333 Arg2:T332	
 R325	Co-reference Arg1:T334 Arg2:T329	
-R326	Co-reference Arg1:T335 Arg2:T333	
+R326	Co-reference Arg1:T335 Arg2:T368	
 R327	Co-reference Arg1:T336 Arg2:T334	
 R328	Co-reference Arg1:T337 Arg2:T328	
 R329	Co-reference Arg1:T338 Arg2:T337	
@@ -725,3 +725,15 @@ R357	Co-reference Arg1:T366 Arg2:T364
 R358	Co-reference Arg1:T366 Arg2:T363	
 R359	Co-reference Arg1:T366 Arg2:T362	
 R360	Co-reference Arg1:T367 Arg2:T366	
+T368	Actor 9042 9044	uw
+R361	Co-reference Arg1:T368 Arg2:T333	
+T369	Actor 888 890	we
+R362	Co-reference Arg1:T369 Arg2:T34	
+T370	Actor 1987 1989	Ik
+R363	Co-reference Arg1:T370 Arg2:T74	
+T371	Actor 6698 6700	ik
+R364	Co-reference Arg1:T371 Arg2:T245	
+T372	Actor 807 822	koningskinderen
+R365	Co-reference Arg1:T372 Arg2:T32	
+T373	Actor 6225 6228	ons
+R366	Co-reference Arg1:T373 Arg2:T222	

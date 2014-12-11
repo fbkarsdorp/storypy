@@ -292,8 +292,13 @@ R140	Co-reference Arg1:T132 Arg2:T130
 R141	Co-reference Arg1:T135 Arg2:T126	
 R142	Co-reference Arg1:T154 Arg2:T131	
 R143	Co-reference Arg1:T138 Arg2:T133	
-R144	Co-reference Arg1:T143 Arg2:T138	
+R144	Co-reference Arg1:T143 Arg2:T44	
 R145	Co-reference Arg1:T145 Arg2:T143	
 R146	Co-reference Arg1:T149 Arg2:T135	
 R147	Co-reference Arg1:T14 Arg2:T154	
 R148	Co-reference Arg1:T48 Arg2:T129	
+T43	Actor 3096 3103	veulens
+T44	Actor 3082 3084	je
+R149	Co-reference Arg1:T44 Arg2:T138	
+T95	Actor 897 903	mannen
+T155	Actor 863 870	vrouwen

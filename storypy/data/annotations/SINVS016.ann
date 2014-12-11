@@ -457,7 +457,7 @@ R149	Co-reference Arg1:T245 Arg2:T246
 R150	Co-reference Arg1:T246 Arg2:T249	
 R151	Co-reference Arg1:T249 Arg2:T251	
 R152	Co-reference Arg1:T251 Arg2:T250	
-R153	Co-reference Arg1:T250 Arg2:T252	
+R153	Co-reference Arg1:T250 Arg2:T321	
 R154	Co-reference Arg1:T252 Arg2:T253	
 R155	Co-reference Arg1:T253 Arg2:T255	
 R156	Co-reference Arg1:T255 Arg2:T254	
@@ -623,3 +623,7 @@ R304	Co-reference Arg1:T10 Arg2:T210
 R305	Co-reference Arg1:T210 Arg2:T9	
 R306	Co-reference Arg1:T9 Arg2:T8	
 R307	Co-reference Arg1:T8 Arg2:T318	
+T183	Actor 6573 6581	bedelaar
+T193	Actor 1947 1954	paarden
+T321	Actor 5206 5209	hij
+R308	Co-reference Arg1:T321 Arg2:T252	

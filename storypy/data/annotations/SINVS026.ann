@@ -552,7 +552,7 @@ R266	Co-reference Arg1:T286 Arg2:T228
 T287	Actor 7354 7357	hij
 T288	Actor 7358 7361	hem
 R267	Co-reference Arg1:T288 Arg2:T286	
-R268	Co-reference Arg1:T287 Arg2:T285	
+R268	Co-reference Arg1:T287 Arg2:T322	
 T289	Actor 7493 7496	hij
 T290	Actor 7511 7515	zich
 R269	Co-reference Arg1:T290 Arg2:T289	
@@ -584,7 +584,7 @@ R281	Co-reference Arg1:T302 Arg2:T300
 R282	Co-reference Arg1:T300 Arg2:T299	
 T304	Actor 7846 7848	Je
 T305	Actor 7868 7873	domme
-R283	Co-reference Arg1:T305 Arg2:T302	
+R283	Co-reference Arg1:T305 Arg2:T321	
 R284	Co-reference Arg1:T304 Arg2:T303	
 T306	Actor 7880 7882	ik
 R285	Co-reference Arg1:T306 Arg2:T305	
@@ -621,3 +621,7 @@ T320	Actor 5121 5123	ze
 R303	Co-reference Arg1:T320 Arg2:T196	
 R304	Co-reference Arg1:T208 Arg2:T205	
 R177	Co-reference Arg1:T194 Arg2:T185	
+T321	Actor 7855 7857	me
+R302	Co-reference Arg1:T321 Arg2:T302	
+T322	Actor 7326 7329	hij
+R305	Co-reference Arg1:T322 Arg2:T285	

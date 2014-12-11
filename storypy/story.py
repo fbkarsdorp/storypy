@@ -252,7 +252,7 @@ class Story(list):
         locations = [Entity(i, location)
                      for i, location in enumerate(locations)]
         scenes = []
-        with open(filepath + '.txt') as infile:
+        with codecs.open(filepath + '.txt', encoding='utf-8') as infile:
             for start, end in regex_sentence_boundary_gen(infile.read()):
                 scenes.append(Scene(start, end))
         for scene in scenes:

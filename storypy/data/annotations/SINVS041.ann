@@ -10,7 +10,7 @@ T10	Actor 345 351	jongen
 T11	Actor 396 399	hij
 T12	Actor 424 428	heer
 T13	Actor 446 449	hij
-R1	Co-reference Arg1:T3 Arg2:T2	
+R1	Co-reference Arg1:T3 Arg2:T158	
 R2	Co-reference Arg1:T4 Arg2:T3	
 R3	Co-reference Arg1:T5 Arg2:T4	
 T14	Actor 227 230	die
@@ -290,3 +290,8 @@ R135	Co-reference Arg1:T153 Arg2:T152
 R136	Co-reference Arg1:T152 Arg2:T151	
 R137	Co-reference Arg1:T154 Arg2:T150	
 R138	Co-reference Arg1:T77 Arg2:T75	
+T155	Actor 599 605	dieren
+T156	Actor 2108 2114	dieren
+T157	Actor 1889 1894	paard
+T158	Actor 120 123	hij
+R139	Co-reference Arg1:T158 Arg2:T2	

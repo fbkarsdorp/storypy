@@ -308,3 +308,14 @@ R145	Co-reference Arg1:T162 Arg2:T132
 R148	Co-reference Arg1:T4 Arg2:T15	
 R149	Co-reference Arg1:T4 Arg2:T73	
 R150	Co-reference Arg1:T33 Arg2:T32	
+T163	Actor 296 304	iedereen
+T164	Actor 1308 1313	paard
+T165	Actor 143 150	paarden
+T166	Actor 476 483	paarden
+T167	Actor 1135 1142	paarden
+R146	Co-reference Arg1:T167 Arg2:T166	
+T168	Actor 1253 1260	paarden
+R147	Co-reference Arg1:T164 Arg2:T168	
+R151	Co-reference Arg1:T168 Arg2:T167	
+T169	Actor 2401 2408	paarden
+T170	Actor 2663 2670	paarden

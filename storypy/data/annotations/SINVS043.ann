@@ -235,10 +235,10 @@ T128	Actor 3813 3815	Je
 T129	Actor 3821 3824	ons
 T130	Actor 3854 3861	anderen
 T131	Actor 3878 3881	wij
-R107	Co-reference Arg1:T117 Arg2:T115	
+R107	Co-reference Arg1:T117 Arg2:T331	
 R108	Co-reference Arg1:T118 Arg2:T112	
 R109	Co-reference Arg1:T119 Arg2:T117	
-R110	Co-reference Arg1:T120 Arg2:T116	
+R110	Co-reference Arg1:T120 Arg2:T332	
 R111	Co-reference Arg1:T121 Arg2:T120	
 R113	Co-reference Arg1:T123 Arg2:T118	
 R114	Co-reference Arg1:T124 Arg2:T123	
@@ -301,7 +301,7 @@ R145	Co-reference Arg1:T151 Arg2:T150
 R146	Co-reference Arg1:T150 Arg2:T147	
 T156	Actor 4582 4588	koning
 T157	Actor 4597 4601	onze
-R147	Co-reference Arg1:T156 Arg2:T153	
+R147	Co-reference Arg1:T156 Arg2:T330	
 R148	Co-reference Arg1:T157 Arg2:T155	
 T158	Actor 4648 4654	meisje
 T159	Location 4722 4726	stad
@@ -641,3 +641,9 @@ T329	Location 98 103	schip
 R312	Co-reference Arg1:T328 Arg2:T329	
 R313	Co-reference Arg1:T310 Arg2:T309	
 R314	Co-reference Arg1:T165 Arg2:T139	
+T330	Actor 4570 4578	mijnheer
+R315	Co-reference Arg1:T330 Arg2:T153	
+T331	Actor 3574 3576	me
+R316	Co-reference Arg1:T331 Arg2:T115	
+T332	Actor 3584 3587	een
+R317	Co-reference Arg1:T332 Arg2:T116	

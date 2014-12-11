@@ -111,3 +111,5 @@ T57	Actor 389 393	zijn
 R13	Co-reference Arg1:T56 Arg2:T57	
 R57	Co-reference Arg1:T57 Arg2:T13	
 R58	Co-reference Arg1:T17 Arg2:T56	
+T58	Actor 1574 1576	we
+R18	Co-reference Arg1:T58 Arg2:T51	

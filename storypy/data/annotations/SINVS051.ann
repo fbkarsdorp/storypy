@@ -206,7 +206,7 @@ T107	Actor 3118 3120	ik
 T108	Actor 3126 3130	mijn
 R99	Co-reference Arg1:T108 Arg2:T107	
 R100	Co-reference Arg1:T107 Arg2:T105	
-R101	Co-reference Arg1:T105 Arg2:T104	
+R101	Co-reference Arg1:T105 Arg2:T259	
 R102	Co-reference Arg1:T104 Arg2:T102	
 R103	Co-reference Arg1:T106 Arg2:T103	
 T109	Actor 3170 3173	hij
@@ -669,3 +669,5 @@ R330	Co-reference Arg1:T219 Arg2:T217
 R331	Co-reference Arg1:T201 Arg2:T198	
 R332	Co-reference Arg1:T239 Arg2:T270	
 R333	Co-reference Arg1:T174 Arg2:T270	
+T259	Actor 3082 3084	ik
+R334	Co-reference Arg1:T259 Arg2:T104	

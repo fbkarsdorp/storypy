@@ -732,3 +732,12 @@ T219	Actor 6640 6643	die
 R221	Co-reference Arg1:T219 Arg2:T245	
 R300	Co-reference Arg1:T299 Arg2:T242	
 R361	Co-reference Arg1:T342 Arg2:T333	
+T220	Actor 4607 4612	paard
+T374	Actor 4960 4965	paard
+R362	Co-reference Arg1:T374 Arg2:T220	
+T375	Actor 6215 6220	paard
+R363	Co-reference Arg1:T375 Arg2:T374	
+T376	Actor 7421 7426	paard
+R364	Co-reference Arg1:T376 Arg2:T375	
+T377	Actor 9485 9490	paard
+R365	Co-reference Arg1:T377 Arg2:T376	

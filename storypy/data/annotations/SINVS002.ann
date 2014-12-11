@@ -204,7 +204,7 @@ R50	Co-reference Arg1:T48 Arg2:T41
 R51	Co-reference Arg1:T50 Arg2:T48	
 R52	Co-reference Arg1:T51 Arg2:T37	
 R53	Co-reference Arg1:T52 Arg2:T49	
-R54	Co-reference Arg1:T53 Arg2:T52	
+R54	Co-reference Arg1:T53 Arg2:T171	
 R55	Co-reference Arg1:T55 Arg2:T53	
 T163	Actor 1594 1596	Je
 R56	Co-reference Arg1:T59 Arg2:T163	
@@ -221,7 +221,7 @@ R65	Co-reference Arg1:T73 Arg2:T71
 R66	Co-reference Arg1:T74 Arg2:T72	
 R67	Co-reference Arg1:T75 Arg2:T73	
 R68	Co-reference Arg1:T76 Arg2:T74	
-R69	Co-reference Arg1:T77 Arg2:T76	
+R69	Co-reference Arg1:T77 Arg2:T172	
 R70	Co-reference Arg1:T78 Arg2:T75	
 R71	Co-reference Arg1:T79 Arg2:T77	
 R72	Co-reference Arg1:T80 Arg2:T79	
@@ -278,7 +278,7 @@ R123	Co-reference Arg1:T138 Arg2:T132
 R124	Co-reference Arg1:T151 Arg2:T146	
 R125	Co-reference Arg1:T139 Arg2:T137	
 R126	Co-reference Arg1:T141 Arg2:T130	
-R127	Co-reference Arg1:T143 Arg2:T141	
+R127	Co-reference Arg1:T143 Arg2:T173	
 R128	Co-reference Arg1:T144 Arg2:T51	
 R129	Co-reference Arg1:T147 Arg2:T145	
 R130	Co-reference Arg1:T148 Arg2:T147	
@@ -317,3 +317,9 @@ R6	Co-reference Arg1:T9 Arg2:T170
 R147	Co-reference Arg1:T170 Arg2:T7	
 R148	Co-reference Arg1:T49 Arg2:T47	
 R149	Co-reference Arg1:T108 Arg2:T62	
+T171	Actor 1409 1416	soldaat
+R150	Co-reference Arg1:T171 Arg2:T52	
+T172	Actor 2417 2424	soldaat
+R151	Co-reference Arg1:T172 Arg2:T76	
+T173	Actor 4481 4484	hij
+R152	Co-reference Arg1:T173 Arg2:T141	

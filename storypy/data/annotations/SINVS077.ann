@@ -299,3 +299,6 @@ T2	Actor 564 567	dat
 R3	Co-reference Arg1:T2 Arg2:T20	
 R21	Co-reference Arg1:T24 Arg2:T2	
 R146	Co-reference Arg1:T31 Arg2:T7	
+T156	Actor 86 93	zoontje
+R147	Co-reference Arg1:T6 Arg2:T156	
+T157	Actor 1903 1911	iedereen

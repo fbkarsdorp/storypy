@@ -212,7 +212,7 @@ R31	Co-reference Arg1:T38 Arg2:T27
 R32	Co-reference Arg1:T39 Arg2:T38	
 R33	Co-reference Arg1:T40 Arg2:T31	
 R34	Co-reference Arg1:T41 Arg2:T29	
-R35	Co-reference Arg1:T43 Arg2:T33	
+R35	Co-reference Arg1:T43 Arg2:T184	
 R36	Co-reference Arg1:T44 Arg2:T40	
 R37	Co-reference Arg1:T46 Arg2:T45	
 R38	Co-reference Arg1:T47 Arg2:T46	
@@ -242,7 +242,7 @@ R60	Co-reference Arg1:T69 Arg2:T55
 R61	Co-reference Arg1:T70 Arg2:T69	
 R62	Co-reference Arg1:T71 Arg2:T59	
 R63	Co-reference Arg1:T72 Arg2:T57	
-R64	Co-reference Arg1:T73 Arg2:T61	
+R64	Co-reference Arg1:T73 Arg2:T185	
 R65	Co-reference Arg1:T74 Arg2:T71	
 R66	Co-reference Arg1:T76 Arg2:T75	
 R67	Co-reference Arg1:T77 Arg2:T76	
@@ -350,3 +350,7 @@ R166	Co-reference Arg1:T179 Arg2:T158
 R167	Co-reference Arg1:T180 Arg2:T179	
 R168	Co-reference Arg1:T181 Arg2:T159	
 R169	Co-reference Arg1:T182 Arg2:T160	
+T184	Actor 728 731	jij
+R170	Co-reference Arg1:T184 Arg2:T33	
+T185	Actor 1243 1246	jij
+R171	Co-reference Arg1:T185 Arg2:T61	

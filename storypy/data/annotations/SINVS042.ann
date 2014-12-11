@@ -360,7 +360,7 @@ R161	Co-reference Arg1:T180 Arg2:T175
 R162	Co-reference Arg1:T181 Arg2:T180	
 R163	Co-reference Arg1:T182 Arg2:T179	
 R164	Co-reference Arg1:T183 Arg2:T182	
-R165	Co-reference Arg1:T184 Arg2:T181	
+R165	Co-reference Arg1:T184 Arg2:T218	
 R166	Co-reference Arg1:T185 Arg2:T183	
 R167	Co-reference Arg1:T186 Arg2:T184	
 R168	Co-reference Arg1:T187 Arg2:T186	
@@ -407,3 +407,14 @@ R197	Co-reference Arg1:T95 Arg2:T92
 R198	Co-reference Arg1:T79 Arg2:T15	
 T217	Actor 4103 4107	Dood
 R199	Co-reference Arg1:T217 Arg2:T87	
+T26	Actor 938 941	God
+T27	Actor 901 905	dood
+T28	Actor 911 917	duivel
+T94	Actor 4349 4352	God
+R78	Co-reference Arg1:T94 Arg2:T26	
+T97	Actor 4401 4407	duivel
+R79	Co-reference Arg1:T97 Arg2:T28	
+T218	Actor 6915 6921	knecht
+R200	Co-reference Arg1:T218 Arg2:T181	
+T219	Actor 4869 4875	duivel
+R201	Co-reference Arg1:T219 Arg2:T97	

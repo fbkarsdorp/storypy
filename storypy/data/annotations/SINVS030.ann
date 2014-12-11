@@ -336,7 +336,7 @@ T182	Actor 4173 4175	ze
 T183	Actor 4182 4183	u
 T184	Actor 4198 4201	hen
 R154	Co-reference Arg1:T166 Arg2:T165	
-R155	Co-reference Arg1:T167 Arg2:T161	
+R155	Co-reference Arg1:T167 Arg2:T403	
 R156	Co-reference Arg1:T168 Arg2:T163	
 R157	Co-reference Arg1:T169 Arg2:T168	
 R158	Co-reference Arg1:T170 Arg2:T167	
@@ -793,3 +793,5 @@ R390	Co-reference Arg1:T396 Arg2:T402
 R391	Co-reference Arg1:T397 Arg2:T379	
 R392	Co-reference Arg1:T398 Arg2:T396	
 R393	Co-reference Arg1:T399 Arg2:T397	
+T403	Actor 3863 3865	ik
+R394	Co-reference Arg1:T403 Arg2:T161	

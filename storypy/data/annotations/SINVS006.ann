@@ -177,20 +177,20 @@ T180	Actor 5608 5610	we
 T181	Actor 5635 5637	Ik
 T182	Actor 5645 5649	mijn
 T183	Actor 5678 5682	mijn
-T184	Actor 5719 5723	hond
+T184	Actor 5712 5723	Vriend hond
 T185	Actor 5731 5735	mijn
-T186	Actor 5777 5781	geit
+T186	Actor 5770 5781	zuster geit
 T187	Actor 5792 5796	hond
-T188	Actor 5806 5809	kat
-T189	Actor 5834 5838	geit
-T190	Actor 5850 5864	Koekeloerehaan
+T188	Actor 5798 5809	poezeke kat
+T189	Actor 5827 5838	zuster geit
+T190	Actor 5842 5864	meester Koekeloerehaan
 T191	Actor 5868 5879	poezeke kat
 T192	Actor 5880 5884	haar
 R1	Co-reference Arg1:T192 Arg2:T191	
 T193	Actor 5904 5906	we
 T194	Actor 6034 6036	je
 T195	Actor 6058 6071	feestvierders
-T196	Actor 6112 6119	Langoor
+T196	Actor 6107 6119	Heer Langoor
 T197	Actor 6129 6131	je
 T198	Actor 6151 6154	kat
 T199	Actor 6162 6164	we
@@ -200,7 +200,7 @@ T202	Actor 6235 6239	zijn
 T203	Actor 6292 6296	zijn
 T204	Actor 6320 6323	kat
 T205	Actor 6344 6348	geit
-T206	Actor 6368 6382	Koekeloerehaan
+T206	Actor 6360 6382	meester Koekeloerehaan
 T207	Actor 6386 6390	haar
 T208	Actor 6413 6416	ons
 T209	Actor 6451 6453	ze
@@ -511,7 +511,7 @@ T335	Actor 9807 9810	hem
 R166	Co-reference Arg1:T321 Arg2:T335	
 R182	Co-reference Arg1:T335 Arg2:T334	
 R184	Co-reference Arg1:T334 Arg2:T319	
-R185	Co-reference Arg1:T315 Arg2:T311	
+R185	Co-reference Arg1:T315 Arg2:T25	
 R186	Co-reference Arg1:T311 Arg2:T310	
 R187	Co-reference Arg1:T310 Arg2:T309	
 R188	Co-reference Arg1:T309 Arg2:T306	
@@ -536,7 +536,7 @@ R207	Co-reference Arg1:T333 Arg2:T282
 R208	Co-reference Arg1:T282 Arg2:T281	
 R209	Co-reference Arg1:T281 Arg2:T279	
 R210	Co-reference Arg1:T316 Arg2:T280	
-R211	Co-reference Arg1:T279 Arg2:T278	
+R211	Co-reference Arg1:T279 Arg2:T290	
 R212	Co-reference Arg1:T277 Arg2:T275	
 R213	Co-reference Arg1:T278 Arg2:T276	
 R191	Co-reference Arg1:T308 Arg2:T277	
@@ -643,3 +643,8 @@ R310	Co-reference Arg1:T327 Arg2:T240
 R311	Co-reference Arg1:T286 Arg2:T287	
 R312	Co-reference Arg1:T287 Arg2:T249	
 R313	Co-reference Arg1:T153 Arg2:T149	
+T25	Actor 9616 9618	ik
+R314	Co-reference Arg1:T25 Arg2:T311	
+T215	Actor 55 61	dieren
+T290	Actor 8651 8654	hij
+R315	Co-reference Arg1:T290 Arg2:T278	

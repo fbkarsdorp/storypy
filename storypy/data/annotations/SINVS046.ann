@@ -414,7 +414,7 @@ R172	Co-reference Arg1:T169 Arg2:T159
 R173	Co-reference Arg1:T170 Arg2:T166	
 R174	Co-reference Arg1:T171 Arg2:T242	
 R175	Co-reference Arg1:T172 Arg2:T168	
-R176	Co-reference Arg1:T173 Arg2:T170	
+R176	Co-reference Arg1:T173 Arg2:T226	
 R177	Co-reference Arg1:T174 Arg2:T171	
 R178	Co-reference Arg1:T175 Arg2:T161	
 R179	Co-reference Arg1:T176 Arg2:T173	
@@ -475,3 +475,6 @@ R231	Co-reference Arg1:T224 Arg2:T223
 R232	Co-reference Arg1:T225 Arg2:T224	
 R233	Co-reference Arg1:T228 Arg2:T229	
 R234	Co-reference Arg1:T227 Arg2:T206	
+T226	Actor 3969 3971	we
+R235	Co-reference Arg1:T226 Arg2:T170	
+T245	Actor 1725 1733	Iedereen

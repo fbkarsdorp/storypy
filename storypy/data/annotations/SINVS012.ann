@@ -168,7 +168,7 @@ R51	Co-reference Arg1:T52 Arg2:T50
 R52	Co-reference Arg1:T55 Arg2:T51	
 R53	Co-reference Arg1:T56 Arg2:T54	
 R54	Co-reference Arg1:T57 Arg2:T55	
-R55	Co-reference Arg1:T58 Arg2:T56	
+R55	Co-reference Arg1:T58 Arg2:T119	
 R56	Co-reference Arg1:T59 Arg2:T57	
 R57	Co-reference Arg1:T60 Arg2:T58	
 R58	Co-reference Arg1:T61 Arg2:T59	
@@ -230,3 +230,5 @@ R113	Co-reference Arg1:T69 Arg2:T77
 T118	Actor 1827 1829	ik
 R78	Co-reference Arg1:T62 Arg2:T118	
 R114	Co-reference Arg1:T118 Arg2:T65	
+T119	Actor 1348 1350	ik
+R115	Co-reference Arg1:T119 Arg2:T56	

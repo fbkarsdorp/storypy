@@ -73,7 +73,7 @@ R30	Co-reference Arg1:T42 Arg2:T41
 T43	Location 1043 1048	schip
 R31	Co-reference Arg1:T43 Arg2:T42	
 T44	Actor 1120 1129	griffioen
-R32	Co-reference Arg1:T44 Arg2:T35	
+R32	Co-reference Arg1:T44 Arg2:T200	
 T45	Actor 1169 1172	hij
 T46	Actor 1194 1198	zijn
 T47	Actor 1223 1227	zijn
@@ -371,3 +371,7 @@ T199	Location 529 537	zandbank
 R174	Co-reference Arg1:T40 Arg2:T38	
 T95	Actor 3236 3239	hun
 R175	Co-reference Arg1:T95 Arg2:T131	
+T96	Actor 849 854	vogel
+R176	Co-reference Arg1:T35 Arg2:T96	
+T200	Actor 1114 1119	vogel
+R177	Co-reference Arg1:T200 Arg2:T35	

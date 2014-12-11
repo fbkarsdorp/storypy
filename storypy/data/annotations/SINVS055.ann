@@ -79,13 +79,13 @@ R33	Co-reference Arg1:T44 Arg2:T42
 R34	Co-reference Arg1:T43 Arg2:T41	
 R35	Co-reference Arg1:T45 Arg2:T43	
 T46	Actor 1005 1007	Ik
-T47	Actor 1017 1022	Vinus
+T47	Actor 1011 1022	vogel Vinus
 R36	Co-reference Arg1:T47 Arg2:T36	
 R37	Co-reference Arg1:T46 Arg2:T45	
 T48	Actor 1063 1065	je
 T49	Actor 1087 1095	Diederik
 R38	Co-reference Arg1:T48 Arg2:T46	
-R39	Co-reference Arg1:T49 Arg2:T48	
+R39	Co-reference Arg1:T49 Arg2:T271	
 T50	Actor 1105 1108	vos
 T51	Actor 1111 1113	Je
 T52	Actor 1119 1121	je
@@ -527,3 +527,16 @@ T267	Actor 4881 4886	paard
 R260	Co-reference Arg1:T267 Arg2:T266	
 R261	Co-reference Arg1:T266 Arg2:T265	
 R262	Co-reference Arg1:T184 Arg2:T267	
+T268	Actor 1593 1599	vogels
+T269	Actor 1813 1819	vogels
+R263	Co-reference Arg1:T269 Arg2:T268	
+T270	Actor 394 402	iedereen
+T271	Actor 1081 1086	prins
+R264	Co-reference Arg1:T271 Arg2:T48	
+T272	Actor 1069 1074	paard
+T273	Actor 1122 1127	paard
+R265	Co-reference Arg1:T273 Arg2:T272	
+T274	Actor 1165 1170	paard
+R266	Co-reference Arg1:T274 Arg2:T273	
+T275	Actor 2906 2913	paarden
+T276	Actor 3824 3831	paarden

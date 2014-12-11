@@ -195,7 +195,7 @@ R15	Co-reference Arg1:T37 Arg2:T32
 R16	Co-reference Arg1:T45 Arg2:T44	
 R17	Co-reference Arg1:T47 Arg2:T37	
 R18	Co-reference Arg1:T38 Arg2:T31	
-R19	Co-reference Arg1:T179 Arg2:T175	
+R19	Co-reference Arg1:T179 Arg2:T185	
 R20	Co-reference Arg1:T175 Arg2:T172	
 R21	Co-reference Arg1:T173 Arg2:T168	
 R22	Co-reference Arg1:T168 Arg2:T167	
@@ -260,7 +260,7 @@ T107	Actor 2565 2568	vis
 R80	Co-reference Arg1:T109 Arg2:T107	
 R81	Co-reference Arg1:T108 Arg2:T105	
 R82	Co-reference Arg1:T111 Arg2:T106	
-R83	Co-reference Arg1:T106 Arg2:T104	
+R83	Co-reference Arg1:T106 Arg2:T184	
 R84	Co-reference Arg1:T107 Arg2:T103	
 R85	Co-reference Arg1:T103 Arg2:T183	
 R86	Co-reference Arg1:T101 Arg2:T100	
@@ -352,3 +352,7 @@ R169	Co-reference Arg1:T65 Arg2:T61
 T183	Actor 2452 2455	die
 R170	Co-reference Arg1:T183 Arg2:T102	
 R171	Co-reference Arg1:T136 Arg2:T131	
+T184	Actor 2527 2530	hij
+R172	Co-reference Arg1:T184 Arg2:T104	
+T185	Actor 4703 4706	Hij
+R173	Co-reference Arg1:T185 Arg2:T175	

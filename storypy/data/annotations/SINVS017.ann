@@ -125,8 +125,8 @@ R7	Co-reference Arg1:T14 Arg2:T9
 T119	Actor 406 410	zijn
 R8	Co-reference Arg1:T117 Arg2:T118	
 R9	Co-reference Arg1:T118 Arg2:T115	
-R10	Co-reference Arg1:T115 Arg2:T100	
-R11	Co-reference Arg1:T100 Arg2:T97	
+R10	Co-reference Arg1:T115 Arg2:T124	
+R11	Co-reference Arg1:T100 Arg2:T123	
 R12	Co-reference Arg1:T108 Arg2:T58	
 R13	Co-reference Arg1:T58 Arg2:T54	
 R14	Co-reference Arg1:T60 Arg2:T55	
@@ -219,9 +219,16 @@ R98	Co-reference Arg1:T106 Arg2:T105
 R99	Co-reference Arg1:T104 Arg2:T121	
 R100	Co-reference Arg1:T107 Arg2:T106	
 R101	Co-reference Arg1:T110 Arg2:T95	
-R102	Co-reference Arg1:T116 Arg2:T104	
+R102	Co-reference Arg1:T116 Arg2:T125	
 R103	Co-reference Arg1:T112 Arg2:T66	
 R104	Co-reference Arg1:T114 Arg2:T68	
 T122	Actor 2082 2091	buurvrouw
 R105	Co-reference Arg1:T85 Arg2:T122	
 R106	Co-reference Arg1:T16 Arg2:T7	
+T49	Actor 603 611	iedereen
+T123	Actor 2515 2523	mijnheer
+R107	Co-reference Arg1:T123 Arg2:T97	
+T124	Actor 2873 2881	mijnheer
+R108	Co-reference Arg1:T124 Arg2:T100	
+T125	Actor 2910 2912	me
+R109	Co-reference Arg1:T125 Arg2:T104	

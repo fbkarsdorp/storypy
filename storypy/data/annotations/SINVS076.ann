@@ -148,3 +148,4 @@ R51	Co-reference Arg1:T79 Arg2:T50
 R69	Co-reference Arg1:T59 Arg2:T79	
 T80	Location 1502 1505	die
 R70	Co-reference Arg1:T80 Arg2:T76	
+T81	Actor 1727 1734	varkens

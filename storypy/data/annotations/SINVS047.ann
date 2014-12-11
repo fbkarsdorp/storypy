@@ -134,7 +134,7 @@ T72	Actor 1667 1671	haan
 T73	Actor 1685 1687	ze
 R62	Co-reference Arg1:T72 Arg2:T66	
 R63	Co-reference Arg1:T73 Arg2:T72	
-R64	Co-reference Arg1:T73 Arg2:T69	
+R64	Co-reference Arg1:T73 Arg2:T174	
 T74	Location 1708 1715	Zeeland
 R65	Co-reference Arg1:T74 Arg2:T70	
 T75	Location 1745 1752	Zeeland
@@ -174,7 +174,7 @@ R79	Co-reference Arg1:T92 Arg2:T90
 R80	Co-reference Arg1:T93 Arg2:T86	
 T95	Actor 2452 2454	we
 T96	Actor 2455 2457	ze
-R81	Co-reference Arg1:T95 Arg2:T93	
+R81	Co-reference Arg1:T95 Arg2:T172	
 R82	Co-reference Arg1:T96 Arg2:T92	
 T97	Actor 2476 2478	ze
 T98	Actor 2498 2501	wij
@@ -325,3 +325,8 @@ T170	Actor 4747 4749	ze
 R155	Co-reference Arg1:T170 Arg2:T168	
 T171	Actor 4799 4801	ze
 R156	Co-reference Arg1:T171 Arg2:T170	
+T172	Actor 2428 2430	We
+R157	Co-reference Arg1:T172 Arg2:T93	
+T173	Actor 675 681	muizen
+T174	Actor 1627 1630	ons
+R158	Co-reference Arg1:T174 Arg2:T69	

@@ -454,3 +454,9 @@ T238	Actor 6461 6465	zijn
 T239	Actor 6815 6819	zijn
 R216	Co-reference Arg1:T239 Arg2:T232	
 R217	Co-reference Arg1:T238 Arg2:T222	
+T240	Actor 6351 6357	koeien
+T241	Actor 6378 6385	paarden
+T242	Actor 5334 5339	kudde
+R218	Co-reference Arg1:T202 Arg2:T242	
+T243	Actor 406 414	iedereen
+T244	Actor 3886 3892	duivel
